@@ -1,0 +1,1224 @@
+"use client";
+
+import { useState } from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import FloatingButtons from "@/components/FloatingButtons";
+import Image from "next/image";
+import {
+  CheckCircleIcon,
+  ClockIcon,
+  AcademicCapIcon,
+  UserGroupIcon,
+  CalendarIcon,
+  BeakerIcon,
+  BuildingLibraryIcon,
+  ComputerDesktopIcon,
+  HomeModernIcon,
+  BriefcaseIcon,
+  GlobeAltIcon,
+  HeartIcon
+} from "@heroicons/react/24/outline";
+
+export default function BScNursing() {
+  const [activeYear, setActiveYear] = useState<"first" | "second" | "third" | "fourth">("first");
+
+  return (
+    <>
+      <Header />
+      <main className="bg-[#FBFBEE]">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-16 md:py-24">
+          <div className="container-custom">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+              {/* Left Content */}
+              <div>
+                {/* Badge */}
+                <div className="inline-flex items-center gap-2 bg-gray-700/50 text-white px-4 py-2 rounded-full mb-6">
+                  <CheckCircleIcon className="w-5 h-5 text-[#7cb983]" />
+                  <span className="text-sm font-medium">INC Approved | TNMGRMU Affiliated</span>
+                </div>
+
+                {/* Main Heading */}
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                  Bachelor of Science in{" "}
+                  <span className="text-[#7cb983]">Nursing</span>{" "}
+                  (B.Sc Nursing)
+                </h1>
+
+                {/* Description */}
+                <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
+                  Transform your passion for healthcare into a rewarding career. Our 4-year undergraduate nursing program prepares compassionate and competent healthcare professionals ready to make a difference in patient care.
+                </p>
+
+                {/* Buttons */}
+                <div className="flex flex-wrap gap-4 mb-12">
+                  <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+                    Apply Now
+                    <span>→</span>
+                  </button>
+                  <button className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300">
+                    View Curriculum
+                  </button>
+                </div>
+
+                {/* Stats */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                  <div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">4</div>
+                    <div className="text-sm text-gray-300">Year Program</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">60</div>
+                    <div className="text-sm text-gray-300">Seats Available</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">95%</div>
+                    <div className="text-sm text-gray-300">Placement Rate</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">100+</div>
+                    <div className="text-sm text-gray-300">Hospital Partners</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Content - Nursing Learners */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 min-h-[400px] flex items-center justify-center">
+                <h2 className="text-4xl md:text-5xl font-bold text-center">
+                  Nursing Learners
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Programme Overview Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left - Image */}
+              <div className="relative">
+                <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 min-h-[400px] flex flex-col items-center justify-center">
+                  <h3 className="text-4xl md:text-5xl font-bold text-[#006837] mb-8 text-center">
+                    Patient Care Training
+                  </h3>
+                  <div className="bg-[#7cb983] text-white px-8 py-3 rounded-lg font-bold text-lg">
+                    Since 2005
+                  </div>
+                </div>
+              </div>
+
+              {/* Right - Content */}
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-6">
+                  Programme Overview
+                </h2>
+                <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                  The Bachelor of Science in Nursing (B.Sc Nursing) is a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. Our curriculum integrates theoretical knowledge with extensive clinical practice.
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed mb-8">
+                  At JKKN College of Nursing, we believe in progressive education that goes beyond textbook learning. Our Learners gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
+                </p>
+
+                {/* Features List */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <span className="text-gray-700">INC Approved Curriculum</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <span className="text-gray-700">Experienced Learning Facilitators</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <span className="text-gray-700">State-of-the-Art Simulation Lab</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <span className="text-gray-700">100+ Hospital Tie-ups</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <span className="text-gray-700">Excellent Placement Record</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <span className="text-gray-700">Hostel & Transport Facilities</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Quick Facts Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                QUICK FACTS
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+                Programme Information at a Glance
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                Essential details about our B.Sc Nursing programme to help you make an informed decision.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Card 1 */}
+              <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                  <ClockIcon className="w-8 h-8 text-blue-500" />
+                </div>
+                <h3 className="text-gray-600 text-sm mb-3">Programme Duration</h3>
+                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">4 Years</p>
+                <p className="text-gray-600 text-sm">
+                  Full-time undergraduate programme including 6 months mandatory internship.
+                </p>
+              </div>
+
+              {/* Card 2 */}
+              <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                  <AcademicCapIcon className="w-8 h-8 text-blue-500" />
+                </div>
+                <h3 className="text-gray-600 text-sm mb-3">Degree Awarded</h3>
+                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">B.Sc Nursing</p>
+                <p className="text-gray-600 text-sm">
+                  Bachelor of Science in Nursing from TNMGRMU, Chennai.
+                </p>
+              </div>
+
+              {/* Card 3 */}
+              <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                  <UserGroupIcon className="w-8 h-8 text-blue-500" />
+                </div>
+                <h3 className="text-gray-600 text-sm mb-3">Annual Intake</h3>
+                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">60 Seats</p>
+                <p className="text-gray-600 text-sm">
+                  Limited seats to ensure personalised attention for every Learner.
+                </p>
+              </div>
+
+              {/* Card 4 */}
+              <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                  <CalendarIcon className="w-8 h-8 text-blue-500" />
+                </div>
+                <h3 className="text-gray-600 text-sm mb-3">Academic Session</h3>
+                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">August</p>
+                <p className="text-gray-600 text-sm">
+                  New academic session begins every August. Applications open from April.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Eligibility Criteria Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                WHO CAN APPLY
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+                Eligibility Criteria
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                Review the requirements to ensure you meet the eligibility criteria for admission.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Academic Qualifications */}
+              <div className="bg-white rounded-xl p-8 md:p-10">
+                <h3 className="text-2xl font-bold text-[#006837] mb-8">
+                  Academic Qualifications
+                </h3>
+
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Passed 10+2 examination with Physics, Chemistry, and Biology as core subjects.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Minimum 45% aggregate marks in PCB (40% for SC/ST/OBC candidates).
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      English as a compulsory subject in 10+2 examination.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">
+                      Valid NEET-UG score as per current regulatory requirements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Other Requirements */}
+              <div className="bg-gradient-to-br from-[#006837] to-[#002309] text-white rounded-xl p-8 md:p-10">
+                <h3 className="text-2xl font-bold mb-8">
+                  Other Requirements
+                </h3>
+
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">Age:</p>
+                      <p className="text-gray-200">
+                        Minimum 17 years and maximum 35 years as on 31st December.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">Medical Fitness:</p>
+                      <p className="text-gray-200">
+                        Candidate must be medically fit for nursing profession.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">Nationality:</p>
+                      <p className="text-gray-200">
+                        Indian nationals and NRI/PIO candidates are eligible.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
+                      <CheckCircleIcon className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">Gender:</p>
+                      <p className="text-gray-200">
+                        Male candidates limited to 10% of total intake per INC guidelines.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Programme Curriculum Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                WHAT YOU'LL LEARN
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+                Programme Curriculum
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                Our INC-approved curriculum provides comprehensive theoretical knowledge and practical clinical skills.
+              </p>
+            </div>
+
+            {/* Year Tabs */}
+            <div className="flex flex-wrap justify-center gap-3 mb-12">
+              <button
+                onClick={() => setActiveYear("first")}
+                className={`px-8 py-3 rounded-full font-semibold transition-all duration-300 ${
+                  activeYear === "first"
+                    ? "bg-[#006837] text-white shadow-lg"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                First Year
+              </button>
+              <button
+                onClick={() => setActiveYear("second")}
+                className={`px-8 py-3 rounded-full font-semibold transition-all duration-300 ${
+                  activeYear === "second"
+                    ? "bg-[#006837] text-white shadow-lg"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                Second Year
+              </button>
+              <button
+                onClick={() => setActiveYear("third")}
+                className={`px-8 py-3 rounded-full font-semibold transition-all duration-300 ${
+                  activeYear === "third"
+                    ? "bg-[#006837] text-white shadow-lg"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                Third Year
+              </button>
+              <button
+                onClick={() => setActiveYear("fourth")}
+                className={`px-8 py-3 rounded-full font-semibold transition-all duration-300 ${
+                  activeYear === "fourth"
+                    ? "bg-[#006837] text-white shadow-lg"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                Fourth Year
+              </button>
+            </div>
+
+            {/* Curriculum Content */}
+            {activeYear === "first" && (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {/* Column 1 - Foundational Sciences */}
+                <div className="bg-gradient-to-br from-blue-50 to-white border-l-4 border-blue-500 rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      01
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Foundational Sciences</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Anatomy and Physiology</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Biochemistry</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Nutrition and Dietetics</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Microbiology</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Column 2 - Nursing Foundations */}
+                <div className="bg-gradient-to-br from-orange-50 to-white border-l-4 border-[#7cb983] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#7cb983] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      02
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Nursing Foundations</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Fundamentals of Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Nursing Foundation Practicum</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Introduction to Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Health Assessment</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Column 3 - Behavioural Sciences */}
+                <div className="bg-gradient-to-br from-teal-50 to-white border-l-4 border-[#006837] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#006837] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      03
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Behavioural Sciences</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Psychology</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">English Communication</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Computer Education</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Environmental Science</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {activeYear === "second" && (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-gradient-to-br from-blue-50 to-white border-l-4 border-blue-500 rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      01
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Medical-Surgical Nursing</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Medical-Surgical Nursing I</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Medical-Surgical Nursing Practicum</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Pharmacology</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Pathology and Genetics</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-gradient-to-br from-orange-50 to-white border-l-4 border-[#7cb983] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#7cb983] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      02
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Community Health</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Community Health Nursing I</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Community Health Practicum</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Sociology</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Epidemiology</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-gradient-to-br from-teal-50 to-white border-l-4 border-[#006837] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#006837] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      03
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Research & Communication</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Nursing Research & Statistics</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Professional Communication</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Educational Technology</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Health Informatics</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {activeYear === "third" && (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-gradient-to-br from-blue-50 to-white border-l-4 border-blue-500 rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      01
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Specialized Nursing</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Medical-Surgical Nursing II</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Critical Care Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Mental Health Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Oncology Nursing</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-gradient-to-br from-orange-50 to-white border-l-4 border-[#7cb983] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#7cb983] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      02
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Child & Women Health</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Child Health Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Obstetrics & Gynecological Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Neonatal Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Reproductive Health</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-gradient-to-br from-teal-50 to-white border-l-4 border-[#006837] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#006837] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      03
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Clinical Practice</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Clinical Practicum</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Emergency Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Operating Room Techniques</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Nursing Procedures</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {activeYear === "fourth" && (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-gradient-to-br from-blue-50 to-white border-l-4 border-blue-500 rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      01
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Midwifery & Obstetrics</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Midwifery & Obstetrical Nursing</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Midwifery Practicum</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">High-Risk Pregnancy Care</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Family Planning</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-gradient-to-br from-orange-50 to-white border-l-4 border-[#7cb983] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#7cb983] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      02
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Management & Leadership</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Nursing Management</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Nursing Administration</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Leadership & Teamwork</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Quality Assurance</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-gradient-to-br from-teal-50 to-white border-l-4 border-[#006837] rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="bg-[#006837] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                      03
+                    </div>
+                    <h3 className="text-xl font-bold text-[#006837]">Internship & Research</h3>
+                  </div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">6-Month Internship</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Research Project</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Professional Practice</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-[#7cb983] mt-1">•</span>
+                      <span className="text-gray-700">Evidence-Based Practice</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Our Facilities Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                WORLD-CLASS INFRASTRUCTURE
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+                Our Facilities
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                Learn in a nurturing environment equipped with modern infrastructure and cutting-edge technology.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Simulation Lab */}
+              <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#006837] mb-4">Simulation Lab</h3>
+                <h4 className="text-xl font-bold text-white mb-3">Simulation Laboratory</h4>
+                <p className="text-gray-700">
+                  High-fidelity mannequins for realistic clinical scenarios
+                </p>
+              </div>
+
+              {/* Anatomy Lab */}
+              <div className="bg-gradient-to-br from-gray-200 to-gray-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#7cb983] mb-4">Anatomy Lab</h3>
+                <h4 className="text-xl font-bold text-white mb-3">Anatomy Laboratory</h4>
+                <p className="text-gray-700">
+                  Comprehensive anatomy specimens and models
+                </p>
+              </div>
+
+              {/* Digital Library */}
+              <div className="bg-gradient-to-br from-blue-200 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#006837] mb-4">Digital Library</h3>
+                <h4 className="text-xl font-bold text-white mb-3">Digital Library</h4>
+                <p className="text-gray-700">
+                  Access to 10,000+ e-journals and digital resources
+                </p>
+              </div>
+
+              {/* Skills Lab */}
+              <div className="bg-gradient-to-br from-orange-200 to-orange-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#7cb983] mb-4">Skills Lab</h3>
+                <h4 className="text-xl font-bold text-white mb-3">Nursing Skills Lab</h4>
+                <p className="text-gray-700">
+                  Hands-on practice for essential nursing procedures
+                </p>
+              </div>
+
+              {/* Computer Lab */}
+              <div className="bg-gradient-to-br from-blue-200 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#006837] mb-4">Computer Lab</h3>
+                <h4 className="text-xl font-bold text-white mb-3">Computer Laboratory</h4>
+                <p className="text-gray-700">
+                  Latest software for health informatics
+                </p>
+              </div>
+
+              {/* Hostel */}
+              <div className="bg-gradient-to-br from-orange-200 to-orange-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#7cb983] mb-4">Hostel</h3>
+                <h4 className="text-xl font-bold text-white mb-3">Hostel Accommodation</h4>
+                <p className="text-gray-700">
+                  Safe and well-furnished hostel facilities
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Career Opportunities Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                YOUR FUTURE
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+                Career Opportunities
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                A B.Sc Nursing degree opens doors to diverse and rewarding career paths in healthcare.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left - Nursing Careers Image */}
+              <div className="bg-gradient-to-br from-[#006837] to-[#002309] text-white rounded-2xl p-12 md:p-16 min-h-[400px] flex items-center justify-center">
+                <h3 className="text-4xl md:text-5xl font-bold text-center">
+                  Nursing Careers
+                </h3>
+              </div>
+
+              {/* Right - Career Options */}
+              <div className="space-y-6">
+                {/* Hospital Staff Nurse */}
+                <div className="flex items-start gap-4 bg-[#FBFBEE] rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                  <div className="bg-[#7cb983] rounded-full p-3 flex-shrink-0">
+                    <HomeModernIcon className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-[#006837] mb-2">Hospital Staff Nurse</h4>
+                    <p className="text-gray-700">
+                      Work in government or private hospitals providing direct patient care.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Community Health Nurse */}
+                <div className="flex items-start gap-4 bg-[#FBFBEE] rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                  <div className="bg-[#7cb983] rounded-full p-3 flex-shrink-0">
+                    <UserGroupIcon className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-[#006837] mb-2">Community Health Nurse</h4>
+                    <p className="text-gray-700">
+                      Serve in PHCs, CHCs, and community health programmes.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Nursing Educator */}
+                <div className="flex items-start gap-4 bg-[#FBFBEE] rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                  <div className="bg-[#7cb983] rounded-full p-3 flex-shrink-0">
+                    <AcademicCapIcon className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-[#006837] mb-2">Nursing Educator</h4>
+                    <p className="text-gray-700">
+                      Teach future nurses at nursing colleges after completing M.Sc.
+                    </p>
+                  </div>
+                </div>
+
+                {/* International Nursing */}
+                <div className="flex items-start gap-4 bg-[#FBFBEE] rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                  <div className="bg-[#7cb983] rounded-full p-3 flex-shrink-0">
+                    <GlobeAltIcon className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-[#006837] mb-2">International Nursing</h4>
+                    <p className="text-gray-700">
+                      Work abroad in UK, USA, Australia, Canada, and Gulf nations.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Defence Services Nursing */}
+                <div className="flex items-start gap-4 bg-[#FBFBEE] rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                  <div className="bg-[#7cb983] rounded-full p-3 flex-shrink-0">
+                    <HeartIcon className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-[#006837] mb-2">Defence Services Nursing</h4>
+                    <p className="text-gray-700">
+                      Join Indian Army, Navy, or Air Force nursing services.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Placement Statistics Section */}
+        <section className="py-16 md:py-24 bg-gradient-to-br from-[#006837] to-[#002309] text-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                OUR TRACK RECORD
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Placement Statistics
+              </h2>
+              <p className="text-gray-200 text-lg max-w-3xl mx-auto">
+                Our dedicated placement cell ensures excellent career opportunities for all graduating Learners.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">95%</div>
+                <div className="text-xl font-semibold mb-2">Placement Rate</div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">₹4.5L</div>
+                <div className="text-xl font-semibold mb-2">Average CTC</div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">100+</div>
+                <div className="text-xl font-semibold mb-2">Recruiting Partners</div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">500+</div>
+                <div className="text-xl font-semibold mb-2">Alumni Network</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Admission Process Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                GET STARTED
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+                Admission Process
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                Follow these simple steps to apply for the B.Sc Nursing programme.
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto">
+              {/* Step 1 */}
+              <div className="flex items-start gap-6 mb-8">
+                <div className="bg-[#7cb983] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">
+                  1
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Online Registration</h3>
+                  <p className="text-gray-700 text-lg">
+                    Visit our official website and complete the online application form with accurate details.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 2 */}
+              <div className="flex items-start gap-6 mb-8">
+                <div className="bg-[#7cb983] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">
+                  2
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Document Submission</h3>
+                  <p className="text-gray-700 text-lg">
+                    Upload required documents including mark sheets, NEET scorecard, ID proof, and photographs.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 3 */}
+              <div className="flex items-start gap-6 mb-8">
+                <div className="bg-[#7cb983] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">
+                  3
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Merit List & Counselling</h3>
+                  <p className="text-gray-700 text-lg">
+                    Selection based on merit. Attend counselling session for seat allotment.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 4 */}
+              <div className="flex items-start gap-6 mb-8">
+                <div className="bg-[#7cb983] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">
+                  4
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Fee Payment</h3>
+                  <p className="text-gray-700 text-lg">
+                    Pay the prescribed admission fee to confirm your seat. Education loan assistance available.
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 5 */}
+              <div className="flex items-start gap-6 mb-8">
+                <div className="bg-[#7cb983] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold flex-shrink-0">
+                  5
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Admission Confirmation</h3>
+                  <p className="text-gray-700 text-lg">
+                    Receive admission letter and join the orientation programme to begin your journey.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
+                HAVE QUESTIONS?
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                Find answers to common questions about our B.Sc Nursing programme.
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto space-y-4">
+              {/* FAQ 1 */}
+              <details className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837]">
+                    What is the duration of the B.Sc Nursing course?
+                  </h3>
+                  <svg className="w-6 h-6 text-[#7cb983] transform group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ 2 */}
+              <details className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837]">
+                    What are the eligibility criteria for B.Sc Nursing?
+                  </h3>
+                  <svg className="w-6 h-6 text-[#7cb983] transform group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age should be between 17-35 years. A valid NEET-UG score is required.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ 3 */}
+              <details className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837]">
+                    Is JKKN College of Nursing approved by INC?
+                  </h3>
+                  <svg className="w-6 h-6 text-[#7cb983] transform group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes, JKKN College of Nursing is duly approved by the Indian Nursing Council (INC), New Delhi, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ 4 */}
+              <details className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837]">
+                    What career opportunities are available after B.Sc Nursing?
+                  </h3>
+                  <svg className="w-6 h-6 text-[#7cb983] transform group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    Graduates can work as Staff Nurses, Community Health Nurses, ICU/Critical Care Nurses, Nursing Educators (after M.Sc), Defence Services Nursing, or pursue international nursing opportunities.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ 5 */}
+              <details className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837]">
+                    Does the college provide hostel accommodation?
+                  </h3>
+                  <svg className="w-6 h-6 text-[#7cb983] transform group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes, JKKN College of Nursing provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi, and recreational areas.
+                  </p>
+                </div>
+              </details>
+
+              {/* FAQ 6 */}
+              <details className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837]">
+                    Can I pursue higher studies after B.Sc Nursing?
+                  </h3>
+                  <svg className="w-6 h-6 text-[#7cb983] transform group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing in various specialities or PhD in Nursing.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-16 md:py-20 bg-gradient-to-br from-[#7cb983] to-[#6ba872]">
+          <div className="container-custom text-center">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+              Ready to Begin Your Nursing Journey?
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+              Take the first step towards a rewarding career in healthcare. Apply now for the upcoming academic session.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <button className="bg-white hover:bg-gray-100 text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+                Apply Now
+                <span>→</span>
+              </button>
+              <button className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300">
+                Download Brochure
+              </button>
+            </div>
+          </div>
+        </section>
+
+        {/* Accreditations Section */}
+        <section className="py-12 md:py-16 bg-[#FBFBEE] border-t border-gray-200">
+          <div className="container-custom">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+              {/* INC Approved */}
+              <div className="text-center">
+                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <span className="text-2xl md:text-3xl font-bold">INC</span>
+                </div>
+                <p className="text-sm md:text-base font-semibold text-gray-600">INC APPROVED</p>
+              </div>
+
+              {/* TNMGRMU Affiliated */}
+              <div className="text-center">
+                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <span className="text-xl md:text-2xl font-bold">TNMGRMU</span>
+                </div>
+                <p className="text-sm md:text-base font-semibold text-gray-600">TNMGRMU AFFILIATED</p>
+              </div>
+
+              {/* TNNMC Recognised */}
+              <div className="text-center">
+                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <span className="text-xl md:text-2xl font-bold">TNNMC</span>
+                </div>
+                <p className="text-sm md:text-base font-semibold text-gray-600">TNNMC RECOGNISED</p>
+              </div>
+
+              {/* Govt. Approved */}
+              <div className="text-center">
+                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <span className="text-2xl md:text-3xl font-bold">GOV</span>
+                </div>
+                <p className="text-sm md:text-base font-semibold text-gray-600">GOVT. APPROVED</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer hideLifeAtJKKN={true} />
+      <FloatingButtons />
+    </>
+  );
+}

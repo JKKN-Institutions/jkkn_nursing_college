@@ -1,0 +1,1540 @@
+"use client";
+
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import FloatingButtons from "@/components/FloatingButtons";
+import { useState } from "react";
+import {
+  FaShieldAlt,
+  FaClock,
+  FaUniversity,
+  FaUsers,
+  FaChartLine,
+  FaLightbulb,
+  FaBriefcase,
+  FaBook,
+  FaClipboardList,
+  FaFileAlt,
+  FaCheckCircle,
+  FaBuilding,
+  FaHome,
+  FaGraduationCap,
+  FaHeartbeat,
+  FaSchool,
+  FaFlask,
+  FaLaptop,
+  FaMicroscope,
+  FaDesktop,
+  FaUserMd,
+  FaGlobe,
+  FaHeart,
+  FaChalkboardTeacher,
+  FaHospital,
+  FaChevronDown,
+  FaChevronUp,
+  FaPhone,
+  FaEnvelope,
+  FaWhatsapp,
+  FaArrowRight
+} from "react-icons/fa";
+
+export default function MScCommunityHealthNursing() {
+  const [activeTab, setActiveTab] = useState("firstYear");
+  const [activeFAQ, setActiveFAQ] = useState<number | null>(0);
+
+  return (
+    <>
+      <Header />
+      <main className="bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-r from-[#006837] to-[#002309] text-white py-16 md:py-24">
+          <div className="container-custom">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                  M.Sc Nursing
+                </h1>
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#7cb983] mb-6">
+                  Community Health Nursing
+                </h2>
+                <p className="text-lg md:text-xl text-cyan-100 mb-6">
+                  Postgraduate Nursing Program | Public Health Specialization
+                </p>
+
+                <p className="text-base md:text-lg mb-8 leading-relaxed">
+                  Transform communities through advanced public health nursing expertise. Our INC-approved M.Sc Nursing program in Community Health Nursing prepares you to become a leader in primary healthcare, disease prevention, health promotion, and community-based nursing practice across urban and rural settings.
+                </p>
+
+                <div className="flex flex-wrap gap-4 mb-8">
+                  <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <FaShieldAlt className="text-cyan-300" />
+                    <span className="font-semibold">INC Approved</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <FaClock className="text-cyan-300" />
+                    <span className="font-semibold">2 Years Full-Time</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <FaUniversity className="text-cyan-300" />
+                    <span className="font-semibold">MGR University Affiliated</span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-4">
+                  <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg flex items-center gap-2">
+                    Apply Now →
+                  </button>
+                  <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300">
+                    Explore Curriculum
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex justify-center items-center">
+                <div className="relative">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
+                    <h3 className="text-2xl md:text-3xl font-bold text-center mb-4">
+                      Community Health Nursing
+                    </h3>
+                    <div className="bg-[#7cb983] text-white rounded-xl p-6 text-center">
+                      <div className="text-5xl md:text-6xl font-bold mb-2">100%</div>
+                      <div className="text-lg md:text-xl font-semibold">Placement Assistance</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Stats Section */}
+        <section className="py-12 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">70+</div>
+                <div className="text-gray-700 font-medium">Years of Educational Excellence</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1000+</div>
+                <div className="text-gray-700 font-medium">Community Field Hours</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">15+</div>
+                <div className="text-gray-700 font-medium">PHCs & CHCs Affiliated</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">95%</div>
+                <div className="text-gray-700 font-medium">Placement Rate</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Program Overview Section */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Program Overview
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                A comprehensive postgraduate program preparing public health nursing leaders
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="md:col-span-2">
+                <div className="bg-[#FBFBEE] rounded-lg p-8 shadow-md">
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    M.Sc Nursing in Community Health Nursing at JKKN College of Nursing is a rigorous 2-year postgraduate program designed to develop advanced competencies in public health nursing, epidemiology, health education, and community-based healthcare delivery. This INC-approved program prepares Learners to become leaders in primary healthcare and public health management.
+                  </p>
+
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    The program combines theoretical foundations with extensive field practice across Primary Health Centers (PHCs), Community Health Centers (CHCs), urban health posts, school health programs, and industrial health settings. Learners gain expertise in implementing national health programs, conducting community health assessments, managing disease outbreaks, and promoting health at population levels.
+                  </p>
+
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    Our Learning Facilitators bring extensive experience in community health practice, research, and education. With affiliations to multiple PHCs, CHCs, and community health projects, Learners receive hands-on training in real-world community settings while contributing to meaningful public health interventions.
+                  </p>
+
+                  <p className="text-gray-700 leading-relaxed">
+                    The curriculum emphasizes evidence-based practice, health policy, biostatistics, and epidemiological methods. Learners engage in community health research projects and complete a dissertation contributing to the body of knowledge in community health nursing. The program prepares graduates for roles in nursing education, public health administration, community health practice, and research.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-lg p-8 shadow-xl text-white sticky top-4">
+                  <h3 className="text-2xl md:text-3xl font-bold mb-6 border-b-2 border-[#7cb983] pb-4">
+                    Quick Information
+                  </h3>
+
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4">
+                      <FaClock className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
+                      <div>
+                        <div className="font-semibold text-sm text-cyan-300 mb-1">Duration</div>
+                        <div className="text-lg font-bold">2 Years (4 Semesters)</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <FaUniversity className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
+                      <div>
+                        <div className="font-semibold text-sm text-cyan-300 mb-1">Affiliation</div>
+                        <div className="text-lg font-bold">Tamil Nadu Dr. M.G.R. Medical University</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <FaShieldAlt className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
+                      <div>
+                        <div className="font-semibold text-sm text-cyan-300 mb-1">Approval</div>
+                        <div className="text-lg font-bold">Indian Nursing Council (INC)</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <FaUsers className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
+                      <div>
+                        <div className="font-semibold text-sm text-cyan-300 mb-1">Seats</div>
+                        <div className="text-lg font-bold">15 Seats</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <FaClipboardList className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
+                      <div>
+                        <div className="font-semibold text-sm text-cyan-300 mb-1">Intake</div>
+                        <div className="text-lg font-bold">August 2025</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Program Highlights Section */}
+        <section className="py-16 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Program Highlights
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                What makes our Community Health Nursing program exceptional
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                  <FaUsers className="text-3xl text-white" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Extensive Community Exposure
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Over 1000 hours of supervised field practice across PHCs, CHCs, urban health posts, rural communities, and specialty health programs.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                  <FaChartLine className="text-3xl text-white" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Epidemiology & Biostatistics
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Strong foundation in epidemiological methods, biostatistics, and evidence-based public health decision-making skills.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                  <FaLightbulb className="text-3xl text-white" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Research Excellence
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Opportunities to conduct community-based research contributing to public health knowledge and policy development.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-gradient-to-br from-[#006837] to-[#002309] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                  <FaShieldAlt className="text-3xl text-white" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  National Health Programs
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Hands-on training in implementing national health programs including immunization, maternal-child health, and disease control.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-gradient-to-br from-[#006837] to-[#002309] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                  <FaBriefcase className="text-3xl text-white" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Career Placement Support
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Benefit from dedicated placement cell support with connections to government health departments, NGOs, and international organizations.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-gradient-to-br from-[#006837] to-[#002309] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                  <FaBook className="text-3xl text-white" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Comprehensive Resources
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Access well-stocked library with public health journals, epidemiology resources, and digital learning platforms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Eligibility Criteria Section */}
+        <section className="py-16 bg-gradient-to-r from-[#006837] to-[#002309] text-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                Eligibility Criteria
+              </h2>
+              <div className="w-24 h-1 bg-[#ff5722] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-cyan-100 max-w-3xl mx-auto">
+                Requirements for admission to M.Sc Nursing in Community Health Nursing
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Academic Requirements */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+                <div className="flex items-center gap-4 mb-6">
+                  <FaBook className="text-4xl text-[#7cb983]" />
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#7cb983]">
+                    Academic Requirements
+                  </h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      B.Sc Nursing (4-year course) with minimum 55% aggregate marks from a recognized university
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Post Basic B.Sc Nursing with minimum 55% aggregate marks from a recognized university
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Candidates with B.Sc Hons. Nursing (if applicable) are also eligible
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Professional Requirements */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+                <div className="flex items-center gap-4 mb-6">
+                  <FaShieldAlt className="text-4xl text-[#7cb983]" />
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#7cb983]">
+                    Professional Requirements
+                  </h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Valid registration with State Nursing Registration Council as Registered Nurse (RN) and Registered Midwife (RM)
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Minimum 1 year of clinical work experience after B.Sc Nursing or Post Basic B.Sc Nursing
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Medically fit as certified by a registered medical practitioner
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Selection Process */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+                <div className="flex items-center gap-4 mb-6">
+                  <FaClipboardList className="text-4xl text-[#7cb983]" />
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#7cb983]">
+                    Selection Process
+                  </h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Entrance examination conducted by the university or institution
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Merit-based selection considering academic performance and entrance test score
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Personal interview for shortlisted candidates
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Documents Required */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+                <div className="flex items-center gap-4 mb-6">
+                  <FaFileAlt className="text-4xl text-[#7cb983]" />
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#7cb983]">
+                    Documents Required
+                  </h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      B.Sc Nursing or Post Basic B.Sc Nursing degree certificate and mark sheets
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Nursing registration certificate (RN/RM)
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                      Experience certificate from employer, transfer certificate, and recent passport-size photographs
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Curriculum Structure Section */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Curriculum Structure
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                A comprehensive 4-semester curriculum designed as per INC guidelines for advanced community health nursing education
+              </p>
+            </div>
+
+            {/* Tabs */}
+            <div className="flex flex-wrap justify-center gap-4 mb-12">
+              <button
+                onClick={() => setActiveTab("firstYear")}
+                className={`px-8 py-3 rounded-full font-semibold text-lg transition-all duration-300 ${
+                  activeTab === "firstYear"
+                    ? "bg-[#7cb983] text-white shadow-lg"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                First Year
+              </button>
+              <button
+                onClick={() => setActiveTab("secondYear")}
+                className={`px-8 py-3 rounded-full font-semibold text-lg transition-all duration-300 ${
+                  activeTab === "secondYear"
+                    ? "bg-[#7cb983] text-white shadow-lg"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                Second Year
+              </button>
+              <button
+                onClick={() => setActiveTab("fieldPracticum")}
+                className={`px-8 py-3 rounded-full font-semibold text-lg transition-all duration-300 ${
+                  activeTab === "fieldPracticum"
+                    ? "bg-[#7cb983] text-white shadow-lg"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                Field Practicum
+              </button>
+            </div>
+
+            {/* Tab Content */}
+            <div className="grid md:grid-cols-2 gap-8">
+              {activeTab === "firstYear" && (
+                <>
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Nursing Education
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 60 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaFlask className="text-orange-600" />
+                        <span>Practicum: 120 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Advanced Nursing Practice
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 60 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaFlask className="text-orange-600" />
+                        <span>Practicum: 120 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Nursing Research and Statistics
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 90 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaFlask className="text-orange-600" />
+                        <span>Practicum: 60 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Clinical Specialty – I (Community Health Nursing)
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 120 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Field Practice: 540 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Nursing Management
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 45 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaFlask className="text-orange-600" />
+                        <span>Practicum: 90 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Epidemiology and Biostatistics
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 60 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaFlask className="text-orange-600" />
+                        <span>Practical: 30 hours</span>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+
+              {activeTab === "secondYear" && (
+                <>
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Clinical Specialty – II (Advanced Community Health Nursing)
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 120 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Field Practice: 540 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Dissertation / Thesis
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaMicroscope className="text-blue-600" />
+                        <span>Research Work: 300 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaGraduationCap className="text-purple-600" />
+                        <span>Viva Voce</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Health Education & Health Promotion
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 60 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Field Practice: 240 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Maternal & Child Health Nursing in Community
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 45 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Field Practice: 180 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      National Health Programs
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBook className="text-green-600" />
+                        <span>Theory: 45 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Field Practice: 180 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Teaching Practicum
+                    </h3>
+                    <div className="flex items-center gap-4 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaChalkboardTeacher className="text-blue-600" />
+                        <span>Classroom Teaching: 60 hours</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaHospital className="text-red-600" />
+                        <span>Clinical Teaching: 90 hours</span>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+
+              {activeTab === "fieldPracticum" && (
+                <>
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Primary Health Center (PHC) Rotation
+                    </h3>
+                    <div className="space-y-2 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Rural PHC, Sub-centers, Outreach services</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaClock className="text-blue-600" />
+                        <span>360 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Community Health Center (CHC) Rotation
+                    </h3>
+                    <div className="space-y-2 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>CHC services, Referral management</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaClock className="text-blue-600" />
+                        <span>300 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Urban Health Training Center
+                    </h3>
+                    <div className="space-y-2 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Urban slums, ICDS centers, Anganwadis</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaClock className="text-blue-600" />
+                        <span>240 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      School Health Program
+                    </h3>
+                    <div className="space-y-2 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Health screening, Health education, Nutrition</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaClock className="text-blue-600" />
+                        <span>180 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      Occupational Health Settings
+                    </h3>
+                    <div className="space-y-2 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Industrial health units, Employee wellness</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaClock className="text-blue-600" />
+                        <span>120 hours</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                      NGO/Government Health Projects
+                    </h3>
+                    <div className="space-y-2 text-gray-700">
+                      <div className="flex items-center gap-2">
+                        <FaBuilding className="text-purple-600" />
+                        <span>Special health programs, Outreach projects</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <FaClock className="text-blue-600" />
+                        <span>180 hours</span>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* Community Field Training Excellence Section */}
+        <section className="py-16 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Community Field Training Excellence
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Hands-on experience in diverse community health settings with expert supervision
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-2xl p-12 shadow-2xl flex items-center justify-center min-h-[400px]">
+                <h3 className="text-3xl md:text-4xl font-bold text-white text-center">
+                  Community Health Field Training
+                </h3>
+              </div>
+
+              <div>
+                <h3 className="text-2xl md:text-3xl font-bold text-[#006837] mb-6">
+                  Specialized Community Health Areas
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-8">
+                  Our Learners receive comprehensive field exposure across various community health settings, developing expertise in public health practice, health promotion, and disease prevention under the guidance of experienced community health mentors.
+                </p>
+
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaBuilding className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">Primary Health</div>
+                      <div className="text-gray-600 text-sm">Centers</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaUsers className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">Rural Community</div>
+                      <div className="text-gray-600 text-sm">Outreach</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaHome className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">Urban Health Posts</div>
+                      <div className="text-gray-600 text-sm"></div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaHeartbeat className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">Maternal-Child</div>
+                      <div className="text-gray-600 text-sm">Health Programs</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaSchool className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">School Health</div>
+                      <div className="text-gray-600 text-sm">Services</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaShieldAlt className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">Immunization</div>
+                      <div className="text-gray-600 text-sm">Programs</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaBriefcase className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">Occupational Health</div>
+                      <div className="text-gray-600 text-sm">Centers</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                      <FaHeart className="text-2xl text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-[#006837]">Geriatric Community</div>
+                      <div className="text-gray-600 text-sm">Care</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Career Opportunities Section */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Career Opportunities
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Diverse career pathways await graduates of M.Sc Nursing in Community Health Nursing
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="bg-gradient-to-br from-[#FBFBEE] to-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+                <div className="bg-[#7cb983]/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <FaBook className="text-4xl text-[#006837]" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Nursing Educator
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Teach and mentor nursing Learners at colleges and universities in community health nursing.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#FBFBEE] to-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+                <div className="bg-[#7cb983]/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <FaUserMd className="text-4xl text-[#006837]" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Public Health Nurse
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Lead community health programs and implement public health interventions at population level.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#FBFBEE] to-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+                <div className="bg-[#7cb983]/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <FaBriefcase className="text-4xl text-[#006837]" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Community Health Officer
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Manage PHCs, CHCs and coordinate healthcare delivery at community health settings.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#FBFBEE] to-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+                <div className="bg-[#7cb983]/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <FaLightbulb className="text-4xl text-[#006837]" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Nurse Researcher
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Conduct epidemiological research and contribute to evidence-based public health practice.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#FBFBEE] to-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+                <div className="bg-[#7cb983]/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <FaGlobe className="text-4xl text-[#006837]" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  WHO/UNICEF/NGO Officer
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Work with international organizations on global health initiatives and development programs.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#FBFBEE] to-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+                <div className="bg-[#7cb983]/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <FaGraduationCap className="text-4xl text-[#006837]" />
+                </div>
+                <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                  Ph.D. Scholar
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Pursue doctoral studies and contribute to advanced public health nursing research and academia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* World-Class Facilities Section */}
+        <section className="py-16 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                World-Class Facilities
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                State-of-the-art infrastructure supporting comprehensive community health nursing education
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-8 shadow-xl text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-4">Community Health Laboratory</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Fully equipped laboratory for practicing community health assessment and nursing procedures.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 shadow-xl text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-4">Simulation Center</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Advanced simulation equipment for practicing home visits, health education, and community interventions.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 shadow-xl text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-4">Digital Library</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Extensive collection of epidemiology journals, public health e-books, and research databases.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-8 shadow-xl text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-4">Research Center</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Dedicated facilities supporting community-based research and dissertation work.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 shadow-xl text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-4">Computer Laboratory</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Modern computer facilities with epidemiological software, GIS tools, and e-learning resources.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 shadow-xl text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-4">Conference Hall</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Well-equipped auditorium for seminars, workshops, and academic presentations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Admission Process Section */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Admission Process
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Simple and transparent steps to join our M.Sc Community Health Nursing program
+              </p>
+            </div>
+
+            <div className="max-w-5xl mx-auto">
+              <div className="relative">
+                {/* Timeline Line */}
+                <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 transform -translate-x-1/2"></div>
+
+                {/* Step 1 */}
+                <div className="mb-12 md:mb-16 relative">
+                  <div className="flex flex-col md:flex-row items-center">
+                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                      <div className="bg-white rounded-xl p-8 shadow-lg">
+                        <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                          Online Application
+                        </h3>
+                        <p className="text-gray-700 leading-relaxed">
+                          Fill the online application form with personal details, academic information, and professional experience. Upload required documents including degree certificates and nursing registration.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
+                      1
+                    </div>
+                    <div className="md:w-1/2 md:pl-12"></div>
+                  </div>
+                </div>
+
+                {/* Step 2 */}
+                <div className="mb-12 md:mb-16 relative">
+                  <div className="flex flex-col md:flex-row items-center">
+                    <div className="md:w-1/2 md:pr-12 order-2 md:order-1"></div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
+                      2
+                    </div>
+                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 order-3">
+                      <div className="bg-white rounded-xl p-8 shadow-lg">
+                        <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                          Document Verification
+                        </h3>
+                        <p className="text-gray-700 leading-relaxed">
+                          Submit original documents for verification including B.Sc Nursing degree, mark sheets, nursing registration certificate, and experience certificate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Step 3 */}
+                <div className="mb-12 md:mb-16 relative">
+                  <div className="flex flex-col md:flex-row items-center">
+                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                      <div className="bg-white rounded-xl p-8 shadow-lg">
+                        <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                          Entrance Examination
+                        </h3>
+                        <p className="text-gray-700 leading-relaxed">
+                          Appear for the university entrance examination testing knowledge in nursing fundamentals, community health, and aptitude for postgraduate studies.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
+                      3
+                    </div>
+                    <div className="md:w-1/2 md:pl-12"></div>
+                  </div>
+                </div>
+
+                {/* Step 4 */}
+                <div className="mb-12 md:mb-16 relative">
+                  <div className="flex flex-col md:flex-row items-center">
+                    <div className="md:w-1/2 md:pr-12 order-2 md:order-1"></div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
+                      4
+                    </div>
+                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 order-3">
+                      <div className="bg-white rounded-xl p-8 shadow-lg">
+                        <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                          Personal Interview
+                        </h3>
+                        <p className="text-gray-700 leading-relaxed">
+                          Shortlisted candidates attend a personal interview to assess communication skills, motivation, and suitability for the community health nursing program.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Step 5 */}
+                <div className="mb-12 md:mb-16 relative">
+                  <div className="flex flex-col md:flex-row items-center">
+                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                      <div className="bg-white rounded-xl p-8 shadow-lg">
+                        <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                          Merit List & Counselling
+                        </h3>
+                        <p className="text-gray-700 leading-relaxed">
+                          Selection based on combined merit of academic performance, entrance test score, and interview. Attend counselling session for seat allotment.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
+                      5
+                    </div>
+                    <div className="md:w-1/2 md:pl-12"></div>
+                  </div>
+                </div>
+
+                {/* Step 6 */}
+                <div className="relative">
+                  <div className="flex flex-col md:flex-row items-center">
+                    <div className="md:w-1/2 md:pr-12 order-2 md:order-1"></div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
+                      6
+                    </div>
+                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 order-3">
+                      <div className="bg-white rounded-xl p-8 shadow-lg">
+                        <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
+                          Fee Payment & Enrollment
+                        </h3>
+                        <p className="text-gray-700 leading-relaxed">
+                          Pay the prescribed fees and complete enrollment formalities. Collect ID card and begin orientation program to start your postgraduate journey.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Fee Structure Section */}
+        <section className="py-16 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Fee Structure
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Transparent fee details for M.Sc Nursing in Community Health Nursing
+              </p>
+            </div>
+
+            <div className="max-w-5xl mx-auto">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="overflow-x-auto">
+                  <table className="w-full">
+                    <thead>
+                      <tr className="bg-[#006837] text-white">
+                        <th className="px-6 py-4 text-left text-lg font-bold">Fee Component</th>
+                        <th className="px-6 py-4 text-center text-lg font-bold">First Year</th>
+                        <th className="px-6 py-4 text-center text-lg font-bold">Second Year</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b border-gray-200 hover:bg-[#FBFBEE]">
+                        <td className="px-6 py-4 text-gray-700">Tuition Fee</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹1,00,000</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹1,00,000</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE]">
+                        <td className="px-6 py-4 text-gray-700">Laboratory & Field Practice Fee</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹15,000</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹15,000</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 hover:bg-[#FBFBEE]">
+                        <td className="px-6 py-4 text-gray-700">Library & Digital Resources</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹8,000</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹8,000</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE]">
+                        <td className="px-6 py-4 text-gray-700">University & Examination Fee</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹12,000</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹12,000</td>
+                      </tr>
+                      <tr className="border-b border-gray-200 hover:bg-[#FBFBEE]">
+                        <td className="px-6 py-4 text-gray-700">Community Field Travel & Insurance</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹10,000</td>
+                        <td className="px-6 py-4 text-center font-semibold text-[#006837]">₹10,000</td>
+                      </tr>
+                      <tr className="bg-[#006837] text-white font-bold">
+                        <td className="px-6 py-4 text-lg">Total Annual Fee</td>
+                        <td className="px-6 py-4 text-center text-lg">₹1,45,000</td>
+                        <td className="px-6 py-4 text-center text-lg">₹1,45,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div className="mt-8 bg-[#7cb983]/10 border-l-4 border-[#7cb983] p-6 rounded-r-lg">
+                <p className="text-gray-700 leading-relaxed">
+                  <span className="font-bold text-[#006837]">Note:</span> Fee structure is indicative and subject to change as per university and regulatory guidelines. Hostel and mess charges are additional. Scholarships and financial assistance available for eligible candidates. Contact admission office for detailed fee breakup and payment options.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Frequently Asked Questions
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Find answers to common questions about M.Sc Nursing in Community Health Nursing
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto space-y-4">
+              {/* FAQ 1 */}
+              <div className="bg-[#FBFBEE] rounded-lg overflow-hidden shadow-md">
+                <button
+                  onClick={() => setActiveFAQ(activeFAQ === 0 ? null : 0)}
+                  className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-[#7cb983]/10 transition-colors duration-200"
+                >
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837] pr-4">
+                    What is the scope of M.Sc Nursing in Community Health Nursing?
+                  </h3>
+                  {activeFAQ === 0 ? (
+                    <FaChevronUp className="text-2xl text-[#7cb983] flex-shrink-0" />
+                  ) : (
+                    <FaChevronDown className="text-2xl text-gray-400 flex-shrink-0" />
+                  )}
+                </button>
+                {activeFAQ === 0 && (
+                  <div className="px-6 py-5 bg-white border-t border-gray-200">
+                    <p className="text-gray-700 leading-relaxed">
+                      M.Sc Nursing in Community Health Nursing offers excellent career prospects in nursing education, public health administration, community health practice, research, and international organizations. Graduates can work as nursing educators in colleges, public health nurses in government departments, community health officers at PHCs/CHCs, program managers in NGOs, or research associates. The growing emphasis on primary healthcare and preventive medicine creates strong demand for community health nursing specialists both in India and abroad.
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="bg-[#FBFBEE] rounded-lg overflow-hidden shadow-md">
+                <button
+                  onClick={() => setActiveFAQ(activeFAQ === 1 ? null : 1)}
+                  className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-[#7cb983]/10 transition-colors duration-200"
+                >
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837] pr-4">
+                    What is the difference between Community Health Nursing and other M.Sc Nursing specializations?
+                  </h3>
+                  {activeFAQ === 1 ? (
+                    <FaChevronUp className="text-2xl text-[#7cb983] flex-shrink-0" />
+                  ) : (
+                    <FaChevronDown className="text-2xl text-gray-400 flex-shrink-0" />
+                  )}
+                </button>
+                {activeFAQ === 1 && (
+                  <div className="px-6 py-5 bg-white border-t border-gray-200">
+                    <p className="text-gray-700 leading-relaxed">
+                      Community Health Nursing focuses on population-level health, disease prevention, health promotion, and primary healthcare delivery in community settings such as PHCs, CHCs, schools, and workplaces. Unlike clinical specializations that focus on hospital-based patient care, Community Health Nursing emphasizes epidemiology, biostatistics, health education, national health programs, and community-based interventions. This specialization prepares nurses to address public health challenges at the community and population level rather than individual patient care in clinical settings.
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="bg-[#FBFBEE] rounded-lg overflow-hidden shadow-md">
+                <button
+                  onClick={() => setActiveFAQ(activeFAQ === 2 ? null : 2)}
+                  className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-[#7cb983]/10 transition-colors duration-200"
+                >
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837] pr-4">
+                    Is work experience mandatory for M.Sc Nursing admission?
+                  </h3>
+                  {activeFAQ === 2 ? (
+                    <FaChevronUp className="text-2xl text-[#7cb983] flex-shrink-0" />
+                  ) : (
+                    <FaChevronDown className="text-2xl text-gray-400 flex-shrink-0" />
+                  )}
+                </button>
+                {activeFAQ === 2 && (
+                  <div className="px-6 py-5 bg-white border-t border-gray-200">
+                    <p className="text-gray-700 leading-relaxed">
+                      Yes, as per Indian Nursing Council (INC) guidelines, candidates must have minimum 1 year of clinical work experience after completing B.Sc Nursing or Post Basic B.Sc Nursing. The experience can be in any healthcare setting including hospitals, community health centers, or other recognized healthcare facilities. This requirement ensures that candidates have practical nursing experience before pursuing advanced studies in community health nursing.
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="bg-[#FBFBEE] rounded-lg overflow-hidden shadow-md">
+                <button
+                  onClick={() => setActiveFAQ(activeFAQ === 3 ? null : 3)}
+                  className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-[#7cb983]/10 transition-colors duration-200"
+                >
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837] pr-4">
+                    Can I pursue Ph.D. after M.Sc Community Health Nursing?
+                  </h3>
+                  {activeFAQ === 3 ? (
+                    <FaChevronUp className="text-2xl text-[#7cb983] flex-shrink-0" />
+                  ) : (
+                    <FaChevronDown className="text-2xl text-gray-400 flex-shrink-0" />
+                  )}
+                </button>
+                {activeFAQ === 3 && (
+                  <div className="px-6 py-5 bg-white border-t border-gray-200">
+                    <p className="text-gray-700 leading-relaxed">
+                      Absolutely. M.Sc Nursing in Community Health Nursing is an excellent foundation for pursuing Ph.D. in Nursing or related fields like Public Health, Epidemiology, or Health Policy. Many universities in India and abroad offer doctoral programs that value the research training and community health expertise gained during M.Sc Nursing. The dissertation work and research methodology training in the program prepares graduates well for doctoral research.
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="bg-[#FBFBEE] rounded-lg overflow-hidden shadow-md">
+                <button
+                  onClick={() => setActiveFAQ(activeFAQ === 4 ? null : 4)}
+                  className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-[#7cb983]/10 transition-colors duration-200"
+                >
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837] pr-4">
+                    What kind of field exposure will Learners receive during the program?
+                  </h3>
+                  {activeFAQ === 4 ? (
+                    <FaChevronUp className="text-2xl text-[#7cb983] flex-shrink-0" />
+                  ) : (
+                    <FaChevronDown className="text-2xl text-gray-400 flex-shrink-0" />
+                  )}
+                </button>
+                {activeFAQ === 4 && (
+                  <div className="px-6 py-5 bg-white border-t border-gray-200">
+                    <p className="text-gray-700 leading-relaxed">
+                      Learners receive over 1000 hours of supervised field practice in diverse community health settings. Field rotations include Primary Health Centers (PHCs), Community Health Centers (CHCs), urban health posts, rural community outreach programs, school health services, occupational health units, ICDS centers, and NGO-run health projects. This extensive field exposure ensures that graduates are well-prepared for advanced community health nursing practice across urban and rural settings.
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="bg-[#FBFBEE] rounded-lg overflow-hidden shadow-md">
+                <button
+                  onClick={() => setActiveFAQ(activeFAQ === 5 ? null : 5)}
+                  className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-[#7cb983]/10 transition-colors duration-200"
+                >
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837] pr-4">
+                    Are there job opportunities in international organizations after this program?
+                  </h3>
+                  {activeFAQ === 5 ? (
+                    <FaChevronUp className="text-2xl text-[#7cb983] flex-shrink-0" />
+                  ) : (
+                    <FaChevronDown className="text-2xl text-gray-400 flex-shrink-0" />
+                  )}
+                </button>
+                {activeFAQ === 5 && (
+                  <div className="px-6 py-5 bg-white border-t border-gray-200">
+                    <p className="text-gray-700 leading-relaxed">
+                      Yes, M.Sc Nursing in Community Health Nursing opens doors to positions in international organizations like World Health Organization (WHO), UNICEF, UNDP, and various international health NGOs. These organizations actively recruit public health nursing specialists for their global health programs, disaster response teams, and health development initiatives. The program's focus on epidemiology, health policy, and community health management aligns well with the requirements of international public health roles.
+                    </p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-16 bg-gradient-to-r from-[#7cb983] to-[#6ba872]">
+          <div className="container-custom">
+            <div className="text-center text-white">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Begin Your Public Health Nursing Journey
+              </h2>
+              <p className="text-lg md:text-xl mb-4 leading-relaxed max-w-3xl mx-auto">
+                Take the next step in your nursing career. Apply now for the 2025-26 academic session and join our community of nursing professionals dedicated to transforming community health.
+              </p>
+
+              <div className="flex flex-wrap justify-center gap-4 mb-12 mt-8">
+                <button className="bg-white text-[#006837] hover:bg-[#FBFBEE] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg flex items-center gap-2 text-lg">
+                  Apply Online <FaArrowRight />
+                </button>
+                <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-lg">
+                  Download Brochure
+                </button>
+              </div>
+
+              <div className="border-t border-white/30 pt-8">
+                <p className="text-lg md:text-xl mb-4">Have questions? Contact our admission team:</p>
+                <div className="flex flex-wrap justify-center gap-6 md:gap-8 text-base md:text-lg">
+                  <a href="tel:+914288234567" className="flex items-center gap-2 hover:text-cyan-200 transition-colors">
+                    <FaPhone /> +91 4288 234567
+                  </a>
+                  <a href="mailto:nursing.admissions@jkkn.ac.in" className="flex items-center gap-2 hover:text-cyan-200 transition-colors">
+                    <FaEnvelope /> nursing.admissions@jkkn.ac.in
+                  </a>
+                  <a href="#" className="flex items-center gap-2 hover:text-cyan-200 transition-colors">
+                    <FaWhatsapp /> WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Explore Other Programs Section */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
+                Explore Other Nursing Programs
+              </h2>
+              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
+              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Discover more nursing education opportunities at JKKN College of Nursing
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* B.Sc Nursing Card */}
+              <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
+                <div className="bg-gradient-to-br from-[#006837] to-[#002309] h-48 flex items-center justify-center">
+                  <h3 className="text-3xl md:text-4xl font-bold text-white">B.Sc Nursing</h3>
+                </div>
+                <div className="p-8">
+                  <h4 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">B.Sc Nursing</h4>
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    4-year undergraduate program preparing nurses for professional healthcare practice.
+                  </p>
+                  <a href="/bsc-nursing" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                    Learn More <FaArrowRight />
+                  </a>
+                </div>
+              </div>
+
+              {/* M.Sc Medical Surgical Card */}
+              <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
+                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] h-48 flex items-center justify-center">
+                  <h3 className="text-3xl md:text-4xl font-bold text-white">M.Sc Medical Surgical</h3>
+                </div>
+                <div className="p-8">
+                  <h4 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">M.Sc Nursing - Medical Surgical</h4>
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    Postgraduate specialization in Medical Surgical Nursing with critical care focus.
+                  </p>
+                  <a href="/course-msc-medical-surgical" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                    Learn More <FaArrowRight />
+                  </a>
+                </div>
+              </div>
+
+              {/* M.Sc OBG Nursing Card */}
+              <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
+                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] h-48 flex items-center justify-center">
+                  <h3 className="text-3xl md:text-4xl font-bold text-white">M.Sc OBG Nursing</h3>
+                </div>
+                <div className="p-8">
+                  <h4 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">M.Sc Nursing - OBG</h4>
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    Postgraduate specialization in Obstetrics and Gynecological Nursing practice.
+                  </p>
+                  <a href="/course-msc-obstetrics-gynecological" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                    Learn More <FaArrowRight />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+      <FloatingButtons />
+    </>
+  );
+}
