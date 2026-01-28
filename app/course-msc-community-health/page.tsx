@@ -45,7 +45,7 @@ export default function MScCommunityHealthNursing() {
   return (
     <>
       <Header />
-      <main className="bg-white">
+      <main className="bg-white"> 
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-[#006837] to-[#002309] text-white py-16 md:py-24">
           <div className="container-custom">
@@ -112,19 +112,19 @@ export default function MScCommunityHealthNursing() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">70+</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">19+</div>
                 <div className="text-gray-700 font-medium">Years of Educational Excellence</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1000+</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1800+</div>
                 <div className="text-gray-700 font-medium">Community Field Hours</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">15+</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">5+</div>
                 <div className="text-gray-700 font-medium">PHCs & CHCs Affiliated</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">95%</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">98%</div>
                 <div className="text-gray-700 font-medium">Placement Rate</div>
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function MScCommunityHealthNursing() {
                       <FaClock className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
                       <div>
                         <div className="font-semibold text-sm text-cyan-300 mb-1">Duration</div>
-                        <div className="text-lg font-bold">2 Years (4 Semesters)</div>
+                        <div className="text-lg font-bold">2 Years</div>
                       </div>
                     </div>
 
@@ -197,10 +197,18 @@ export default function MScCommunityHealthNursing() {
                     </div>
 
                     <div className="flex items-start gap-4">
+                      <FaShieldAlt className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
+                      <div>
+                        <div className="font-semibold text-sm text-cyan-300 mb-1">Recognized</div>
+                        <div className="text-lg font-bold">TNNMC</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
                       <FaUsers className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
                       <div>
                         <div className="font-semibold text-sm text-cyan-300 mb-1">Seats</div>
-                        <div className="text-lg font-bold">15 Seats</div>
+                        <div className="text-lg font-bold">5 Seats</div>
                       </div>
                     </div>
 
@@ -208,7 +216,7 @@ export default function MScCommunityHealthNursing() {
                       <FaClipboardList className="text-3xl text-cyan-300 mt-1 flex-shrink-0" />
                       <div>
                         <div className="font-semibold text-sm text-cyan-300 mb-1">Intake</div>
-                        <div className="text-lg font-bold">August 2025</div>
+                        <div className="text-lg font-bold">October - September</div>
                       </div>
                     </div>
                   </div>
@@ -300,7 +308,7 @@ export default function MScCommunityHealthNursing() {
                   Comprehensive Resources
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Access well-stocked library with public health journals, epidemiology resources, and digital learning platforms.
+                  Access well-stocked library with public health journals, epidemiology resources, e-books, e-library (koha software and delnet software), and digital learning platforms.
                 </p>
               </div>
             </div>
@@ -345,7 +353,7 @@ export default function MScCommunityHealthNursing() {
                   <div className="flex items-start gap-3">
                     <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
                     <p className="text-base md:text-lg">
-                      Candidates with B.Sc Hons. Nursing (if applicable) are also eligible
+                    Candidates with B.Sc Nursing and P.B.B.Sc. Nursing (if applicable) are also eligible
                     </p>
                   </div>
                 </div>
@@ -406,6 +414,12 @@ export default function MScCommunityHealthNursing() {
                     <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
                     <p className="text-base md:text-lg">
                       Personal interview for shortlisted candidates
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
+                    <p className="text-base md:text-lg">
+                    An eligibility certificate from the university is required for studying M.SC nursing
                     </p>
                   </div>
                 </div>
@@ -502,11 +516,11 @@ export default function MScCommunityHealthNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <div className="flex items-center gap-2">
                         <FaBook className="text-green-600" />
-                        <span>Theory: 60 hours</span>
+                        <span>Theory: 150 hours</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <FaFlask className="text-orange-600" />
-                        <span>Practicum: 120 hours</span>
+                        <span>Practicum: 150 hours</span>
                       </div>
                     </div>
                   </div>
@@ -518,11 +532,11 @@ export default function MScCommunityHealthNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <div className="flex items-center gap-2">
                         <FaBook className="text-green-600" />
-                        <span>Theory: 60 hours</span>
+                        <span>Theory: 150 hours</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <FaFlask className="text-orange-600" />
-                        <span>Practicum: 120 hours</span>
+                        <span>Practicum: 250 hours</span>
                       </div>
                     </div>
                   </div>
@@ -534,11 +548,11 @@ export default function MScCommunityHealthNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <div className="flex items-center gap-2">
                         <FaBook className="text-green-600" />
-                        <span>Theory: 90 hours</span>
+                        <span>Theory: 150 hours</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <FaFlask className="text-orange-600" />
-                        <span>Practicum: 60 hours</span>
+                        <span>Practicum: 150 hours</span>
                       </div>
                     </div>
                   </div>
@@ -550,46 +564,16 @@ export default function MScCommunityHealthNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <div className="flex items-center gap-2">
                         <FaBook className="text-green-600" />
-                        <span>Theory: 120 hours</span>
+                        <span>Theory: 150 hours</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <FaBuilding className="text-purple-600" />
-                        <span>Field Practice: 540 hours</span>
+                        <span>Field Practice: 250 hours</span>
                       </div>
                     </div>
                   </div>
 
-                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
-                      Nursing Management
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <div className="flex items-center gap-2">
-                        <FaBook className="text-green-600" />
-                        <span>Theory: 45 hours</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <FaFlask className="text-orange-600" />
-                        <span>Practicum: 90 hours</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
-                      Epidemiology and Biostatistics
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <div className="flex items-center gap-2">
-                        <FaBook className="text-green-600" />
-                        <span>Theory: 60 hours</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <FaFlask className="text-orange-600" />
-                        <span>Practical: 30 hours</span>
-                      </div>
-                    </div>
-                  </div>
+               
                 </>
               )}
 
@@ -602,11 +586,11 @@ export default function MScCommunityHealthNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <div className="flex items-center gap-2">
                         <FaBook className="text-green-600" />
-                        <span>Theory: 120 hours</span>
+                        <span>Theory: 150 hours</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <FaBuilding className="text-purple-600" />
-                        <span>Field Practice: 540 hours</span>
+                        <span>Field Practice: 1050 hours</span>
                       </div>
                     </div>
                   </div>
@@ -618,7 +602,7 @@ export default function MScCommunityHealthNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <div className="flex items-center gap-2">
                         <FaMicroscope className="text-blue-600" />
-                        <span>Research Work: 300 hours</span>
+                        <span>Research Work: 400 hours</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <FaGraduationCap className="text-purple-600" />
@@ -629,67 +613,21 @@ export default function MScCommunityHealthNursing() {
 
                   <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
                     <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
-                      Health Education & Health Promotion
+                      Nursing Management
                     </h3>
                     <div className="flex items-center gap-4 text-gray-700">
                       <div className="flex items-center gap-2">
                         <FaBook className="text-green-600" />
-                        <span>Theory: 60 hours</span>
+                        <span>Theory: 150 hours</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <FaBuilding className="text-purple-600" />
-                        <span>Field Practice: 240 hours</span>
+                        <span>Field Practice: 150 hours</span>
                       </div>
                     </div>
                   </div>
 
-                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
-                      Maternal & Child Health Nursing in Community
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <div className="flex items-center gap-2">
-                        <FaBook className="text-green-600" />
-                        <span>Theory: 45 hours</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <FaBuilding className="text-purple-600" />
-                        <span>Field Practice: 180 hours</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
-                      National Health Programs
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <div className="flex items-center gap-2">
-                        <FaBook className="text-green-600" />
-                        <span>Theory: 45 hours</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <FaBuilding className="text-purple-600" />
-                        <span>Field Practice: 180 hours</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="bg-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983] shadow-md">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
-                      Teaching Practicum
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <div className="flex items-center gap-2">
-                        <FaChalkboardTeacher className="text-blue-600" />
-                        <span>Classroom Teaching: 60 hours</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <FaHospital className="text-red-600" />
-                        <span>Clinical Teaching: 90 hours</span>
-                      </div>
-                    </div>
-                  </div>
+               
                 </>
               )}
 

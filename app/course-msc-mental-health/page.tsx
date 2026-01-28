@@ -121,25 +121,25 @@ export default function MScMentalHealthNursing() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  30+
+                  19+
                 </p>
                 <p className="text-gray-600">Years of Excellence</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  10
+                  5
                 </p>
                 <p className="text-gray-600">Seats Available</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  1:8
+                  1:5
                 </p>
                 <p className="text-gray-600">Facilitator-Learner Ratio</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  500+
+                  1000+
                 </p>
                 <p className="text-gray-600">Clinical Training Hours</p>
               </div>
@@ -208,7 +208,7 @@ export default function MScMentalHealthNursing() {
                       <p className="font-semibold text-gray-900 mb-1">
                         Duration
                       </p>
-                      <p className="text-gray-700">2 Years (4 Semesters)</p>
+                      <p className="text-gray-700">2 Years</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -224,6 +224,7 @@ export default function MScMentalHealthNursing() {
                       </p>
                     </div>
                   </div>
+                  
                   <div className="flex gap-4">
                     <div className="bg-blue-50 rounded-lg p-3 h-fit">
                       <Award className="w-6 h-6 text-[#006837]" />
@@ -239,11 +240,24 @@ export default function MScMentalHealthNursing() {
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-50 rounded-lg p-3 h-fit">
+                      <Award className="w-6 h-6 text-[#006837]" />
+                    </div>
+                    <div>
+                      <p className="font-semibold text-gray-900 mb-1">
+                        Recognized
+                      </p>
+                      <p className="text-gray-700">
+                        TNNMC
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex gap-4">
+                    <div className="bg-blue-50 rounded-lg p-3 h-fit">
                       <Users className="w-6 h-6 text-[#006837]" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 mb-1">Intake</p>
-                      <p className="text-gray-700">10 Seats per Year</p>
+                      <p className="text-gray-700">5 Seats per Year</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -254,7 +268,7 @@ export default function MScMentalHealthNursing() {
                       <p className="font-semibold text-gray-900 mb-1">
                         Academic Session
                       </p>
-                      <p className="text-gray-700">August - July</p>
+                      <p className="text-gray-700">October - September</p>
                     </div>
                   </div>
                 </div>
@@ -410,6 +424,12 @@ export default function MScMentalHealthNursing() {
                       State Nursing Council
                     </p>
                   </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                    Candidates with B.Sc Nursing and P.B.B.Sc. Nursing (if applicable) are also eligible
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -448,6 +468,75 @@ export default function MScMentalHealthNursing() {
                     <p className="leading-relaxed">
                       Medically fit with no physical or mental health conditions
                       affecting clinical practice
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+                         {/* Selection Process */}
+                         <div className="bg-[#006837]/40 backdrop-blur-sm rounded-xl p-8 border border-[#7cb983]/30">
+                <div className="flex items-center gap-3 mb-6">
+                  <ClipboardList className="w-8 h-8 text-[#7cb983]" />
+                  <h3 className="text-2xl font-bold text-[#7cb983]">
+                    Selection Process
+                  </h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                      Entrance examination conducted by the institution
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                      Merit-based selection considering academic performance and
+                      entrance test score
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                      Personal interview for shortlisted candidates
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                    An eligibility certificate from the university is required for studying M.SC nursing
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Documents Required */}
+              <div className="bg-[#006837]/40 backdrop-blur-sm rounded-xl p-8 border border-[#7cb983]/30">
+                <div className="flex items-center gap-3 mb-6">
+                  <FileText className="w-8 h-8 text-[#7cb983]" />
+                  <h3 className="text-2xl font-bold text-[#7cb983]">
+                    Documents Required
+                  </h3>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                      B.Sc Nursing or Post Basic B.Sc Nursing degree certificate
+                      and mark sheets
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                      Nursing registration certificate (RN/RM), Eligiblity Certificate from University.
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                      Experience certificate from employer, transfer certificate,
+                      and recent passport-size photographs
                     </p>
                   </div>
                 </div>
@@ -519,11 +608,11 @@ export default function MScMentalHealthNursing() {
                       <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                         <span className="flex items-center gap-2">
                           <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                          Theory: 120 hours
+                          Theory: 150 hours
                         </span>
                         <span className="flex items-center gap-2">
                           <Activity className="w-4 h-4 text-[#7cb983]" />
-                          Practical: 180 hours
+                          Practical: 150 hours
                         </span>
                       </div>
                     </div>
@@ -535,11 +624,11 @@ export default function MScMentalHealthNursing() {
                       <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                         <span className="flex items-center gap-2">
                           <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                          Theory: 120 hours
+                          Theory: 150 hours
                         </span>
                         <span className="flex items-center gap-2">
                           <Activity className="w-4 h-4 text-[#7cb983]" />
-                          Practical: 180 hours
+                          Practical: 200 hours
                         </span>
                       </div>
                     </div>
@@ -555,7 +644,7 @@ export default function MScMentalHealthNursing() {
                         </span>
                         <span className="flex items-center gap-2">
                           <Stethoscope className="w-4 h-4 text-[#7cb983]" />
-                          Clinical: 400 hours
+                          Clinical: 650 hours
                         </span>
                       </div>
                     </div>
@@ -567,11 +656,11 @@ export default function MScMentalHealthNursing() {
                       <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                         <span className="flex items-center gap-2">
                           <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                          Theory: 120 hours
+                          Theory: 150 hours
                         </span>
                         <span className="flex items-center gap-2">
                           <Activity className="w-4 h-4 text-[#7cb983]" />
-                          Practical: 120 hours
+                          Practical: 100 hours
                         </span>
                       </div>
                     </div>
@@ -596,7 +685,7 @@ export default function MScMentalHealthNursing() {
                         </span>
                         <span className="flex items-center gap-2">
                           <Stethoscope className="w-4 h-4 text-[#7cb983]" />
-                          Clinical: 600 hours
+                          Clinical: 950 hours
                         </span>
                       </div>
                     </div>
@@ -608,11 +697,11 @@ export default function MScMentalHealthNursing() {
                       <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                         <span className="flex items-center gap-2">
                           <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                          Theory: 90 hours
+                          Theory: 150 hours
                         </span>
                         <span className="flex items-center gap-2">
                           <Activity className="w-4 h-4 text-[#7cb983]" />
-                          Practical: 90 hours
+                          Practical: 150 hours
                         </span>
                       </div>
                     </div>
@@ -624,30 +713,16 @@ export default function MScMentalHealthNursing() {
                       <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                         <span className="flex items-center gap-2">
                           <FlaskConical className="w-4 h-4 text-[#7cb983]" />
-                          Research: 300 hours
+                          Research: 150 hours
                         </span>
                         <span className="flex items-center gap-2">
                           <FileText className="w-4 h-4 text-[#7cb983]" />
-                          Writing: 150 hours
+                          Writing: 300 hours
                         </span>
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                      <h4 className="text-xl font-bold text-[#006837] mb-3">
-                        Psychiatric Rehabilitation & Community Mental Health
-                      </h4>
-                      <div className="flex flex-wrap gap-4 text-sm text-gray-700">
-                        <span className="flex items-center gap-2">
-                          <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                          Theory: 90 hours
-                        </span>
-                        <span className="flex items-center gap-2">
-                          <Heart className="w-4 h-4 text-[#7cb983]" />
-                          Field Practice: 200 hours
-                        </span>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               )}
@@ -826,7 +901,7 @@ export default function MScMentalHealthNursing() {
                         <Activity className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
-                        Crisis Intervention Unit
+                      Psychiatric Emergency unit
                       </h4>
                     </div>
                   </div>

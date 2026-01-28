@@ -108,19 +108,19 @@ export default function MScObstetricsGynecologicalNursing() {
           <div className="container-custom">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1000+</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1800+</div>
                 <div className="text-gray-700 font-medium">Clinical Training Hours</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">15+</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">10+</div>
                 <div className="text-gray-700 font-medium">Affiliated Hospitals</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">95%</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">98%</div>
                 <div className="text-gray-700 font-medium">Placement Success Rate</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">50+</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">20+</div>
                 <div className="text-gray-700 font-medium">Research Publications</div>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function MScObstetricsGynecologicalNursing() {
                       <span className="text-sm text-gray-600">Duration</span>
                     </div>
                     <p className="text-lg font-semibold text-gray-800 ml-8">
-                      2 Years (4 Semesters)
+                      2 Years
                     </p>
                   </div>
 
@@ -209,7 +209,7 @@ export default function MScObstetricsGynecologicalNursing() {
                       <span className="text-sm text-gray-600">Approvals</span>
                     </div>
                     <p className="text-lg font-semibold text-gray-800 ml-8">
-                      INC, TNMC, MGR University
+                      INC, TNNMC, MGR University
                     </p>
                   </div>
 
@@ -219,17 +219,17 @@ export default function MScObstetricsGynecologicalNursing() {
                       <span className="text-sm text-gray-600">Intake Capacity</span>
                     </div>
                     <p className="text-lg font-semibold text-gray-800 ml-8">
-                      15 Learners per batch
+                      5 Learners per batch
                     </p>
                   </div>
 
                   <div>
                     <div className="flex items-center gap-3 mb-2">
                       <FaCalendar className="text-[#7cb983] text-xl" />
-                      <span className="text-sm text-gray-600">Session Starts</span>
+                      <span className="text-sm text-gray-600">Academic Session</span>
                     </div>
                     <p className="text-lg font-semibold text-gray-800 ml-8">
-                      August 2025
+                    October - September
                     </p>
                   </div>
 
@@ -326,7 +326,7 @@ export default function MScObstetricsGynecologicalNursing() {
                   Comprehensive Resources
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Access well-stocked library with maternal health journals, e-resources, simulation
+                  Access well-stocked library with maternal health journals, e-books, e-library (koha software and delnet software), simulation
                   labs, and latest textbooks for academic excellence.
                 </p>
               </div>
@@ -383,7 +383,7 @@ export default function MScObstetricsGynecologicalNursing() {
                   <div className="flex gap-3">
                     <FaCheckCircle className="text-green-300 text-xl mt-1 flex-shrink-0" />
                     <p className="text-white leading-relaxed">
-                      Candidates with B.Sc Hons. Nursing (if applicable) are also eligible
+                    Candidates with B.Sc Nursing and P.B.B.Sc. Nursing (if applicable) are also eligible
                     </p>
                   </div>
                 </div>
@@ -440,6 +440,12 @@ export default function MScObstetricsGynecologicalNursing() {
                     <FaCheckCircle className="text-green-300 text-xl mt-1 flex-shrink-0" />
                     <p className="text-white leading-relaxed">
                       Personal interview for shortlisted candidates
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <FaCheckCircle className="text-green-300 text-xl mt-1 flex-shrink-0" />
+                    <p className="text-white leading-relaxed">
+                    An eligibility certificate from the university is required for studying M.SC nursing
                     </p>
                   </div>
                 </div>
@@ -535,11 +541,11 @@ export default function MScObstetricsGynecologicalNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <span className="flex items-center gap-2">
                         <FaBook className="text-[#7cb983]" />
-                        Theory: 60 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <FaFlask className="text-[#7cb983]" />
-                        Practicum: 120 hours
+                        Practicum: 150 hours
                       </span>
                     </div>
                   </div>
@@ -551,11 +557,11 @@ export default function MScObstetricsGynecologicalNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <span className="flex items-center gap-2">
                         <FaBook className="text-[#7cb983]" />
-                        Theory: 60 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <FaFlask className="text-[#7cb983]" />
-                        Practicum: 120 hours
+                        Practicum: 250 hours
                       </span>
                     </div>
                   </div>
@@ -567,11 +573,11 @@ export default function MScObstetricsGynecologicalNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <span className="flex items-center gap-2">
                         <FaBook className="text-[#7cb983]" />
-                        Theory: 90 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <FaFlask className="text-[#7cb983]" />
-                        Practicum: 60 hours
+                        Practicum: 150 hours
                       </span>
                     </div>
                   </div>
@@ -583,46 +589,16 @@ export default function MScObstetricsGynecologicalNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <span className="flex items-center gap-2">
                         <FaBook className="text-[#7cb983]" />
-                        Theory: 120 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <FaHeart className="text-[#7cb983]" />
-                        Clinical: 540 hours
+                        Clinical: 750 hours
                       </span>
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-6 md:p-8 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#006837] mb-4">
-                      Nursing Management
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <FaBook className="text-[#7cb983]" />
-                        Theory: 45 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <FaFlask className="text-[#7cb983]" />
-                        Practicum: 90 hours
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="bg-white rounded-xl p-6 md:p-8 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#006837] mb-4">
-                      Anatomy, Physiology & Reproductive Sciences
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <FaBook className="text-[#7cb983]" />
-                        Theory: 60 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <FaFlask className="text-[#7cb983]" />
-                        Practical: 30 hours
-                      </span>
-                    </div>
-                  </div>
+               
                 </>
               )}
 
@@ -636,11 +612,11 @@ export default function MScObstetricsGynecologicalNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <span className="flex items-center gap-2">
                         <FaBook className="text-[#7cb983]" />
-                        Theory: 120 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <FaHeart className="text-[#7cb983]" />
-                        Clinical: 540 hours
+                        Clinical: 1050 hours
                       </span>
                     </div>
                   </div>
@@ -652,7 +628,7 @@ export default function MScObstetricsGynecologicalNursing() {
                     <div className="flex items-center gap-4 text-gray-700">
                       <span className="flex items-center gap-2">
                         <FaLightbulb className="text-[#7cb983]" />
-                        Research Work: 300 hours
+                        Research Work: 400 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <FaGraduationCap className="text-[#7cb983]" />
@@ -663,67 +639,21 @@ export default function MScObstetricsGynecologicalNursing() {
 
                   <div className="bg-white rounded-xl p-6 md:p-8 border-l-4 border-[#7cb983]">
                     <h3 className="text-xl font-bold text-[#006837] mb-4">
-                      High-Risk Pregnancy & Complications
+                      Nursing Management
                     </h3>
                     <div className="flex items-center gap-4 text-gray-700">
                       <span className="flex items-center gap-2">
                         <FaBook className="text-[#7cb983]" />
-                        Theory: 60 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <FaHeart className="text-[#7cb983]" />
-                        Clinical: 240 hours
+                        Clinical: 150 hours
                       </span>
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-6 md:p-8 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#006837] mb-4">
-                      Neonatal Nursing & Newborn Care
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <FaBook className="text-[#7cb983]" />
-                        Theory: 45 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <FaHeart className="text-[#7cb983]" />
-                        Clinical: 180 hours
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="bg-white rounded-xl p-6 md:p-8 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#006837] mb-4">
-                      Gynecological Nursing & Women's Health
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <FaBook className="text-[#7cb983]" />
-                        Theory: 45 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <FaHeart className="text-[#7cb983]" />
-                        Clinical: 180 hours
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="bg-white rounded-xl p-6 md:p-8 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#006837] mb-4">
-                      Teaching Practicum
-                    </h3>
-                    <div className="flex items-center gap-4 text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <FaBook className="text-[#7cb983]" />
-                        Classroom Teaching: 60 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <FaHeart className="text-[#7cb983]" />
-                        Clinical Teaching: 90 hours
-                      </span>
-                    </div>
-                  </div>
+             
                 </>
               )}
 
@@ -825,6 +755,8 @@ export default function MScObstetricsGynecologicalNursing() {
                       </span>
                     </div>
                   </div>
+
+                  
                 </>
               )}
             </div>
@@ -890,6 +822,10 @@ export default function MScObstetricsGynecologicalNursing() {
                   <div className="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
                     <FaLightbulb className="text-[#7cb983] text-xl flex-shrink-0" />
                     <span className="text-gray-800 font-medium">Infertility Center</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                    <FaLightbulb className="text-[#7cb983] text-xl flex-shrink-0" />
+                    <span className="text-gray-800 font-medium">Urban Health Training Center</span>
                   </div>
                   <div className="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
                     <FaHeart className="text-[#7cb983] text-xl flex-shrink-0" />

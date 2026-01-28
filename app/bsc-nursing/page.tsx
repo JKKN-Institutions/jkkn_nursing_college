@@ -77,7 +77,7 @@ export default function BScNursing() {
                     <div className="text-sm text-gray-300">Placement Rate</div>
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">100+</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">30+</div>
                     <div className="text-sm text-gray-300">Hospital Partners</div>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function BScNursing() {
                     Patient Care Training
                   </h3>
                   <div className="bg-[#7cb983] text-white px-8 py-3 rounded-lg font-bold text-lg">
-                    Since 2005
+                    Since 2007
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function BScNursing() {
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">100+ Hospital Tie-ups</span>
+                    <span className="text-gray-700">30+ Hospital Tie-ups</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
@@ -248,7 +248,7 @@ export default function BScNursing() {
                       <CheckCircleIcon className="w-5 h-5 text-white" />
                     </div>
                     <p className="text-gray-700 leading-relaxed">
-                      Passed 10+2 examination with Physics, Chemistry, and Biology as core subjects.
+                      Passed +2 examination with Physics, Chemistry, and Biology as core subjects.
                     </p>
                   </div>
 
@@ -940,12 +940,12 @@ export default function BScNursing() {
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">100+</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">50+</div>
                 <div className="text-xl font-semibold mb-2">Recruiting Partners</div>
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">500+</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">1000+</div>
                 <div className="text-xl font-semibold mb-2">Alumni Network</div>
               </div>
             </div>

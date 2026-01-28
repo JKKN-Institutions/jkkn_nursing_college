@@ -71,7 +71,7 @@ export default function PBScNursing() {
                     <div className="text-sm text-gray-300">Year Program</div>
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">30</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">50</div>
                     <div className="text-sm text-gray-300">Seats Available</div>
                   </div>
                   <div>
@@ -106,7 +106,7 @@ export default function PBScNursing() {
                     Advanced Nursing Practice
                   </h3>
                   <div className="bg-[#7cb983] text-white px-8 py-3 rounded-lg font-bold text-lg">
-                    Since 2005
+                    Since 2007
                   </div>
                 </div>
               </div>
@@ -252,7 +252,7 @@ export default function PBScNursing() {
                   <AcademicCapIcon className="w-8 h-8 text-blue-500" />
                 </div>
                 <h3 className="text-gray-600 text-sm mb-3">Degree Awarded</h3>
-                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">B.Sc Nursing</p>
+                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">P.B.B.Sc Nursing</p>
                 <p className="text-gray-600 text-sm">
                   Bachelor of Science in Nursing (Post Basic) from TNMGRMU, Chennai.
                 </p>
@@ -264,7 +264,7 @@ export default function PBScNursing() {
                   <UserGroupIcon className="w-8 h-8 text-blue-500" />
                 </div>
                 <h3 className="text-gray-600 text-sm mb-3">Annual Intake</h3>
-                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">30 Seats</p>
+                <p className="text-2xl md:text-3xl font-bold text-[#006837] mb-3">50 Seats</p>
                 <p className="text-gray-600 text-sm">
                   Limited seats to ensure personalised attention for every Learner.
                 </p>
@@ -401,14 +401,7 @@ export default function PBScNursing() {
                     </p>
                   </div>
 
-                  <div className="flex items-start gap-4">
-                    <div className="bg-[#7cb983] rounded-full p-2 flex-shrink-0">
-                      <CheckCircleIcon className="w-5 h-5 text-white" />
-                    </div>
-                    <p className="text-gray-700 leading-relaxed">
-                      Minimum 2 years of clinical experience after completing GNM diploma.
-                    </p>
-                  </div>
+                  
                 </div>
               </div>
 
@@ -885,7 +878,7 @@ export default function PBScNursing() {
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">100+</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">30+</div>
                 <div className="text-xl font-semibold mb-2">Partner Hospitals</div>
               </div>
 

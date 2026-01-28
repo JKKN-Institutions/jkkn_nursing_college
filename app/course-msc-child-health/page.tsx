@@ -122,19 +122,19 @@ export default function MScChildHealthNursing() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">30+</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">19+</div>
               <div className="text-gray-600 font-medium">Years of Excellence</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">10</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">5</div>
               <div className="text-gray-600 font-medium">Seats Available</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1:8</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1:5</div>
               <div className="text-gray-600 font-medium">Facilitator-Learner Ratio</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">500+</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1800+</div>
               <div className="text-gray-600 font-medium">Clinical Training Hours</div>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function MScChildHealthNursing() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-500 mb-1">Duration</div>
-                      <div className="font-semibold text-[#002309]">2 Years (4 Semesters)</div>
+                      <div className="font-semibold text-[#002309]">2 Years</div>
                     </div>
                   </div>
 
@@ -215,13 +215,25 @@ export default function MScChildHealthNursing() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-[#FBFBEE] rounded-lg flex items-center justify-center flex-shrink-0">
+                      <svg className="w-6 h-6 text-[#006837]" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm text-gray-500 mb-1">Recognized</div>
+                      <div className="font-semibold text-[#002309]">TNNMC</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-[#FBFBEE] rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-[#7cb983]" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                       </svg>
                     </div>
                     <div>
                       <div className="text-sm text-gray-500 mb-1">Intake</div>
-                      <div className="font-semibold text-[#002309]">10 Seats per Year</div>
+                      <div className="font-semibold text-[#002309]">5 Seats per Year</div>
                     </div>
                   </div>
 
@@ -233,7 +245,7 @@ export default function MScChildHealthNursing() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-500 mb-1">Academic Session</div>
-                      <div className="font-semibold text-[#002309]">August - July</div>
+                      <div className="font-semibold text-[#002309]">October - September</div>
                     </div>
                   </div>
                 </div>
@@ -377,7 +389,7 @@ export default function MScChildHealthNursing() {
                   <svg className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Candidates with B.Sc Hons. Nursing (if applicable) are also eligible</span>
+                  <span>Candidates with B.Sc Nursing and P.B.B.Sc. Nursing (if applicable) are also eligible</span>
                 </li>
               </ul>
             </div>
@@ -403,7 +415,7 @@ export default function MScChildHealthNursing() {
                   <svg className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Minimum 1 year of clinical work experience after B.Sc Nursing or Post Basic B.Sc Nursing</span>
+                  <span>Minimum 1 year of clinical work experience or Teacher experience at college after B.Sc or Post Basic B.Sc Nursing</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -443,6 +455,13 @@ export default function MScChildHealthNursing() {
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span>Personal interview for shortlisted candidates</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <svg className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span>An eligibility certificate from the university is required for studying M.SC nursing</span>
                 </li>
               </ul>
             </div>
@@ -547,7 +566,7 @@ export default function MScChildHealthNursing() {
                         <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                         <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
                       </svg>
-                      6 Credits
+                      300 Credits
                     </span>
                   </div>
                 </div>
@@ -566,7 +585,7 @@ export default function MScChildHealthNursing() {
                         <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                         <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
                       </svg>
-                      6 Credits
+                      400 Credits
                     </span>
                   </div>
                 </div>
@@ -585,13 +604,13 @@ export default function MScChildHealthNursing() {
                         <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                         <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
                       </svg>
-                      5 Credits
+                      300 Credits
                     </span>
                   </div>
                 </div>
 
                 <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                  <h3 className="text-xl font-bold text-[#006837] mb-3">Child Health Nursing - I</h3>
+                  <h3 className="text-xl font-bold text-[#006837] mb-3">Clinical Specialty Practicum (Child Health Nursing - I)                  </h3>
                   <div className="flex items-center gap-4 text-sm text-gray-600">
                     <span className="flex items-center gap-1">
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -604,55 +623,19 @@ export default function MScChildHealthNursing() {
                         <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                         <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
                       </svg>
-                      8 Credits
+                      900 Credits
                     </span>
                   </div>
                 </div>
 
-                <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                  <h3 className="text-xl font-bold text-[#006837] mb-3">Growth & Development</h3>
-                  <div className="flex items-center gap-4 text-sm text-gray-600">
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
-                      </svg>
-                      Theory
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                        <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
-                      </svg>
-                      3 Credits
-                    </span>
-                  </div>
-                </div>
-
-                <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                  <h3 className="text-xl font-bold text-[#006837] mb-3">Pediatric Pathophysiology</h3>
-                  <div className="flex items-center gap-4 text-sm text-gray-600">
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
-                      </svg>
-                      Theory
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                        <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
-                      </svg>
-                      4 Credits
-                    </span>
-                  </div>
-                </div>
+         
               </>
             )}
 
             {activeTab === "year2" && (
               <>
                 <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                  <h3 className="text-xl font-bold text-[#006837] mb-3">Child Health Nursing - II</h3>
+                  <h3 className="text-xl font-bold text-[#006837] mb-3">Clinical Specialty Practicum (Child Health Nursing - II)                  </h3>
                   <div className="flex items-center gap-4 text-sm text-gray-600">
                     <span className="flex items-center gap-1">
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -665,29 +648,12 @@ export default function MScChildHealthNursing() {
                         <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                         <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
                       </svg>
-                      10 Credits
+                      1200 Credits
                     </span>
                   </div>
                 </div>
 
-                <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                  <h3 className="text-xl font-bold text-[#006837] mb-3">Neonatal Nursing</h3>
-                  <div className="flex items-center gap-4 text-sm text-gray-600">
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
-                      </svg>
-                      Theory + Clinical
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                        <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
-                      </svg>
-                      6 Credits
-                    </span>
-                  </div>
-                </div>
+              
 
                 <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
                   <h3 className="text-xl font-bold text-[#006837] mb-3">Nursing Management</h3>
@@ -703,7 +669,7 @@ export default function MScChildHealthNursing() {
                         <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                         <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
                       </svg>
-                      4 Credits
+                      300 Credits
                     </span>
                   </div>
                 </div>
@@ -722,48 +688,12 @@ export default function MScChildHealthNursing() {
                         <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                         <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
                       </svg>
-                      8 Credits
+                      400 Credits
                     </span>
                   </div>
                 </div>
 
-                <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                  <h3 className="text-xl font-bold text-[#006837] mb-3">Teaching Practicum</h3>
-                  <div className="flex items-center gap-4 text-sm text-gray-600">
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
-                      </svg>
-                      Practical Teaching
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                        <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
-                      </svg>
-                      4 Credits
-                    </span>
-                  </div>
-                </div>
-
-                <div className="bg-white rounded-xl p-6 border-l-4 border-[#7cb983]">
-                  <h3 className="text-xl font-bold text-[#006837] mb-3">Clinical Specialty Practicum</h3>
-                  <div className="flex items-center gap-4 text-sm text-gray-600">
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z" />
-                      </svg>
-                      NICU/PICU Posting
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                        <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd" />
-                      </svg>
-                      6 Credits
-                    </span>
-                  </div>
-                </div>
+             
               </>
             )}
 

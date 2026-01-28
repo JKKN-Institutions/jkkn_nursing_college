@@ -114,25 +114,25 @@ export default function MScMedicalSurgicalNursing() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  30+
+                  19+
                 </p>
                 <p className="text-gray-600">Years of Excellence</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  15
+                  5
                 </p>
                 <p className="text-gray-600">Seats Available</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  1:8
+                  1:5
                 </p>
                 <p className="text-gray-600">Facilitator-Learner Ratio</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
-                  500+
+                  1800+
                 </p>
                 <p className="text-gray-600">Clinical Training Hours</p>
               </div>
@@ -205,7 +205,7 @@ export default function MScMedicalSurgicalNursing() {
                       <p className="font-semibold text-[#002309] mb-1">
                         Duration
                       </p>
-                      <p className="text-gray-700">2 Years (4 Semesters)</p>
+                      <p className="text-gray-700">2 Years</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -221,6 +221,7 @@ export default function MScMedicalSurgicalNursing() {
                       </p>
                     </div>
                   </div>
+
                   <div className="flex gap-4">
                     <div className="bg-[#e8f5ea] rounded-lg p-3 h-fit">
                       <Award className="w-6 h-6 text-[#7cb983]" />
@@ -234,13 +235,28 @@ export default function MScMedicalSurgicalNursing() {
                       </p>
                     </div>
                   </div>
+
+                  <div className="flex gap-4">
+                    <div className="bg-[#e8f5ea] rounded-lg p-3 h-fit">
+                      <Award className="w-6 h-6 text-[#7cb983]" />
+                    </div>
+                    <div>
+                      <p className="font-semibold text-[#002309] mb-1">
+                        Recognized
+                      </p>
+                      <p className="text-gray-700">
+                        TNNMC
+                      </p>
+                    </div>
+                  </div>
+
                   <div className="flex gap-4">
                     <div className="bg-[#e8f5ea] rounded-lg p-3 h-fit">
                       <Users className="w-6 h-6 text-[#7cb983]" />
                     </div>
                     <div>
                       <p className="font-semibold text-[#002309] mb-1">Intake</p>
-                      <p className="text-gray-700">15 Seats per Year</p>
+                      <p className="text-gray-700">5 Seats per Year</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -251,7 +267,7 @@ export default function MScMedicalSurgicalNursing() {
                       <p className="font-semibold text-[#002309] mb-1">
                         Academic Session
                       </p>
-                      <p className="text-gray-700">August - July</p>
+                      <p className="text-gray-700">October - September</p>
                     </div>
                   </div>
                 </div>
@@ -357,7 +373,7 @@ export default function MScMedicalSurgicalNursing() {
                   Comprehensive Resources
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Access well-stocked library with nursing journals, e-resources,
+                  Access well-stocked library with nursing journals, e-books, e-library (koha software and delnet software),
                   and latest textbooks for academic excellence.
                 </p>
               </div>
@@ -406,8 +422,7 @@ export default function MScMedicalSurgicalNursing() {
                   <div className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
                     <p className="leading-relaxed">
-                      Candidates with B.Sc Hons. Nursing (if applicable) are
-                      also eligible
+                    Candidates with B.Sc Nursing and P.B.B.Sc. Nursing (if applicable) are also eligible
                     </p>
                   </div>
                 </div>
@@ -432,8 +447,7 @@ export default function MScMedicalSurgicalNursing() {
                   <div className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
                     <p className="leading-relaxed">
-                      Minimum 1 year of clinical work experience after B.Sc
-                      Nursing or Post Basic B.Sc Nursing
+                    For Post Basic B.Sc Nursing: No need experience after registration as RN/RM
                     </p>
                   </div>
                   <div className="flex gap-3">
@@ -458,8 +472,7 @@ export default function MScMedicalSurgicalNursing() {
                   <div className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
                     <p className="leading-relaxed">
-                      Entrance examination conducted by the university or
-                      institution
+                      Entrance examination conducted by the institution
                     </p>
                   </div>
                   <div className="flex gap-3">
@@ -473,6 +486,12 @@ export default function MScMedicalSurgicalNursing() {
                     <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
                     <p className="leading-relaxed">
                       Personal interview for shortlisted candidates
+                    </p>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
+                    <p className="leading-relaxed">
+                    An eligibility certificate from the university is required for studying M.SC nursing
                     </p>
                   </div>
                 </div>
@@ -497,7 +516,7 @@ export default function MScMedicalSurgicalNursing() {
                   <div className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
                     <p className="leading-relaxed">
-                      Nursing registration certificate (RN/RM)
+                      Nursing registration certificate (RN/RM), Eligiblity Certificate from University.
                     </p>
                   </div>
                   <div className="flex gap-3">
@@ -572,11 +591,11 @@ export default function MScMedicalSurgicalNursing() {
                     <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                       <span className="flex items-center gap-2">
                         <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 60 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <Activity className="w-4 h-4 text-[#7cb983]" />
-                        Practicum: 120 hours
+                        Practicum: 150 hours
                       </span>
                     </div>
                   </div>
@@ -588,11 +607,11 @@ export default function MScMedicalSurgicalNursing() {
                     <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                       <span className="flex items-center gap-2">
                         <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 60 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <Activity className="w-4 h-4 text-[#7cb983]" />
-                        Practicum: 120 hours
+                        Practicum: 250 hours
                       </span>
                     </div>
                   </div>
@@ -604,11 +623,11 @@ export default function MScMedicalSurgicalNursing() {
                     <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                       <span className="flex items-center gap-2">
                         <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 90 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <Activity className="w-4 h-4 text-[#7cb983]" />
-                        Practicum: 60 hours
+                        Practicum: 150 hours
                       </span>
                     </div>
                   </div>
@@ -620,46 +639,16 @@ export default function MScMedicalSurgicalNursing() {
                     <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                       <span className="flex items-center gap-2">
                         <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 120 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <Hospital className="w-4 h-4 text-[#7cb983]" />
-                        Clinical: 540 hours
+                        Clinical: 750 hours
                       </span>
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#7cb983] mb-3">
-                      Nursing Management
-                    </h3>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 45 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <Activity className="w-4 h-4 text-[#7cb983]" />
-                        Practicum: 90 hours
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#7cb983] mb-3">
-                      Pathophysiology and Pharmacology
-                    </h3>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 60 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <Activity className="w-4 h-4 text-[#7cb983]" />
-                        Practical: 30 hours
-                      </span>
-                    </div>
-                  </div>
+                
                 </>
               )}
 
@@ -673,11 +662,11 @@ export default function MScMedicalSurgicalNursing() {
                     <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                       <span className="flex items-center gap-2">
                         <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 120 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <Hospital className="w-4 h-4 text-[#7cb983]" />
-                        Clinical: 540 hours
+                        Clinical: 1050 hours
                       </span>
                     </div>
                   </div>
@@ -689,7 +678,7 @@ export default function MScMedicalSurgicalNursing() {
                     <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                       <span className="flex items-center gap-2">
                         <FileText className="w-4 h-4 text-[#7cb983]" />
-                        Research Work: 300 hours
+                        Research Work: 400 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <GraduationCap className="w-4 h-4 text-[#7cb983]" />
@@ -700,67 +689,21 @@ export default function MScMedicalSurgicalNursing() {
 
                   <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
                     <h3 className="text-xl font-bold text-[#7cb983] mb-3">
-                      Critical Care Nursing
+                      Nursing Management
                     </h3>
                     <div className="flex flex-wrap gap-4 text-sm text-gray-700">
                       <span className="flex items-center gap-2">
                         <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 60 hours
+                        Theory: 150 hours
                       </span>
                       <span className="flex items-center gap-2">
                         <Hospital className="w-4 h-4 text-[#7cb983]" />
-                        Clinical: 240 hours
+                        Clinical: 150 hours
                       </span>
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#7cb983] mb-3">
-                      Emergency and Trauma Nursing
-                    </h3>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 45 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <Hospital className="w-4 h-4 text-[#7cb983]" />
-                        Clinical: 180 hours
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#7cb983] mb-3">
-                      Perioperative Nursing
-                    </h3>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <BookOpen className="w-4 h-4 text-[#7cb983]" />
-                        Theory: 45 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <Hospital className="w-4 h-4 text-[#7cb983]" />
-                        Clinical: 180 hours
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
-                    <h3 className="text-xl font-bold text-[#7cb983] mb-3">
-                      Teaching Practicum
-                    </h3>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-700">
-                      <span className="flex items-center gap-2">
-                        <School className="w-4 h-4 text-[#7cb983]" />
-                        Classroom Teaching: 60 hours
-                      </span>
-                      <span className="flex items-center gap-2">
-                        <Hospital className="w-4 h-4 text-[#7cb983]" />
-                        Clinical Teaching: 90 hours
-                      </span>
-                    </div>
-                  </div>
+             
                 </>
               )}
 

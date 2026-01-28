@@ -30,7 +30,7 @@ export default function Home() {
 
               {/* Description */}
               <p className="text-lg md:text-xl text-white/90 mb-10 max-w-3xl leading-relaxed">
-                Join J.K.K. Nattraja College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc, Post Basic Nursing & GNM programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98%+ placement success.
+                Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98%+ placement success.
               </p>
 
               {/* CTA Buttons */}
@@ -57,10 +57,10 @@ export default function Home() {
           <div className="container mx-auto px-[44px] md:px-[52px] lg:px-[68px]">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { number: "4", label: "NURSING\nPROGRAMS" },
+                { number: "3", label: "NURSING\nPROGRAMS" },
                 { number: "98%+", label: "PLACEMENT RATE" },
                 { number: "500+", label: "BED HOSPITAL\nTRAINING" },
-                { number: "800+", label: "ACTIVE LEARNERS" },
+                { number: "500+", label: "ACTIVE LEARNERS" },
               ].map((stat, index) => (
                 <div
                   key={index}
@@ -126,10 +126,10 @@ export default function Home() {
                   ABOUT JKKN COLLEGE OF NURSING
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-6">
-                  Nurturing Compassionate Healthcare Leaders Since 2008
+                  Nurturing Compassionate Healthcare Leaders Since 2007
                 </h2>
                 <p className="text-gray-700 leading-relaxed mb-8">
-                  J.K.K. Nattraja College of Nursing, part of J.K.K. Nattraja Educational Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
+                  JKKN College of Nursing, part of JKKN Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-8">
                   Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced Learning Facilitators combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
@@ -172,7 +172,7 @@ export default function Home() {
 
               <div className="relative">
                 <div className="absolute -top-8 -right-8 w-24 h-24 md:w-32 md:h-32 bg-[#7cb983] rounded-[40px] flex flex-col items-center justify-center text-white shadow-2xl z-10">
-                  <div className="text-3xl md:text-4xl font-bold">100</div>
+                  <div className="text-3xl md:text-4xl font-bold">70+</div>
                   <div className="text-[10px] md:text-xs font-bold uppercase">YEARS LEGACY</div>
                 </div>
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl">
@@ -254,7 +254,7 @@ export default function Home() {
                 </p>
                 <div className="space-y-2 mb-6">
                   <div className="inline-block bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-700 mr-2">
-                    20 Seats
+                    25 Seats
                   </div>
                   <div className="inline-block bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-700">
                     ₹1,25,000/year
@@ -285,7 +285,7 @@ export default function Home() {
                 </p>
                 <div className="space-y-2 mb-6">
                   <div className="inline-block bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-700 mr-2">
-                    40 Seats
+                    50 Seats
                   </div>
                   <div className="inline-block bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-700">
                     ₹85,000/year
@@ -299,34 +299,7 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* GNM */}
-              <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-16 h-16 bg-[#006837] rounded-2xl flex items-center justify-center mb-4">
-                  <span className="text-3xl">💉</span>
-                </div>
-                <h3 className="text-2xl font-bold text-[#006837] mb-2">GNM</h3>
-                <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
-                  <span>⏱️</span>
-                  <span>3 Years</span>
-                </div>
-                <p className="text-gray-700 text-sm mb-6 leading-relaxed">
-                  General Nursing and Midwifery diploma providing foundational nursing skills, patient care training, and midwifery expertise for entry-level nursing positions.
-                </p>
-                <div className="space-y-2 mb-6">
-                  <div className="inline-block bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-700 mr-2">
-                    50 Seats
-                  </div>
-                  <div className="inline-block bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-700">
-                    ₹75,000/year
-                  </div>
-                </div>
-                <div className="bg-[#FBFBEE] px-3 py-2 rounded-lg mb-4">
-                  <p className="text-xs text-gray-700">Diploma Program</p>
-                </div>
-                <p className="text-sm text-gray-700">
-                  <span className="font-bold">Careers:</span> Staff Nurse, ANM, Community Health Worker, Midwife
-                </p>
-              </div>
+          
             </div>
           </div>
         </section>
@@ -411,7 +384,7 @@ export default function Home() {
                 { number: "98%+", label: "Placement Rate" },
                 { number: "₹4.2L", label: "Avg. Package" },
                 { number: "₹25L", label: "Highest (International)" },
-                { number: "150+", label: "Recruiting Partners" },
+                { number: "80+", label: "Recruiting Partners" },
               ].map((stat, index) => (
                 <div
                   key={index}
@@ -558,12 +531,12 @@ export default function Home() {
                     {
                       program: "B.Sc Nursing:",
                       criteria:
-                        "10+2 with PCB, minimum 45% marks (40% for SC/ST), age 17-35 years",
+                        "+2 with PCB, minimum 45% marks (40% for SC/ST), age 17-35 years",
                     },
                     {
                       program: "M.Sc Nursing:",
                       criteria:
-                        "B.Sc Nursing with 55% marks, 1 year clinical experience, valid TNNMC registration",
+                        "B.Sc Nursing and Post Basic B.Sc Nursing with 55% marks, 1 year clinical experience, valid TNNMC registration",
                     },
                     {
                       program: "Post Basic B.Sc:",
@@ -786,7 +759,7 @@ export default function Home() {
               Ready to Begin Your Nursing Journey?
             </h2>
             <p className="text-lg text-white/90 mb-10 max-w-3xl mx-auto">
-              Join J.K.K. Nattraja College of Nursing and become part of a legacy of healthcare excellence spanning 100 years. Applications for 2025-26 are now open.
+              Join JKKN College of Nursing and become part of a legacy of healthcare excellence spanning 100 years. Applications for 2025-26 are now open.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
