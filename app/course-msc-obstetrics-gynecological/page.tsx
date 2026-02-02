@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import Image from "next/image";
 import { useState } from "react";
 import {
   FaFlask,
@@ -90,18 +91,16 @@ export default function MScObstetricsGynecologicalNursing() {
                 </div>
               </div>
 
-              {/* Right Content - Excellence Card */}
+              {/* Right Content - Hero Image */}
               <div className="flex justify-center lg:justify-end">
-                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-3xl p-8 md:p-10 shadow-2xl max-w-md w-full">
-                  <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 text-center">
-                    OBG Nursing Excellence
-                  </h2>
-                  <div className="bg-[#006837] rounded-2xl p-6 text-center">
-                    <div className="text-5xl md:text-6xl font-bold text-white mb-2">70+</div>
-                    <div className="text-lg md:text-xl font-semibold text-white">
-                      Years of Educational Excellence
-                    </div>
-                  </div>
+                <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
+                  <Image
+                    src="/images/Obstetrics-Hero-Banner-Image.png"
+                    alt="OBG Nursing Excellence"
+                    width={500}
+                    height={400}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -782,12 +781,16 @@ export default function MScObstetricsGynecologicalNursing() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-              {/* Left - Image/Card */}
+              {/* Left - Clinical Training Image */}
               <div className="flex justify-center">
-                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-3xl p-12 md:p-16 shadow-2xl max-w-md w-full">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white text-center">
-                    OBG Clinical Training
-                  </h3>
+                <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
+                  <Image
+                    src="/images/Obstetrics-OBG-Clinical-Training-image.png"
+                    alt="OBG Clinical Training"
+                    width={500}
+                    height={400}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
 
@@ -1194,8 +1197,8 @@ export default function MScObstetricsGynecologicalNursing() {
           </div>
         </section>
 
-        {/* Fee Structure Section */}
-        <section className="py-16 md:py-20 bg-[#FBFBEE]">
+        {/* Fee Structure Section - Hidden for now */}
+        {false && (<section className="py-16 md:py-20 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
@@ -1266,7 +1269,7 @@ export default function MScObstetricsGynecologicalNursing() {
               </div>
             </div>
           </div>
-        </section>
+        </section>)}
 
         {/* FAQ Section */}
         <section className="py-16 md:py-20 bg-[#FBFBEE]">

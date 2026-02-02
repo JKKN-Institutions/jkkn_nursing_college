@@ -1190,44 +1190,7 @@ export default function BScNursing() {
           </div>
         </section>
 
-        {/* Accreditations Section */}
-        <section className="py-12 md:py-16 bg-[#FBFBEE] border-t border-gray-200">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-              {/* INC Approved */}
-              <div className="text-center">
-                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-2xl md:text-3xl font-bold">INC</span>
-                </div>
-                <p className="text-sm md:text-base font-semibold text-gray-600">INC APPROVED</p>
-              </div>
-
-              {/* TNMGRMU Affiliated */}
-              <div className="text-center">
-                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-xl md:text-2xl font-bold">TNMGRMU</span>
-                </div>
-                <p className="text-sm md:text-base font-semibold text-gray-600">TNMGRMU AFFILIATED</p>
-              </div>
-
-              {/* TNNMC Recognised */}
-              <div className="text-center">
-                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-xl md:text-2xl font-bold">TNNMC</span>
-                </div>
-                <p className="text-sm md:text-base font-semibold text-gray-600">TNNMC RECOGNISED</p>
-              </div>
-
-              {/* Govt. Approved */}
-              <div className="text-center">
-                <div className="bg-[#006837] text-white w-20 h-20 md:w-24 md:h-24 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-2xl md:text-3xl font-bold">GOV</span>
-                </div>
-                <p className="text-sm md:text-base font-semibold text-gray-600">GOVT. APPROVED</p>
-              </div>
-            </div>
-          </div>
-        </section>
+     
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />

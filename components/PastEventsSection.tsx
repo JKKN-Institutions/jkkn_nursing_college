@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { pastEvents } from "@/data/eventsData";
+import { ClockIcon } from "@heroicons/react/24/outline";
 
 export default function PastEventsSection() {
   return (
@@ -28,7 +29,7 @@ export default function PastEventsSection() {
                   {event.title}
                 </h3>
                 <p className="text-xs text-[#f59e0b] font-semibold flex items-center gap-1">
-                  <span className="text-base">🕐</span> {event.date}
+                  <ClockIcon className="w-4 h-4" /> {event.date}
                 </p>
               </div>
             </div>

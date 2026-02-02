@@ -1151,8 +1151,8 @@ export default function MScCommunityHealthNursing() {
           </div>
         </section>
 
-        {/* Fee Structure Section */}
-        <section className="py-16 bg-[#FBFBEE]">
+        {/* Fee Structure Section - Hidden for now */}
+        {false && (<section className="py-16 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
@@ -1218,7 +1218,7 @@ export default function MScCommunityHealthNursing() {
               </div>
             </div>
           </div>
-        </section>
+        </section>)}
 
         {/* FAQ Section */}
         <section className="py-16 bg-white">

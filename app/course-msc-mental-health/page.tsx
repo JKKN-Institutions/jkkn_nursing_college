@@ -1251,8 +1251,8 @@ export default function MScMentalHealthNursing() {
           </div>
         </section>
 
-        {/* Fee Structure */}
-        <section className="py-16 md:py-20 bg-[#FBFBEE]">
+        {/* Fee Structure - Hidden for now */}
+        {false && (<section className="py-16 md:py-20 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
@@ -1319,7 +1319,7 @@ export default function MScMentalHealthNursing() {
               </div>
             </div>
           </div>
-        </section>
+        </section>)}
 
         {/* Frequently Asked Questions */}
         <section className="py-16 md:py-20 bg-[#FBFBEE]">

@@ -908,8 +908,8 @@ export default function MScChildHealthNursing() {
         </div>
       </section>
 
-      {/* Fee Structure Section */}
-      <section className="py-16 bg-gray-50">
+      {/* Fee Structure Section - Hidden for now */}
+      {false && (<section className="py-16 bg-gray-50">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
@@ -970,7 +970,7 @@ export default function MScChildHealthNursing() {
             </div>
           </div>
         </div>
-      </section>
+      </section>)}
 
       {/* FAQ Section */}
       <section className="py-16 bg-white">

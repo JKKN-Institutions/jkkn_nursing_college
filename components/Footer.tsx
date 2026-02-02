@@ -71,7 +71,7 @@ export default function Footer({ hideLifeAtJKKN = false }: FooterProps) {
               </p>
               <p className="text-sm sm:text-base">
                 <span className="font-semibold">Email:</span>{" "}
-                <a href="mailto:ahs@jkkn.ac.in" className="hover:underline break-all">ahs@jkkn.ac.in</a>
+                <a href="mailto:ahs@jkkn.ac.in" className="hover:underline break-all">nursing@jkkn.ac.in</a>
               </p>
               <div>
                 <p className="font-semibold text-sm sm:text-base">Address:</p>
@@ -143,9 +143,9 @@ export default function Footer({ hideLifeAtJKKN = false }: FooterProps) {
       <div className="border-t border-white/30 mx-4 sm:mx-6 lg:mx-12"></div>
 
       {/* Copyright */}
-      <div className="py-4 px-4">
+      <div className="py-4 px-4 pb-20 md:pb-4">
         <div className="text-center text-xs sm:text-sm">
-          <p>&copy; 2025 JKKN Allied Health Sciences. All rights reserved.</p>
+          <p>&copy; 2025 Sresakthimayeil Institute of Nursing and Research. All rights reserved.</p>
         </div>
       </div>
     </footer>

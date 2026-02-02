@@ -72,7 +72,7 @@ export default function MScNursing() {
                 </div>
               </div>
 
-              <div className="relative lg:block hidden">
+              <div className="relative mt-8 lg:mt-0">
                 {/* Hero Image */}
                 <div className="relative">
                   <Image
@@ -84,31 +84,20 @@ export default function MScNursing() {
                   />
                 </div>
                 {/* Badges below image */}
-                <div className="flex gap-4 mt-6">
-                  <div className="bg-white text-[#006837] p-6 rounded-xl shadow-2xl">
-                    <div className="text-sm font-medium text-gray-600 mb-2">INC APPROVED</div>
-                    <div className="text-2xl font-bold">TNMGRMU Recognized</div>
+                <div className="flex flex-wrap gap-3 sm:gap-4 mt-4 sm:mt-6">
+                  <div className="bg-white text-[#006837] p-3 sm:p-4 lg:p-6 rounded-xl shadow-2xl flex-1 min-w-[140px]">
+                    <div className="text-xs sm:text-sm font-medium text-gray-600 mb-1 sm:mb-2">INC APPROVED</div>
+                    <div className="text-lg sm:text-xl lg:text-2xl font-bold">TNMGRMU Affiliated</div>
                   </div>
-                  <div className="bg-white text-[#006837] p-6 rounded-xl shadow-2xl">
-                    <div className="text-sm font-medium text-gray-600 mb-2">ANNUAL INTAKE</div>
-                    <div className="text-2xl font-bold">25 Seats</div>
+                  <div className="bg-white text-[#006837] p-3 sm:p-4 lg:p-6 rounded-xl shadow-2xl flex-1 min-w-[140px]">
+                    <div className="text-xs sm:text-sm font-medium text-gray-600 mb-1 sm:mb-2">ANNUAL INTAKE</div>
+                    <div className="text-lg sm:text-xl lg:text-2xl font-bold">25 Seats</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Mobile Badges */}
-          <div className="lg:hidden mt-8 flex flex-wrap gap-4 container-custom">
-            <div className="bg-white text-[#006837] p-4 rounded-lg shadow-xl">
-              <div className="text-xs font-medium text-gray-600 mb-1">INC APPROVED</div>
-              <div className="text-xl font-bold">Since 2005</div>
-            </div>
-            <div className="bg-white text-[#006837] p-4 rounded-lg shadow-xl">
-              <div className="text-xs font-medium text-gray-600 mb-1">ANNUAL INTAKE</div>
-              <div className="text-xl font-bold">30 Seats</div>
-            </div>
-          </div>
         </section>
 
         {/* Recognition Badges */}
@@ -118,17 +107,21 @@ export default function MScNursing() {
               <h3 className="text-sm font-semibold text-gray-600 uppercase tracking-wider mb-6">
                 RECOGNIZED & ACCREDITED BY
               </h3>
-              <div className="flex flex-wrap justify-center items-center gap-12">
-                <div className="flex items-center gap-3">
-                  <Image src="/images/Indian_Nursing_Council_Logo.png" alt="INC Logo" width={50} height={50} className="object-contain" />
+              <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
+                <div className="flex items-center gap-3 w-72 md:w-auto">
+                  <Image src="/images/Indian_Nursing_Council_Logo.png" alt="INC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
                   <span className="font-semibold text-gray-800">INC Approved</span>
                 </div>
-                <div className="flex items-center gap-3">
-                  <Image src="/images/TNNMC_logo.jpg" alt="TNNMC Logo" width={50} height={50} className="object-contain" />
-                  <span className="font-semibold text-gray-800">TNNMC  Recognized  the Tamilnadu Dr.MGR University Affiliated</span>
+                <div className="flex items-center gap-3 w-72 md:w-auto">
+                  <Image src="/images/TNNMC_logo.jpg" alt="TNNMC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
+                  <span className="font-semibold text-gray-800">TNNMC Recognized</span>
                 </div>
-                <div className="flex items-center gap-3">
-                  <Image src="/images/NAAC_LOGO.png" alt="NAAC Logo" width={50} height={50} className="object-contain" />
+                <div className="flex items-center gap-3 w-72 md:w-auto">
+                  <Image src="/images/TNNMC_logo.jpg" alt="TNNMC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
+                  <span className="font-semibold text-gray-800">The Tamilnadu Dr.MGR University Affiliated</span>
+                </div>
+                <div className="flex items-center gap-3 w-72 md:w-auto">
+                  <Image src="/images/NAAC_LOGO.png" alt="NAAC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
                   <span className="font-semibold text-gray-800">NAAC Accredited</span>
                 </div>
               </div>
@@ -283,7 +276,7 @@ export default function MScNursing() {
                   1
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/medical-surgical.jpg" alt="Medical Surgical Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Simulation-lab-image.png" alt="Medical Surgical Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Medical Surgical Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -304,7 +297,7 @@ export default function MScNursing() {
                   2
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/child-health.jpg" alt="Child Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Child-Health-Nursing-Hero-Banner-image.png" alt="Child Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Child Health Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -325,7 +318,7 @@ export default function MScNursing() {
                   3
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/community-health.jpg" alt="Community Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Community-Health-Nursing-Hero-Banner-Image.png" alt="Community Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Community Health Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -346,7 +339,7 @@ export default function MScNursing() {
                   4
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/obstetrics-gynecology.jpg" alt="Obstetrics & Gynecology Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.png" alt="Obstetrics & Gynecology Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Obstetrics & Gynecology Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -367,7 +360,7 @@ export default function MScNursing() {
                   5
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/mental-health.jpg" alt="Mental Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Mental-Health-Nursing-Hero-Banner-Image.png" alt="Mental Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Mental Health Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -738,11 +731,11 @@ export default function MScNursing() {
             <div className="max-w-6xl mx-auto">
               {/* Desktop Timeline */}
               <div className="hidden lg:block">
-                <div className="relative">
+                <div className="relative max-w-4xl mx-auto">
                   {/* Connecting Line */}
-                  <div className="absolute top-16 left-0 right-0 h-0.5 bg-gray-300" style={{ left: '12.5%', right: '12.5%' }}></div>
+                  <div className="absolute top-10 h-0.5 bg-gray-300" style={{ left: '16.67%', right: '16.67%' }}></div>
 
-                  <div className="grid grid-cols-4 gap-8">
+                  <div className="grid grid-cols-3 gap-8">
                     {/* Step 1 */}
                     <div className="text-center relative">
                       <div className="w-20 h-20 bg-white border-4 border-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
@@ -806,9 +799,9 @@ export default function MScNursing() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#006837] mb-2">Entrance Exam</h3>
+                    <h3 className="text-xl font-bold text-[#006837] mb-2">Counseling</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Appear for university or institutional entrance test.
+                      Attend counseling for specialization selection.
                     </p>
                   </div>
                 </div>
@@ -818,21 +811,6 @@ export default function MScNursing() {
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-white border-4 border-[#7cb983] rounded-full flex items-center justify-center">
                       <span className="text-2xl font-bold text-[#7cb983]">3</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-[#006837] mb-2">Counseling</h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      Attend counseling for specialization selection.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Step 4 */}
-                <div className="flex gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-white border-4 border-[#7cb983] rounded-full flex items-center justify-center">
-                      <span className="text-2xl font-bold text-[#7cb983]">4</span>
                     </div>
                   </div>
                   <div>

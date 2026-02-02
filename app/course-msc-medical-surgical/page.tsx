@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import Image from "next/image";
 import { useState } from "react";
 import {
   CheckCircle2,
@@ -90,16 +91,17 @@ export default function MScMedicalSurgicalNursing() {
                 </div>
               </div>
 
-              {/* Right Content - Video/Image Placeholder */}
+              {/* Right Content - Hero Image */}
               <div className="relative">
                 <div className="bg-[#006837]/30 backdrop-blur-sm rounded-2xl p-8 border border-[#7cb983]/30">
-                  <div className="bg-gradient-to-br from-[#7cb983]/20 to-[#7cb983]/20 rounded-xl aspect-video flex items-center justify-center mb-6">
-                    <div className="text-center">
-                      <Monitor className="w-16 h-16 mx-auto mb-4 text-[#a8d5b0]" />
-                      <p className="text-2xl font-bold">
-                        M.Sc Nursing Clinical Training
-                      </p>
-                    </div>
+                  <div className="rounded-xl aspect-video overflow-hidden mb-6">
+                    <Image
+                      src="/images/Medical-Surgical-Nursing-Hero-Banner-Image.png"
+                      alt="M.Sc Nursing Clinical Training"
+                      width={600}
+                      height={338}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="text-white px-6 py-4 rounded-xl inline-block" style={{backgroundColor: '#7cb983'}}>
                     <p className="text-4xl font-bold mb-1">100%</p>
@@ -828,14 +830,15 @@ export default function MScMedicalSurgicalNursing() {
             </div>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* Image Placeholder */}
-              <div className="bg-gradient-to-br from-[#7cb983] to-[#7cb983] rounded-2xl aspect-video flex items-center justify-center">
-                <div className="text-center text-white">
-                  <Hospital className="w-20 h-20 mx-auto mb-4" />
-                  <p className="text-3xl font-bold">
-                    Clinical Training Facilities
-                  </p>
-                </div>
+              {/* Clinical Training Facilities Image */}
+              <div className="bg-gradient-to-br from-[#7cb983] to-[#7cb983] rounded-2xl aspect-video overflow-hidden">
+                <Image
+                  src="/images/Medical-Surgical-Nursing-Clinical-Training-Facilities-Image.png"
+                  alt="Clinical Training Facilities"
+                  width={600}
+                  height={338}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Clinical Areas */}
@@ -1232,8 +1235,8 @@ export default function MScMedicalSurgicalNursing() {
           </div>
         </section>
 
-        {/* Fee Structure */}
-        <section className="py-16 md:py-20 bg-[#FBFBEE]">
+        {/* Fee Structure - Hidden for now */}
+        {false && (<section className="py-16 md:py-20 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#7cb983] mb-4">
@@ -1343,7 +1346,7 @@ export default function MScMedicalSurgicalNursing() {
               </div>
             </div>
           </div>
-        </section>
+        </section>)}
 
         {/* FAQ Section */}
         <section className="py-16 md:py-20 bg-[#FBFBEE]">

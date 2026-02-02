@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { latestBuzz } from "@/data/eventsData";
+import { ClockIcon } from "@heroicons/react/24/outline";
 
 export default function LatestBuzzSection() {
   return (
@@ -28,7 +29,7 @@ export default function LatestBuzzSection() {
                   {buzz.title}
                 </h3>
                 <p className="text-xs text-[#f59e0b] font-semibold flex items-center gap-1">
-                  <span className="text-base">🕐</span> {buzz.date}
+                  <ClockIcon className="w-4 h-4" /> {buzz.date}
                 </p>
               </div>
             </div>

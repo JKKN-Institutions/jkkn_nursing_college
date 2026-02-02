@@ -15,7 +15,7 @@ export const siteData = {
   tagline: "Best Innovation Focused Multi-Disciplinary Campus",
   contact: {
     phone: "+91 93458 55001",
-    email: "",
+    email: "nursing@jkkn.ac.in",
     address: "JKKN Dental College & Hospital, Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Kumarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.",
   },
   socialMedia: {
