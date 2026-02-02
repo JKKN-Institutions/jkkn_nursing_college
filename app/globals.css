@@ -10,16 +10,27 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: var(--font-poppins), 'Poppins', sans-serif;
   color: #002309;
   overflow-x: hidden;
+  min-height: 100vh;
+  line-height: 1.5;
 }
 
+/* Mobile-first main padding */
 main {
-  padding-top: 70px;
+  padding-top: 64px;
+}
+
+@media (min-width: 640px) {
+  main {
+    padding-top: 70px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -28,28 +39,42 @@ main {
   }
 }
 
+/* Mobile-first container with clamp for fluid spacing */
 .container-custom {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 clamp(1rem, 4vw, 5rem);
 }
 
-@media (min-width: 768px) {
-  .container-custom {
-    padding: 0 3rem;
-  }
+/* Ensure images and media are responsive by default */
+img, video {
+  max-width: 100%;
+  height: auto;
 }
 
-@media (min-width: 1024px) {
-  .container-custom {
-    padding: 0 4rem;
-  }
+/* Responsive iframe container */
+.iframe-responsive {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
 }
 
-@media (min-width: 1280px) {
-  .container-custom {
-    padding: 0 5rem;
-  }
+.iframe-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive tables */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @layer components {

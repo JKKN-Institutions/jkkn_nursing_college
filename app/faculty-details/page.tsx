@@ -55,35 +55,39 @@ export default function FacultyDetails() {
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen">
         {/* Main Content */}
-        <div className="bg-[#FBFBEE] py-8 lg:py-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            {/* Table Container */}
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse bg-white border border-gray-400">
+        <div className="bg-[#FBFBEE] py-6 sm:py-8 lg:py-12">
+          <div className="container mx-auto px-3 sm:px-6 lg:px-16 max-w-[1400px]">
+            {/* Mobile scroll indicator */}
+            <p className="text-sm text-gray-500 mb-2 sm:hidden text-center">
+              ← Scroll horizontally to view all columns →
+            </p>
+            {/* Table Container with improved scrolling */}
+            <div className="overflow-x-auto -webkit-overflow-scrolling-touch rounded-lg shadow-sm">
+              <table className="w-full border-collapse bg-white border border-gray-400 min-w-[700px]">
                 {/* Table Header */}
                 <thead>
                   <tr>
-                    <th colSpan={6} className="py-4 px-4 text-center text-xl font-bold text-[#002309] border border-gray-400 bg-white">
+                    <th colSpan={6} className="py-3 sm:py-4 px-2 sm:px-4 text-center text-base sm:text-lg lg:text-xl font-bold text-[#002309] border border-gray-400 bg-white">
                       STAFF NAME LIST
                     </th>
                   </tr>
-                  <tr className="bg-white">
-                    <th className="py-3 px-4 text-center font-bold text-[#002309] border border-gray-400">
+                  <tr className="bg-gray-50">
+                    <th className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm font-bold text-[#002309] border border-gray-400 whitespace-nowrap">
                       S.No
                     </th>
-                    <th className="py-3 px-4 text-center font-bold text-[#002309] border border-gray-400">
+                    <th className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm font-bold text-[#002309] border border-gray-400 min-w-[120px]">
                       NAME OF<br />FACULTY
                     </th>
-                    <th className="py-3 px-4 text-center font-bold text-[#002309] border border-gray-400">
+                    <th className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm font-bold text-[#002309] border border-gray-400 min-w-[100px]">
                       DESIGNATION
                     </th>
-                    <th className="py-3 px-4 text-center font-bold text-[#002309] border border-gray-400">
-                      NAME OF<br />THE<br />DEPARTMENT
+                    <th className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm font-bold text-[#002309] border border-gray-400 min-w-[140px]">
+                      DEPARTMENT
                     </th>
-                    <th className="py-3 px-4 text-center font-bold text-[#002309] border border-gray-400">
-                      COLLEGEG MAIL ID
+                    <th className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm font-bold text-[#002309] border border-gray-400 min-w-[160px]">
+                      EMAIL
                     </th>
-                    <th className="py-3 px-4 text-center font-bold text-[#002309] border border-gray-400">
+                    <th className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm font-bold text-[#002309] border border-gray-400 min-w-[100px]">
                       QUALIFICATION
                     </th>
                   </tr>
@@ -91,23 +95,27 @@ export default function FacultyDetails() {
                 {/* Table Body */}
                 <tbody>
                   {facultyData.map((faculty) => (
-                    <tr key={faculty.sno} className="bg-white">
-                      <td className="py-3 px-4 text-center border border-gray-400">
+                    <tr key={faculty.sno} className="bg-white hover:bg-gray-50 transition-colors">
+                      <td className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm border border-gray-400">
                         {faculty.sno}
                       </td>
-                      <td className="py-3 px-4 text-center border border-gray-400">
+                      <td className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm border border-gray-400">
                         {faculty.name}
                       </td>
-                      <td className="py-3 px-4 text-center border border-gray-400">
+                      <td className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm border border-gray-400">
                         {faculty.designation}
                       </td>
-                      <td className="py-3 px-4 text-center border border-gray-400">
+                      <td className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm border border-gray-400">
                         {faculty.department}
                       </td>
-                      <td className="py-3 px-4 text-center border border-gray-400">
-                        {faculty.email}
+                      <td className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm border border-gray-400 break-all">
+                        {faculty.email && (
+                          <a href={`mailto:${faculty.email}`} className="text-primary hover:underline">
+                            {faculty.email}
+                          </a>
+                        )}
                       </td>
-                      <td className="py-3 px-4 text-center border border-gray-400">
+                      <td className="py-2 sm:py-3 px-2 sm:px-4 text-center text-xs sm:text-sm border border-gray-400">
                         {faculty.qualification}
                       </td>
                     </tr>

@@ -8,18 +8,9 @@ export default function Wifi() {
     <>
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen">
-        {/* Page Header */}
-        <div className="bg-[#FBFBEE] py-4 border-b border-gray-200">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <h2 className="text-xl lg:text-2xl font-normal text-gray-800">
-              Sresakthimayeil Institute of Nursing and Research
-            </h2>
-          </div>
-        </div>
-
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Wifi
             </h1>
@@ -28,7 +19,7 @@ export default function Wifi() {
 
         {/* WiFi Images */}
         <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
@@ -63,7 +54,7 @@ export default function Wifi() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Main Paragraph */}
             <p className="text-gray-700 leading-relaxed text-justify">
               Welcome to SRESAKTHIMAYEIL INSTITUTE OF NURSING AND RESEARCH! Our campus offers state-of-the-art facilities, including high-speed wifi connectivity, ensuring students stay connected and engaged in their academic journey. With seamless internet access across the campus, students can access online resources, research materials, and collaborate with peers effortlessly. Our robust wifi network enables innovative learning experiences, empowering students to explore new ideas and stay ahead in a rapidly evolving world. Whether it's attending virtual lectures, participating in e-learning platforms, or connecting with faculty, our reliable wifi infrastructure supports a dynamic and interactive learning environment. At SRISAKTHIMAYEIL INSTITUTE OF NURSING AND RESEARCH, we understand the importance of connectivity, and our dedicated IT team ensures smooth, uninterrupted access to the digital realm. Embrace the power of connectivity as you embark on a transformative educational experience at SRISAKTHIMAYEIL INSTITUTE OF NURSING AND RESEARCH!

@@ -1,5 +1,14 @@
 import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import { ClientLayout } from "@/components/ClientLayout";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-poppins",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "JKKN College of Nursing & Research - Sresakthimayeil Institute",
@@ -14,8 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased bg-[#FBFBEE]" suppressHydrationWarning>
-        {children}
+      <body className={`${poppins.className} antialiased bg-[#FBFBEE]`} suppressHydrationWarning>
+        <ClientLayout>
+          {children}
+        </ClientLayout>
       </body>
     </html>
   );

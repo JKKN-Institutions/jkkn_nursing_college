@@ -1,3 +1,5 @@
+"use client";
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -13,12 +15,12 @@ export default function MScNursing() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-20 md:py-32 relative overflow-hidden">
           <div className="container-custom">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
               <div>
                 {/* Badge */}
                 <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-6">
                   <span className="w-2 h-2 bg-[#7cb983] rounded-full"></span>
-                  <span className="text-sm font-medium uppercase tracking-wide">ADMISSIONS OPEN 2025-26</span>
+                  <span className="text-sm font-medium uppercase tracking-wide">ADMISSIONS OPEN 2026-27</span>
                 </div>
 
                 {/* Heading */}
@@ -52,31 +54,44 @@ export default function MScNursing() {
 
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-4">
-                  <Link
-                    href="/apply"
+                  <a
+                    href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
                     className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
                     Apply Now
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
-                  </Link>
-                  <button className="inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-[#006837] px-8 py-4 rounded-lg font-semibold transition-all duration-300">
+                  </a>
+                  <button
+                    onClick={() => document.getElementById('specializations')?.scrollIntoView({ behavior: 'smooth' })}
+                    className="inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-[#006837] px-8 py-4 rounded-lg font-semibold transition-all duration-300"
+                  >
                     Explore Specializations
                   </button>
                 </div>
               </div>
 
               <div className="relative lg:block hidden">
-                {/* Badges on right side */}
-                <div className="space-y-6">
-                  <div className="bg-white text-[#006837] p-6 rounded-xl shadow-2xl inline-block">
+                {/* Hero Image */}
+                <div className="relative">
+                  <Image
+                    src="/images/Master-of-Science-in-Nursing-Hero-Banner-Image.png"
+                    alt="M.Sc Nursing program"
+                    width={600}
+                    height={500}
+                    className="w-full h-auto object-cover rounded-2xl"
+                  />
+                </div>
+                {/* Badges below image */}
+                <div className="flex gap-4 mt-6">
+                  <div className="bg-white text-[#006837] p-6 rounded-xl shadow-2xl">
                     <div className="text-sm font-medium text-gray-600 mb-2">INC APPROVED</div>
-                    <div className="text-2xl font-bold">Since 2005</div>
+                    <div className="text-2xl font-bold">TNMGRMU Recognized</div>
                   </div>
-                  <div className="bg-white text-[#006837] p-6 rounded-xl shadow-2xl inline-block ml-12">
+                  <div className="bg-white text-[#006837] p-6 rounded-xl shadow-2xl">
                     <div className="text-sm font-medium text-gray-600 mb-2">ANNUAL INTAKE</div>
-                    <div className="text-2xl font-bold">30 Seats</div>
+                    <div className="text-2xl font-bold">25 Seats</div>
                   </div>
                 </div>
               </div>
@@ -105,15 +120,15 @@ export default function MScNursing() {
               </h3>
               <div className="flex flex-wrap justify-center items-center gap-12">
                 <div className="flex items-center gap-3">
-                  <Image src="/images/inc-logo.png" alt="INC Logo" width={50} height={50} className="object-contain" />
+                  <Image src="/images/Indian_Nursing_Council_Logo.png" alt="INC Logo" width={50} height={50} className="object-contain" />
                   <span className="font-semibold text-gray-800">INC Approved</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Image src="/images/tnnmc-logo.png" alt="TNNMC Logo" width={50} height={50} className="object-contain" />
-                  <span className="font-semibold text-gray-800">TNNMC Affiliated</span>
+                  <Image src="/images/TNNMC_logo.jpg" alt="TNNMC Logo" width={50} height={50} className="object-contain" />
+                  <span className="font-semibold text-gray-800">TNNMC  Recognized  the Tamilnadu Dr.MGR University Affiliated</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Image src="/images/naac-logo.png" alt="NAAC Logo" width={50} height={50} className="object-contain" />
+                  <Image src="/images/NAAC_LOGO.png" alt="NAAC Logo" width={50} height={50} className="object-contain" />
                   <span className="font-semibold text-gray-800">NAAC Accredited</span>
                 </div>
               </div>
@@ -131,7 +146,7 @@ export default function MScNursing() {
                   <FaClock className="w-7 h-7 text-[#7cb983]" />
                 </div>
                 <div className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">DURATION</div>
-                <div className="text-2xl font-bold text-[#006837]">2 Years (4 Semesters)</div>
+                <div className="text-2xl font-bold text-[#006837]">2 Years</div>
               </div>
 
               {/* Eligibility */}
@@ -149,7 +164,7 @@ export default function MScNursing() {
                   <FaUserMd className="w-7 h-7 text-[#7cb983]" />
                 </div>
                 <div className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">ANNUAL INTAKE</div>
-                <div className="text-2xl font-bold text-[#006837]">30 Seats</div>
+                <div className="text-2xl font-bold text-[#006837]">25 Seats</div>
               </div>
 
               {/* Degree Awarded */}
@@ -177,7 +192,7 @@ export default function MScNursing() {
                 <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-[#006837]/10 rounded-3xl"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/msc-nursing-clinical.jpg"
+                    src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.png"
                     alt="M.Sc Nursing clinical training"
                     width={600}
                     height={400}
@@ -231,7 +246,10 @@ export default function MScNursing() {
                   </div>
                 </div>
 
-                <button className="mt-8 inline-flex items-center gap-2 border-2 border-[#006837] text-[#006837] hover:bg-[#006837] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300">
+                <button
+                  onClick={() => document.getElementById('curriculum')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="mt-8 inline-flex items-center gap-2 border-2 border-[#006837] text-[#006837] hover:bg-[#006837] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300"
+                >
                   View Full Curriculum
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -243,7 +261,7 @@ export default function MScNursing() {
         </section>
 
         {/* 5 Specialized Nursing Domains */}
-        <section className="py-20 bg-[#FBFBEE]">
+        <section id="specializations" className="py-20 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-16">
               <div className="inline-block bg-[#7cb983]/10 text-[#7cb983] text-sm font-semibold px-6 py-2 rounded-full mb-4 uppercase tracking-wider">
@@ -272,7 +290,7 @@ export default function MScNursing() {
                   Develop expertise in managing adult patients with complex medical conditions, critical care
                   interventions, and post-operative care management.
                 </p>
-                <Link href="#" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
+                <Link href="/course-msc-medical-surgical" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
                   Explore Specialization
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -293,7 +311,7 @@ export default function MScNursing() {
                   Specialize in pediatric nursing care encompassing neonatal care, child
                   development, and adolescent health across clinical settings.
                 </p>
-                <Link href="#" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
+                <Link href="/course-msc-child-health" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
                   Explore Specialization
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -314,7 +332,7 @@ export default function MScNursing() {
                   Focus on public health nursing, epidemiology, health promotion, and disease prevention
                   strategies at community and population levels.
                 </p>
-                <Link href="#" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
+                <Link href="/course-msc-community-health" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
                   Explore Specialization
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -335,7 +353,7 @@ export default function MScNursing() {
                   Master maternal health nursing including antenatal care, labor management, postnatal
                   care, and comprehensive women&apos;s reproductive health.
                 </p>
-                <Link href="#" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
+                <Link href="/course-msc-obstetrics-gynecological" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
                   Explore Specialization
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -356,7 +374,7 @@ export default function MScNursing() {
                   Develop competencies in psychiatric nursing, therapeutic communication,
                   psychopharmacology, and mental health rehabilitation approaches.
                 </p>
-                <Link href="#" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
+                <Link href="/course-msc-mental-health" className="inline-flex items-center gap-2 text-[#7cb983] font-semibold hover:gap-4 transition-all duration-300">
                   Explore Specialization
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -380,7 +398,7 @@ export default function MScNursing() {
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <div className="flex gap-6">
                 <div className="relative">
-                  <Image src="/images/msc-eligibility.jpg" alt="M.Sc Nursing eligibility" width={400} height={500} className="w-full h-auto object-cover rounded-2xl shadow-lg" />
+                  <Image src="/images/Master-of-Science-in-Nursing-Eligibility-Criteria-Image.png" alt="M.Sc Nursing eligibility" width={400} height={500} className="w-full h-auto object-cover rounded-2xl shadow-lg" />
                 </div>
               </div>
 
@@ -394,7 +412,7 @@ export default function MScNursing() {
                     <div>
                       <h3 className="text-xl font-bold text-[#006837] mb-3">Educational Qualification</h3>
                       <p className="text-gray-700 leading-relaxed">
-                        B.Sc Nursing (Basic) or B.Sc Nursing (Post-Basic) degree from an INC-recognized institution with minimum 55% aggregate marks.
+                        B.Sc Nursing (Basic) or B.Sc Nursing (Post-Basic) degree from an INC-recognized institution with minimum 55% aggregate marks and NRI students get migration certificates from the concerned university.
                       </p>
                     </div>
                   </div>
@@ -430,27 +448,14 @@ export default function MScNursing() {
                   </div>
                 </div>
 
-                {/* Entrance Examination */}
-                <div className="bg-white rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300">
-                  <div className="flex items-start gap-4">
-                    <div className="w-14 h-14 bg-[#006837]/10 rounded-2xl flex items-center justify-center flex-shrink-0">
-                      <FaFileAlt className="w-7 h-7 text-[#006837]" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold text-[#006837] mb-3">Entrance Examination</h3>
-                      <p className="text-gray-700 leading-relaxed">
-                        Admission through entrance examination conducted by Tamil Nadu Dr. M.G.R. Medical University or institutional entrance test.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            
               </div>
             </div>
           </div>
         </section>
 
         {/* Comprehensive Curriculum */}
-        <section className="py-20 bg-[#FBFBEE]">
+        <section id="curriculum" className="py-20 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-16">
               <div className="inline-block bg-[#7cb983]/10 text-[#7cb983] text-sm font-semibold px-6 py-2 rounded-full mb-4 uppercase tracking-wider">
@@ -478,24 +483,21 @@ export default function MScNursing() {
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Nursing Education & Curriculum Development</span>
+                    <span className="text-gray-700">Nursing Education</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Advanced Nursing Practice (Specialization)</span>
+                    <span className="text-gray-700">Advance Nursing Practice</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Clinical Pharmacology in Nursing</span>
+                    <span className="text-gray-700">Nursing Research and Statistics</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Biostatistics & Nursing Research Methodology</span>
+                    <span className="text-gray-700">Clinical Speciality – I</span>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Clinical Practicum & Skill Development</span>
-                  </li>
+              
                 </ul>
               </div>
 
@@ -511,23 +513,15 @@ export default function MScNursing() {
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Nursing Administration & Leadership</span>
+                    <span className="text-gray-700">Nursing Management</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Advanced Specialization Clinical Practice</span>
+                    <span className="text-gray-700">Nursing Research (Dissertation)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Dissertation & Research Project</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Evidence-Based Nursing Practice</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-[#006837] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-700">Comprehensive Clinical Internship</span>
+                    <span className="text-gray-700">Clinical Speciality – II</span>
                   </li>
                 </ul>
               </div>
@@ -760,21 +754,12 @@ export default function MScNursing() {
                       </p>
                     </div>
 
-                    {/* Step 2 */}
-                    <div className="text-center relative">
-                      <div className="w-20 h-20 bg-white border-4 border-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
-                        <span className="text-3xl font-bold text-[#7cb983]">2</span>
-                      </div>
-                      <h3 className="text-xl font-bold text-[#006837] mb-3">Entrance Exam</h3>
-                      <p className="text-gray-600 leading-relaxed">
-                        Appear for university or institutional entrance test.
-                      </p>
-                    </div>
+                  
 
                     {/* Step 3 */}
                     <div className="text-center relative">
                       <div className="w-20 h-20 bg-white border-4 border-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
-                        <span className="text-3xl font-bold text-[#7cb983]">3</span>
+                        <span className="text-3xl font-bold text-[#7cb983]">2</span>
                       </div>
                       <h3 className="text-xl font-bold text-[#006837] mb-3">Counseling</h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -785,7 +770,7 @@ export default function MScNursing() {
                     {/* Step 4 */}
                     <div className="text-center relative">
                       <div className="w-20 h-20 bg-white border-4 border-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
-                        <span className="text-3xl font-bold text-[#7cb983]">4</span>
+                        <span className="text-3xl font-bold text-[#7cb983]">3</span>
                       </div>
                       <h3 className="text-xl font-bold text-[#006837] mb-3">Enrollment</h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -998,15 +983,15 @@ export default function MScNursing() {
               Applications for the 2025-26 academic year are now open.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link
-                href="/apply"
+              <a
+                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
                 className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Apply Now
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
-              </Link>
+              </a>
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-[#006837] px-8 py-4 rounded-lg font-semibold transition-all duration-300"

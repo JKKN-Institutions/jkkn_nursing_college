@@ -8,18 +8,9 @@ export default function Community() {
     <>
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen">
-        {/* Page Header */}
-        <div className="bg-[#FBFBEE] py-4 border-b border-gray-200">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <h2 className="text-xl lg:text-2xl font-normal text-gray-800">
-              Sresakthimayeil Institute of Nursing and Research
-            </h2>
-          </div>
-        </div>
-
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Community Facilities
             </h1>
@@ -28,7 +19,7 @@ export default function Community() {
 
         {/* Community Images */}
         <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
@@ -63,7 +54,7 @@ export default function Community() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Paragraph 1 */}
             <p className="text-gray-700 mb-6 leading-relaxed text-justify">
               If you are seeking exceptional maternity care services in the urban area of Erode, look no further than the Maternity Centre. Our dedicated team of healthcare professionals is committed to providing comprehensive and compassionate care to expectant mothers and their newborns. With state-of-the-art facilities and a warm, welcoming environment, we strive to make your pregnancy and childbirth journey a comfortable and memorable experience.

@@ -7,12 +7,8 @@ export default function VisionMission() {
     <>
       <Header />
       <main className="bg-cream min-h-screen">
-        {/* Title Section */}
+        {/* Content Section */}
         <div className="container-custom py-8 md:py-12">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] text-center mb-12 md:mb-16">
-            Sresakthimayeil Institute of Nursing and Research
-          </h1>
-
           {/* Vision Section */}
           <div className="mb-12 md:mb-20">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">

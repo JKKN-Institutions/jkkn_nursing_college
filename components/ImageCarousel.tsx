@@ -49,17 +49,17 @@ export default function ImageCarousel({ images, eventName }: ImageCarouselProps)
   };
 
   return (
-    <div className="relative mb-16">
+    <div className="relative mb-8 sm:mb-12 lg:mb-16">
       {/* Carousel Container */}
-      <div className="relative">
-        {/* Navigation Buttons */}
+      <div className="relative px-0 sm:px-12 lg:px-16">
+        {/* Navigation Buttons - Inside on mobile, outside on desktop */}
         <button
           onClick={prevSlide}
-          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-8 z-10 w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-gray-800 bg-opacity-50 hover:bg-opacity-70 rounded-full transition-all text-white"
+          className="absolute left-1 sm:left-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 flex items-center justify-center bg-gray-800 bg-opacity-70 sm:bg-opacity-50 hover:bg-opacity-80 rounded-full transition-all text-white"
           aria-label="Previous slide"
         >
           <svg
-            className="w-6 h-6"
+            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -75,11 +75,11 @@ export default function ImageCarousel({ images, eventName }: ImageCarouselProps)
 
         <button
           onClick={nextSlide}
-          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-8 z-10 w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-gray-800 bg-opacity-50 hover:bg-opacity-70 rounded-full transition-all text-white"
+          className="absolute right-1 sm:right-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 flex items-center justify-center bg-gray-800 bg-opacity-70 sm:bg-opacity-50 hover:bg-opacity-80 rounded-full transition-all text-white"
           aria-label="Next slide"
         >
           <svg
-            className="w-6 h-6"
+            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -94,7 +94,7 @@ export default function ImageCarousel({ images, eventName }: ImageCarouselProps)
         </button>
 
         {/* Images Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
           {getCurrentImages().map((image, index) => (
             <div
               key={currentSlide * imagesPerSlide + index}
@@ -113,14 +113,14 @@ export default function ImageCarousel({ images, eventName }: ImageCarouselProps)
       </div>
 
       {/* Dot Indicators */}
-      <div className="flex justify-center gap-2 mt-8">
+      <div className="flex justify-center gap-2 mt-4 sm:mt-6 lg:mt-8">
         {Array.from({ length: totalSlides }).map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
+            className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full transition-all min-h-0 ${
               index === currentSlide
-                ? "bg-[#0b7845] w-4"
+                ? "bg-[#0b7845] w-3 sm:w-4"
                 : "bg-gray-300 hover:bg-gray-400"
             }`}
             aria-label={`Go to slide ${index + 1}`}

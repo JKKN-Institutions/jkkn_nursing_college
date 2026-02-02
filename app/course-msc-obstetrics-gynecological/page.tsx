@@ -75,11 +75,16 @@ export default function MScObstetricsGynecologicalNursing() {
 
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-3 rounded-full flex items-center gap-2 transition-all">
+                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-3 rounded-full flex items-center gap-2 transition-all">
                     Apply Now
                     <span>→</span>
-                  </button>
-                  <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-semibold px-8 py-3 rounded-full transition-all">
+                  </a>
+                  <button
+                    onClick={() => {
+                      document.getElementById('curriculum-structure')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-semibold px-8 py-3 rounded-full transition-all"
+                  >
                     Explore Curriculum
                   </button>
                 </div>
@@ -483,7 +488,7 @@ export default function MScObstetricsGynecologicalNursing() {
         </section>
 
         {/* Curriculum Structure Section */}
-        <section className="py-16 md:py-20 bg-[#FBFBEE]">
+        <section id="curriculum-structure" className="py-16 md:py-20 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
@@ -1456,108 +1461,20 @@ export default function MScObstetricsGynecologicalNursing() {
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-12">
-                <button className="bg-white text-[#7cb983] hover:bg-gray-100 font-semibold px-8 py-4 rounded-full text-lg flex items-center gap-2 transition-all shadow-lg">
+                <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#7cb983] hover:bg-gray-100 font-semibold px-8 py-4 rounded-full text-lg flex items-center gap-2 transition-all shadow-lg">
                   Apply Online
                   <span>→</span>
-                </button>
+                </a>
                 <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#7cb983] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all">
                   Download Brochure
                 </button>
               </div>
 
-              <div className="pt-8 border-t border-white/30">
-                <p className="text-lg mb-4">Have questions? Contact our admission team:</p>
-                <div className="flex flex-wrap justify-center gap-6 md:gap-8">
-                  <a href="tel:+914288234567" className="flex items-center gap-2 hover:text-gray-100 transition-colors">
-                    <FaPhone className="text-xl" />
-                    <span className="font-semibold">+91 4288 234567</span>
-                  </a>
-                  <a href="mailto:admissions@jkkn.ac.in" className="flex items-center gap-2 hover:text-gray-100 transition-colors">
-                    <FaBook className="text-xl" />
-                    <span className="font-semibold">admissions@jkkn.ac.in</span>
-                  </a>
-                  <a href="#" className="flex items-center gap-2 hover:text-gray-100 transition-colors">
-                    <FaPhone className="text-xl" />
-                    <span className="font-semibold">WhatsApp</span>
-                  </a>
-                </div>
-              </div>
+          
             </div>
           </div>
         </section>
 
-        {/* Explore Other Programs Section */}
-        <section className="py-16 md:py-20 bg-[#FBFBEE]">
-          <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Explore Other Nursing Programs
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Discover more nursing education opportunities at JKKN College of Nursing
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-              {/* Program 1 - B.Sc Nursing */}
-              <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group">
-                <div className="bg-gradient-to-br from-[#006837] to-[#002309] h-48 flex items-center justify-center">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white">B.Sc Nursing</h3>
-                </div>
-                <div className="p-6 md:p-8">
-                  <h4 className="text-xl font-bold text-[#006837] mb-3">
-                    B.Sc Nursing
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed mb-6">
-                    4-year undergraduate program preparing nurses for professional healthcare practice.
-                  </p>
-                  <a href="/bsc-nursing" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                    Learn More
-                    <span>→</span>
-                  </a>
-                </div>
-              </div>
-
-              {/* Program 2 - M.Sc Medical Surgical */}
-              <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group">
-                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] h-48 flex items-center justify-center">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white">M.Sc Medical Surgical</h3>
-                </div>
-                <div className="p-6 md:p-8">
-                  <h4 className="text-xl font-bold text-[#006837] mb-3">
-                    M.Sc Nursing - Medical Surgical
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed mb-6">
-                    Postgraduate specialization in Medical Surgical Nursing and critical care practice.
-                  </p>
-                  <a href="/course-msc-medical-surgical" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                    Learn More
-                    <span>→</span>
-                  </a>
-                </div>
-              </div>
-
-              {/* Program 3 - M.Sc Pediatric Nursing */}
-              <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group">
-                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] h-48 flex items-center justify-center">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white">M.Sc Pediatric Nursing</h3>
-                </div>
-                <div className="p-6 md:p-8">
-                  <h4 className="text-xl font-bold text-[#006837] mb-3">
-                    M.Sc Nursing - Pediatrics
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed mb-6">
-                    Postgraduate specialization in Child Health Nursing and pediatric care.
-                  </p>
-                  <a href="/course-msc-child-health" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                    Learn More
-                    <span>→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
       <Footer hideLifeAtJKKN />
       <FloatingButtons />

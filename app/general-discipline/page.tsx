@@ -11,7 +11,7 @@ export default function GeneralDiscipline() {
       <main className="bg-[#FBFBEE] min-h-screen">
         {/* Main Content */}
         <div className="bg-[#FBFBEE] py-8 lg:py-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Title */}
             <h1 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8 lg:mb-12">
               General Discipline

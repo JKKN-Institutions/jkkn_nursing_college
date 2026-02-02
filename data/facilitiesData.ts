@@ -105,13 +105,13 @@ export const departments = [
 ];
 
 export const otherInstitutions = [
-  { name: "JKKN Dental College and Hospital" },
-  { name: "JKKN College Of Allied Health Science" },
-  { name: "JKKN College of Pharmacy" },
-  { name: "Sresakthimayeil Institute of Nursing and Research" },
-  { name: "JKKN College of Engineering and Technology" },
-  { name: "JKKN College of Arts and Science (Autonomous)" },
-  { name: "JKKN College of Education" },
-  { name: "JKKN Matriculation Higher Secondary School" },
-  { name: "Nattraja Vidhyalaya" },
+  { name: "JKKN Dental College and Hospital", url: "https://dental.jkkn.ac.in/" },
+  { name: "JKKN College Of Allied Health Science", url: "https://ahs.jkkn.ac.in/" },
+  { name: "JKKN College of Pharmacy", url: "https://pharmacy.jkkn.ac.in/" },
+  { name: "Sresakthimayeil Institute of Nursing and Research", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+  { name: "JKKN College of Engineering and Technology", url: "https://engg.jkkn.ac.in/" },
+  { name: "JKKN College of Arts and Science (Autonomous)", url: "https://cas.jkkn.ac.in/" },
+  { name: "JKKN College of Education", url: "https://edu.jkkn.ac.in/" },
+  { name: "JKKN Matriculation Higher Secondary School", url: "https://school.jkkn.ac.in/" },
+  { name: "Nattraja Vidhyalaya", url: "https://nv.jkkn.ac.in/" },
 ];

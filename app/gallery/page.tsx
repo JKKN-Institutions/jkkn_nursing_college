@@ -38,27 +38,27 @@ export default function Gallery() {
     <>
       <Header />
 
-      <main className="bg-cream py-12 lg:py-20">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+      <main className="bg-cream py-8 sm:py-12 lg:py-20">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
           {/* Founders Day 2022 */}
-          <section className="mb-16 lg:mb-20">
-            <h2 className="text-3xl md:text-4xl lg:text-[42px] font-bold text-[#002309] mb-8 lg:mb-12">
+          <section className="mb-10 sm:mb-14 lg:mb-20">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[42px] font-bold text-[#002309] mb-4 sm:mb-6 lg:mb-12">
               Founders Day 2022
             </h2>
             <ImageCarousel images={foundersDay2022Images} eventName="Founders Day 2022" />
           </section>
 
           {/* Vollymania 2023 */}
-          <section className="mb-16 lg:mb-20">
-            <h2 className="text-3xl md:text-4xl lg:text-[42px] font-bold text-[#002309] mb-8 lg:mb-12">
+          <section className="mb-10 sm:mb-14 lg:mb-20">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[42px] font-bold text-[#002309] mb-4 sm:mb-6 lg:mb-12">
               Vollymania 2023
             </h2>
             <ImageCarousel images={vollymania2023Images} eventName="Vollymania 2023" />
           </section>
 
           {/* JKKN Pongal Celebration 2023 */}
-          <section className="mb-16 lg:mb-20">
-            <h2 className="text-3xl md:text-4xl lg:text-[42px] font-bold text-[#002309] mb-8 lg:mb-12">
+          <section className="mb-10 sm:mb-14 lg:mb-20">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[42px] font-bold text-[#002309] mb-4 sm:mb-6 lg:mb-12">
               JKKN Pongal Celebration 2023
             </h2>
             <ImageCarousel images={pongal2023Images} eventName="JKKN Pongal Celebration 2023" />

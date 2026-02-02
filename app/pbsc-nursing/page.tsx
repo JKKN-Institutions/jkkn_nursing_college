@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import Image from "next/image";
 import {
   CheckCircleIcon,
   ClockIcon,
@@ -55,11 +56,16 @@ export default function PBScNursing() {
 
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-4 mb-12">
-                  <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
                     Apply Now
                     <span>→</span>
-                  </button>
-                  <button className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300">
+                  </a>
+                  <button
+                    onClick={() => {
+                      document.getElementById("programme-curriculum")?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300"
+                  >
                     View Curriculum
                   </button>
                 </div>
@@ -86,10 +92,14 @@ export default function PBScNursing() {
               </div>
 
               {/* Right Content - Post Basic Nursing Learners */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 min-h-[400px] flex items-center justify-center">
-                <h2 className="text-4xl md:text-5xl font-bold text-center">
-                  Post Basic Nursing Learners
-                </h2>
+              <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
+                <Image
+                  src="/images/P.B.B.Sc-Nursing-Hero-Banner-Image.png"
+                  alt="Post Basic Nursing Learners"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
@@ -101,13 +111,13 @@ export default function PBScNursing() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left - Image */}
               <div className="relative">
-                <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 min-h-[400px] flex flex-col items-center justify-center">
-                  <h3 className="text-4xl md:text-5xl font-bold text-[#006837] mb-8 text-center">
-                    Advanced Nursing Practice
-                  </h3>
-                  <div className="bg-[#7cb983] text-white px-8 py-3 rounded-lg font-bold text-lg">
-                    Since 2007
-                  </div>
+                <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
+                  <Image
+                    src="/images/P.B.B.Sc-Nursing-Advanced-Nursing-Practice-Image.png"
+                    alt="Advanced Nursing Practice"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
 
@@ -322,7 +332,7 @@ export default function PBScNursing() {
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
                     <td className="p-4 font-semibold">NEET Requirement</td>
-                    <td className="p-4">Yes, Mandatory</td>
+                    <td className="p-4">No, Not Required</td>
                     <td className="p-4 text-[#7cb983] font-semibold">No, Not Required</td>
                   </tr>
                   <tr className="border-b border-gray-200">
@@ -337,8 +347,8 @@ export default function PBScNursing() {
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="p-4 font-semibold">M.Sc Nursing Eligibility</td>
-                    <td className="p-4">Yes, After 1 Year Experience</td>
-                    <td className="p-4 text-[#7cb983] font-semibold">Yes, After 1 Year Experience</td>
+                    <td className="p-4">No Need Experience</td>
+                    <td className="p-4 text-[#7cb983] font-semibold">No Need Experience</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
                     <td className="p-4 font-semibold">International Recognition</td>
@@ -466,7 +476,7 @@ export default function PBScNursing() {
         </section>
 
         {/* Programme Curriculum Section */}
-        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+        <section id="programme-curriculum" className="py-16 md:py-24 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-12">
               <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
@@ -774,10 +784,13 @@ export default function PBScNursing() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left - Nursing Career Advancement */}
-              <div className="bg-gradient-to-br from-[#006837] to-[#002309] text-white rounded-2xl p-12 md:p-16 min-h-[400px] flex items-center justify-center">
-                <h3 className="text-4xl md:text-5xl font-bold text-center">
-                  Nursing Career Advancement
-                </h3>
+              <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
+                <Image
+                  src="/images/P.B.B.Sc-Nursing-Career-Advancement-Image.png"
+                  alt="Nursing Career Advancement"
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               {/* Right - Career Options */}
@@ -927,7 +940,7 @@ export default function PBScNursing() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-[#006837] mb-3">Document Submission</h3>
                   <p className="text-gray-700 text-lg">
-                    Upload required documents including GNM mark sheets, nursing registration certificate, experience certificate, and photographs.
+                    Upload required documents including GNM mark sheets, nursing registration certificate, experience certificate, Eligibility Certificate from University and photographs.
                   </p>
                 </div>
               </div>
@@ -938,9 +951,9 @@ export default function PBScNursing() {
                   3
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Entrance Test / Interview</h3>
+                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Entrance / Interview</h3>
                   <p className="text-gray-700 text-lg">
-                    Appear for the entrance test or counselling as per state/university guidelines. Selection based on GNM merit and test performance.
+                    Appear for the counselling as per state/university guidelines. Selection based on GNM merit and test performance.
                   </p>
                 </div>
               </div>
@@ -1196,10 +1209,10 @@ export default function PBScNursing() {
                 Take the next step in your professional journey. Transform your GNM diploma into a B.Sc degree and unlock new opportunities in healthcare.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <button className="bg-white text-[#006837] hover:bg-gray-100 font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+                <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] hover:bg-gray-100 font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
                   Apply Now
                   <span>→</span>
-                </button>
+                </a>
                 <button className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300">
                   Download Brochure
                 </button>

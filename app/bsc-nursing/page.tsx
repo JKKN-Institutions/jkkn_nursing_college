@@ -36,7 +36,7 @@ export default function BScNursing() {
                 {/* Badge */}
                 <div className="inline-flex items-center gap-2 bg-gray-700/50 text-white px-4 py-2 rounded-full mb-6">
                   <CheckCircleIcon className="w-5 h-5 text-[#7cb983]" />
-                  <span className="text-sm font-medium">INC Approved | TNMGRMU Affiliated</span>
+                  <span className="text-sm font-medium">INC Approved | TNMGRMU Recognized | NAAC Accredited</span>
                 </div>
 
                 {/* Main Heading */}
@@ -53,11 +53,16 @@ export default function BScNursing() {
 
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-4 mb-12">
-                  <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
                     Apply Now
                     <span>→</span>
-                  </button>
-                  <button className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300">
+                  </a>
+                  <button
+                    onClick={() => {
+                      document.getElementById("programme-curriculum")?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300"
+                  >
                     View Curriculum
                   </button>
                 </div>
@@ -84,10 +89,14 @@ export default function BScNursing() {
               </div>
 
               {/* Right Content - Nursing Learners */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 min-h-[400px] flex items-center justify-center">
-                <h2 className="text-4xl md:text-5xl font-bold text-center">
-                  Nursing Learners
-                </h2>
+              <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
+                <Image
+                  src="/images/B.Sc-Nursing-Hero-Banner_image.png"
+                  alt="Nursing Learners"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
@@ -99,13 +108,13 @@ export default function BScNursing() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left - Image */}
               <div className="relative">
-                <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 min-h-[400px] flex flex-col items-center justify-center">
-                  <h3 className="text-4xl md:text-5xl font-bold text-[#006837] mb-8 text-center">
-                    Patient Care Training
-                  </h3>
-                  <div className="bg-[#7cb983] text-white px-8 py-3 rounded-lg font-bold text-lg">
-                    Since 2007
-                  </div>
+                <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
+                  <Image
+                    src="/images/B.Sc-Nursing-PatientCare-Training.png"
+                    alt="Patient Care Training"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
 
@@ -342,7 +351,7 @@ export default function BScNursing() {
         </section>
 
         {/* Programme Curriculum Section */}
-        <section className="py-16 md:py-24 bg-[#FBFBEE]">
+        <section id="programme-curriculum" className="py-16 md:py-24 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-12">
               <p className="text-[#7cb983] font-semibold text-sm uppercase tracking-wider mb-3">
@@ -836,10 +845,13 @@ export default function BScNursing() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left - Nursing Careers Image */}
-              <div className="bg-gradient-to-br from-[#006837] to-[#002309] text-white rounded-2xl p-12 md:p-16 min-h-[400px] flex items-center justify-center">
-                <h3 className="text-4xl md:text-5xl font-bold text-center">
-                  Nursing Careers
-                </h3>
+              <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
+                <Image
+                  src="/images/B.Sc-Nursing-Careers-image.png"
+                  alt="Nursing Careers"
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               {/* Right - Career Options */}
@@ -1167,10 +1179,10 @@ export default function BScNursing() {
               Take the first step towards a rewarding career in healthcare. Apply now for the upcoming academic session.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="bg-white hover:bg-gray-100 text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+              <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white hover:bg-gray-100 text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
                 Apply Now
                 <span>→</span>
-              </button>
+              </a>
               <button className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300">
                 Download Brochure
               </button>

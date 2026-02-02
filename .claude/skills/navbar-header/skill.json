@@ -1,0 +1,19 @@
+{
+  "name": "navbar-header",
+  "version": "1.0.0",
+  "description": "Multi-level responsive navbar/header component with mobile menu, nested submenus, and search functionality",
+  "author": "JKKN Nursing College",
+  "tags": ["navbar", "header", "navigation", "react", "nextjs", "tailwind"],
+  "framework": "Next.js",
+  "dependencies": {
+    "react": "^18.0.0",
+    "next": "^14.0.0 or ^15.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "files": [
+    "Header.tsx",
+    "siteData.ts",
+    "instructions.md",
+    "README.md"
+  ]
+}

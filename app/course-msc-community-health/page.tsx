@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import Image from "next/image";
 import { useState } from "react";
 import {
   FaShieldAlt,
@@ -81,10 +82,15 @@ export default function MScCommunityHealthNursing() {
                 </div>
 
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg flex items-center gap-2">
+                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg flex items-center gap-2">
                     Apply Now →
-                  </button>
-                  <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300">
+                  </a>
+                  <button
+                    onClick={() => {
+                      document.getElementById('curriculum-structure')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300"
+                  >
                     Explore Curriculum
                   </button>
                 </div>
@@ -92,14 +98,18 @@ export default function MScCommunityHealthNursing() {
 
               <div className="flex justify-center items-center">
                 <div className="relative">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
-                    <h3 className="text-2xl md:text-3xl font-bold text-center mb-4">
-                      Community Health Nursing
-                    </h3>
-                    <div className="bg-[#7cb983] text-white rounded-xl p-6 text-center">
-                      <div className="text-5xl md:text-6xl font-bold mb-2">100%</div>
-                      <div className="text-lg md:text-xl font-semibold">Placement Assistance</div>
-                    </div>
+                  <div className="relative w-[400px] md:w-[500px] h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
+                    <Image
+                      src="/images/Community-Health-Nursing-Hero-Banner-Image.png"
+                      alt="Community Health Nursing"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  {/* Placement Badge */}
+                  <div className="absolute -bottom-6 -right-6 bg-[#7cb983] text-white px-8 py-6 rounded-2xl shadow-xl">
+                    <div className="text-4xl font-bold">100%</div>
+                    <div className="text-sm font-medium">Placement Assistance</div>
                   </div>
                 </div>
               </div>
@@ -459,7 +469,7 @@ export default function MScCommunityHealthNursing() {
         </section>
 
         {/* Curriculum Structure Section */}
-        <section className="py-16 bg-white">
+        <section id="curriculum-structure" className="py-16 bg-white">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
@@ -748,10 +758,13 @@ export default function MScCommunityHealthNursing() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-2xl p-12 shadow-2xl flex items-center justify-center min-h-[400px]">
-                <h3 className="text-3xl md:text-4xl font-bold text-white text-center">
-                  Community Health Field Training
-                </h3>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl min-h-[400px]">
+                <Image
+                  src="/images/Community-Health-Nursing-Field-Training.png"
+                  alt="Community Health Field Training"
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               <div>
@@ -1380,98 +1393,21 @@ export default function MScCommunityHealthNursing() {
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-12 mt-8">
-                <button className="bg-white text-[#006837] hover:bg-[#FBFBEE] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg flex items-center gap-2 text-lg">
+                <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] hover:bg-[#FBFBEE] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg flex items-center gap-2 text-lg">
                   Apply Online <FaArrowRight />
-                </button>
+                </a>
                 <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-lg">
                   Download Brochure
                 </button>
               </div>
 
-              <div className="border-t border-white/30 pt-8">
-                <p className="text-lg md:text-xl mb-4">Have questions? Contact our admission team:</p>
-                <div className="flex flex-wrap justify-center gap-6 md:gap-8 text-base md:text-lg">
-                  <a href="tel:+914288234567" className="flex items-center gap-2 hover:text-cyan-200 transition-colors">
-                    <FaPhone /> +91 4288 234567
-                  </a>
-                  <a href="mailto:nursing.admissions@jkkn.ac.in" className="flex items-center gap-2 hover:text-cyan-200 transition-colors">
-                    <FaEnvelope /> nursing.admissions@jkkn.ac.in
-                  </a>
-                  <a href="#" className="flex items-center gap-2 hover:text-cyan-200 transition-colors">
-                    <FaWhatsapp /> WhatsApp
-                  </a>
-                </div>
-              </div>
+            
             </div>
           </div>
         </section>
 
-        {/* Explore Other Programs Section */}
-        <section className="py-16 bg-white">
-          <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4">
-                Explore Other Nursing Programs
-              </h2>
-              <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
-              <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-                Discover more nursing education opportunities at JKKN College of Nursing
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* B.Sc Nursing Card */}
-              <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                <div className="bg-gradient-to-br from-[#006837] to-[#002309] h-48 flex items-center justify-center">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white">B.Sc Nursing</h3>
-                </div>
-                <div className="p-8">
-                  <h4 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">B.Sc Nursing</h4>
-                  <p className="text-gray-700 leading-relaxed mb-6">
-                    4-year undergraduate program preparing nurses for professional healthcare practice.
-                  </p>
-                  <a href="/bsc-nursing" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                    Learn More <FaArrowRight />
-                  </a>
-                </div>
-              </div>
-
-              {/* M.Sc Medical Surgical Card */}
-              <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] h-48 flex items-center justify-center">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white">M.Sc Medical Surgical</h3>
-                </div>
-                <div className="p-8">
-                  <h4 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">M.Sc Nursing - Medical Surgical</h4>
-                  <p className="text-gray-700 leading-relaxed mb-6">
-                    Postgraduate specialization in Medical Surgical Nursing with critical care focus.
-                  </p>
-                  <a href="/course-msc-medical-surgical" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                    Learn More <FaArrowRight />
-                  </a>
-                </div>
-              </div>
-
-              {/* M.Sc OBG Nursing Card */}
-              <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] h-48 flex items-center justify-center">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white">M.Sc OBG Nursing</h3>
-                </div>
-                <div className="p-8">
-                  <h4 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">M.Sc Nursing - OBG</h4>
-                  <p className="text-gray-700 leading-relaxed mb-6">
-                    Postgraduate specialization in Obstetrics and Gynecological Nursing practice.
-                  </p>
-                  <a href="/course-msc-obstetrics-gynecological" className="text-[#7cb983] font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                    Learn More <FaArrowRight />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
-      <Footer />
+      <Footer hideLifeAtJKKN />
       <FloatingButtons />
     </>
   );

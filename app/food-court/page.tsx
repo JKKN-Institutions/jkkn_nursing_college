@@ -10,7 +10,7 @@ export default function FoodCourt() {
       <main className="bg-[#FBFBEE] min-h-screen">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-3xl lg:text-4xl font-bold text-[#002309] mb-8">
               Food Court
             </h1>
@@ -19,7 +19,7 @@ export default function FoodCourt() {
 
         {/* Food Court Images */}
         <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
@@ -54,7 +54,7 @@ export default function FoodCourt() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>

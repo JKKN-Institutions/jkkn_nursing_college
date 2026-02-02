@@ -10,7 +10,7 @@ export default function UGCCompliance() {
       <main className="bg-[#FBFBEE] min-h-screen">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-3xl lg:text-5xl font-bold text-[#002309] mb-8">
               UGC PUBLIC DISCLOSURE COMPLIANCE
             </h1>
@@ -19,7 +19,7 @@ export default function UGCCompliance() {
 
         {/* Social Share Buttons */}
         <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <button className="bg-[#3b5998] text-white py-3 px-6 flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
                 <span className="text-xl">f</span>
@@ -41,7 +41,7 @@ export default function UGCCompliance() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Introduction Paragraph 1 */}
             <p className="text-gray-700 mb-6 leading-relaxed">
               This is to certify that Sresakthimayeil Institute of Nursing and Research has duly complied with the <strong>UGC Guidelines on Public Self-Disclosure by Higher Education Institutions</strong> in accordance with the provisions of the <strong>National Education Policy (NEP) 2020</strong> and the <strong>UGC (Conferment of Autonomous Status Upon Colleges and Measures for Maintenance of Standards in Autonomous Colleges) Regulations, 2023.</strong>
@@ -61,7 +61,7 @@ export default function UGCCompliance() {
                   <p className="text-gray-700 mb-2">
                     As per the UGC (Prevention, Prohibition and Redressal of Sexual Harassment of Women Employees and Students in HEIs) Regulations, 2016.
                   </p>
-                  <a href="/pdf/INTERNAL-COMPLAINTS-COMMITTEE-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                  <a href="/pdf/INTERNAL-COMPLAINTS-COMMITTEE-MD.pdf" className="text-[#0b7845] hover:underline">
                     View Document
                   </a>
                 </div>
@@ -74,7 +74,7 @@ export default function UGCCompliance() {
                   <p className="text-gray-700 mb-2">
                     As per UGC (Redress of Grievances of Students) Regulations, 2023.
                   </p>
-                  <a href="/pdf/Student-Grievance-Redressal-Committee-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                  <a href="/pdf/Student-Grievance-Redressal-Committee-MD.pdf" className="text-[#0b7845] hover:underline">
                     View Document
                   </a>
                 </div>
@@ -87,7 +87,7 @@ export default function UGCCompliance() {
                   <p className="text-gray-700 mb-2">
                     In compliance with the UGC Curbing the Menace of Ragging in Higher Educational Institutions (Second Amendment) Regulations, 2013.
                   </p>
-                  <a href="/pdf/Anti-Ragging-Committee-and-Measures-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                  <a href="/pdf/Anti-Ragging-Committee-and-Measures-MD.pdf" className="text-[#0b7845] hover:underline">
                     View Page
                   </a>
                 </div>
@@ -100,7 +100,7 @@ export default function UGCCompliance() {
                   <p className="text-gray-700 mb-2">
                     As per UGC Guidelines.
                   </p>
-                  <a href="/pdf/Implementation-of-the-Institutional-Development-Plan-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                  <a href="/pdf/Implementation-of-the-Institutional-Development-Plan-MD.pdf" className="text-[#0b7845] hover:underline">
                     View Document
                   </a>
                 </div>
@@ -115,12 +115,12 @@ export default function UGCCompliance() {
                   </p>
                   <div className="space-y-1">
                     <div>
-                      <a href="/pdf/Equitable-Opportunity-for-SEDG-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Equitable-Opportunity-for-SEDG-MD.pdf" className="text-[#0b7845] hover:underline">
                         Equitable Opportunity for SEDG
                       </a>
                     </div>
                     <div>
-                      <a href="/pdf/SEDG-Cell-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/SEDG-Cell-MD.pdf" className="text-[#0b7845] hover:underline">
                         SEDG Cell
                       </a>
                     </div>
@@ -137,12 +137,12 @@ export default function UGCCompliance() {
                   </p>
                   <div className="space-y-1">
                     <div>
-                      <a href="/pdf/Accessibility-Provisions-ViewPage-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Accessibility-Provisions-ViewPage-MD.pdf" className="text-[#0b7845] hover:underline">
                         View Page
                       </a>
                     </div>
                     <div>
-                      <a href="/pdf/Accessibility-Provisions-DISABILITY-FACILITIES-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Accessibility-Provisions-DISABILITY-FACILITIES-MD.pdf" className="text-[#0b7845] hover:underline">
                         DISABILITY FACILITIES
                       </a>
                     </div>
@@ -159,17 +159,17 @@ export default function UGCCompliance() {
                   </p>
                   <div className="space-y-1">
                     <div>
-                      <a href="/pdf/Research-and-Development-RD-ViewPage-1-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Research-and-Development-RD-ViewPage-1-MD.pdf" className="text-[#0b7845] hover:underline">
                         View Page
                       </a>
                     </div>
                     <div>
-                      <a href="/pdf/Research-and-Development-RD-ViewPage-2-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Research-and-Development-RD-ViewPage-2-MD.pdf" className="text-[#0b7845] hover:underline">
                         View Page
                       </a>
                     </div>
                     <div>
-                      <a href="/pdf/Research-and-Development-(R&D)-Cell-Solution-Oriented-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Research-and-Development-(R&D)-Cell-Solution-Oriented-MD.pdf" className="text-[#0b7845] hover:underline">
                         Solution-Oriented
                       </a>
                     </div>
@@ -183,12 +183,12 @@ export default function UGCCompliance() {
                 <div className="mt-2 ml-4">
                   <div className="space-y-1">
                     <div>
-                      <a href="/pdf/Adherence-to-the-UGC-Fee-Refund-Policy-ViewPolicy-1-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Adherence-to-the-UGC-Fee-Refund-Policy-ViewPolicy-1-MD.pdf" className="text-[#0b7845] hover:underline">
                         View Policy
                       </a>
                     </div>
                     <div>
-                      <a href="/pdf/Adherence-to-the-UGC-Fee-Refund-Policy-ViewPolicy-2-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0b7845] hover:underline">
+                      <a href="/pdf/Adherence-to-the-UGC-Fee-Refund-Policy-ViewPolicy-2-MD.pdf" className="text-[#0b7845] hover:underline">
                         View Policy
                       </a>
                     </div>
@@ -199,7 +199,7 @@ export default function UGCCompliance() {
 
             {/* Compliance Letter Box */}
             <div className="mt-12 bg-gray-200 py-4 px-6 inline-block">
-              <a href="/pdf/UGC-Public-Disclosures-compliance-letter-MD.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary font-medium">
+              <a href="/pdf/UGC-Public-Disclosures-compliance-letter-MD.pdf" className="text-gray-700 hover:text-primary font-medium">
                 UGC PUBLIC DISCLOSURE COMPLIANCE LETTER
               </a>
             </div>

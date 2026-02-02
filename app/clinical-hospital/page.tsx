@@ -8,18 +8,9 @@ export default function ClinicalHospital() {
     <>
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen">
-        {/* Page Header */}
-        <div className="bg-[#FBFBEE] py-4 border-b border-gray-200">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <h2 className="text-xl lg:text-2xl font-normal text-gray-800">
-              Sresakthimayeil Institute of Nursing and Research
-            </h2>
-          </div>
-        </div>
-
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Clinical / Hospital Facilities
             </h1>
@@ -28,7 +19,7 @@ export default function ClinicalHospital() {
 
         {/* Clinical Hospital Images */}
         <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
@@ -63,7 +54,7 @@ export default function ClinicalHospital() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Introduction Text */}
             <p className="text-gray-700 mb-8 leading-relaxed">
               The institution is affiliated to different hospital which provides rich clinical experience to all students

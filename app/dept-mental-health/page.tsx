@@ -1,6 +1,6 @@
 export default function MentalHealthNursing() {
   return (
-    <div className="container mx-auto px-8 lg:px-16 py-8">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-16 py-8">
       <h1 className="text-4xl font-bold text-primary mb-6">Mental Health Nursing</h1>
       <div className="prose max-w-none">
         <p className="text-gray-700 leading-relaxed mb-8">

@@ -19,11 +19,10 @@ export const siteData = {
     address: "JKKN Dental College & Hospital, Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Kumarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.",
   },
   socialMedia: {
-    facebook: "https://www.facebook.com",
-    instagram: "https://www.instagram.com",
-    linkedin: "https://www.linkedin.com",
-    twitter: "https://www.twitter.com",
-    youtube: "https://www.youtube.com",
+    facebook: "https://www.facebook.com/jkknnursing",
+    instagram: "https://www.instagram.com/jkknnursing",
+    linkedin: "https://www.linkedin.com/school/jkknnursing",
+    youtube: "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
   },
   accreditations: [
     "A+ Grade by NAAC",
@@ -36,7 +35,7 @@ export const navigationMenu = [
   { label: "HOME", href: "/" },
   {
     label: "ABOUT",
-    href: "/about",
+    href: "#",
     submenu: [
       { label: "Vision and Mission", href: "/vision-mission" },
       { label: "Our Trust", href: "/our-trust" },
@@ -55,7 +54,7 @@ export const navigationMenu = [
       { label: "B.Sc., (Nursing)", href: "/bsc-nursing" },
       { label: "P.B.Sc., (Nursing)", href: "/pbsc-nursing" },
       {
-        label: "AI Integrated M.Sc., (Nursing)",
+        label: "M.Sc., (Nursing)",
         href: "/msc-nursing",
         submenu: [
           { label: "Medical – Surgical Nursing", href: "/course-msc-medical-surgical" },
@@ -129,7 +128,7 @@ export const navigationMenu = [
       { label: "Committee", href: "/committee-page" },
       { label: "Antiragging", href: "/antiragging" },
       { label: "Privacy Policy", href: "/privacy-policy" },
-      { label: "Alumni", href: "/alumni" },
+      { label: "Alumni", href: "https://alumni.jkkn.ac.in/login" },
       { label: "Faculty Details", href: "/faculty-details" },
       { label: "Placement", href: "/placement" },
       { label: "E- CONTENT", href: "/e-content" },

@@ -13,28 +13,19 @@ export default function Hostel() {
     <>
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen">
-        {/* Page Header */}
-        <div className="bg-[#FBFBEE] py-4 border-b border-gray-200">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <h2 className="text-xl lg:text-2xl font-normal text-gray-800">
-              Sresakthimayeil Institute of Nursing and Research
-            </h2>
-          </div>
-        </div>
-
         {/* Main Title */}
-        <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <h1 className="text-3xl lg:text-4xl font-bold text-[#002309] mb-8">
+        <div className="bg-[#FBFBEE] py-6 sm:py-8">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-6 sm:mb-8">
               Hostel
             </h1>
           </div>
         </div>
 
         {/* Hostel Images */}
-        <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="bg-[#FBFBEE] pb-6 sm:pb-8">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               <div className="w-full">
                 <Image
                   src="/images/hostel-1.webp"
@@ -67,12 +58,12 @@ export default function Hostel() {
         </div>
 
         {/* Tabs */}
-        <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <div className="flex gap-3 mb-8">
+        <div className="bg-[#FBFBEE] pb-6 sm:pb-8">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
+            <div className="flex gap-2 sm:gap-3 mb-6 sm:mb-8">
               <button
                 onClick={() => setActiveTab("about")}
-                className={`px-6 py-3 rounded font-semibold transition-colors ${
+                className={`px-4 sm:px-6 py-2.5 sm:py-3 rounded font-semibold transition-colors text-sm sm:text-base min-h-[44px] ${
                   activeTab === "about"
                     ? "bg-[#6B9B4C] text-white"
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -82,7 +73,7 @@ export default function Hostel() {
               </button>
               <button
                 onClick={() => setActiveTab("facilities")}
-                className={`px-6 py-3 rounded font-semibold transition-colors ${
+                className={`px-4 sm:px-6 py-2.5 sm:py-3 rounded font-semibold transition-colors text-sm sm:text-base min-h-[44px] ${
                   activeTab === "facilities"
                     ? "bg-[#6B9B4C] text-white"
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -95,8 +86,8 @@ export default function Hostel() {
         </div>
 
         {/* Content Section */}
-        <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+        <div className="bg-[#FBFBEE] pb-8 sm:pb-12">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Facilities Tab */}
             {activeTab === "facilities" && (
               <div className="space-y-4 text-gray-700">

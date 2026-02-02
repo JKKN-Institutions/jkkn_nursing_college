@@ -7,27 +7,27 @@ export default function Contact() {
     <>
       <Header />
 
-      <main className="bg-[#FBFBEE] py-12 lg:py-16">
-        <div className="max-w-[1400px] mx-auto px-8 lg:px-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+      <main className="bg-[#FBFBEE] pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-10 lg:pb-16">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
             {/* Left Column - Contact Info */}
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-[#002309] mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-3 sm:mb-4">
                 Contact Info
               </h2>
 
-              <div className="w-16 h-1 bg-[#FFD700] mb-6"></div>
+              <div className="w-12 sm:w-16 h-1 bg-[#FFD700] mb-4 sm:mb-6"></div>
 
-              <p className="text-gray-600 mb-8">
+              <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
                 Welcome to our Website. We are glad to have you around.
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
                 {/* Phone Box */}
-                <div className="bg-[#e8f5e9] rounded-lg p-6 flex items-start gap-4">
+                <div className="bg-[#e8f5e9] rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4">
                   <div className="flex-shrink-0">
                     <svg
-                      className="w-8 h-8 text-[#0b7845]"
+                      className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b7845]"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -35,16 +35,18 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#002309] mb-2">Phone</h3>
-                    <p className="text-gray-700">+91 93458 55001</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-[#002309] mb-1 sm:mb-2">Phone</h3>
+                    <a href="tel:+919345855001" className="text-sm sm:text-base text-gray-700 hover:text-[#0b7845]">
+                      +91 93458 55001
+                    </a>
                   </div>
                 </div>
 
                 {/* Email Box */}
-                <div className="bg-[#e8f5e9] rounded-lg p-6 flex items-start gap-4">
+                <div className="bg-[#e8f5e9] rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4">
                   <div className="flex-shrink-0">
                     <svg
-                      className="w-8 h-8 text-[#0b7845]"
+                      className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b7845]"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -53,18 +55,18 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#002309] mb-2">Email</h3>
-                    <a href="mailto:nursing@jkkn.ac.in" className="text-[#0b7845] hover:underline">
+                    <h3 className="text-lg sm:text-xl font-bold text-[#002309] mb-1 sm:mb-2">Email</h3>
+                    <a href="mailto:nursing@jkkn.ac.in" className="text-sm sm:text-base text-[#0b7845] hover:underline break-all">
                       nursing@jkkn.ac.in
                     </a>
                   </div>
                 </div>
 
                 {/* Address Box */}
-                <div className="bg-[#e8f5e9] rounded-lg p-6 flex items-start gap-4">
+                <div className="bg-[#e8f5e9] rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4">
                   <div className="flex-shrink-0">
                     <svg
-                      className="w-8 h-8 text-[#0b7845]"
+                      className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b7845]"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -76,8 +78,8 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#002309] mb-3">Address</h3>
-                    <p className="text-gray-700 leading-relaxed">
+                    <h3 className="text-lg sm:text-xl font-bold text-[#002309] mb-2 sm:mb-3">Address</h3>
+                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                       SRESAKTHIMAYEIL INSTITUTE OF NURSING & RESEARCH<br />
                       NATARAJAPURAM, NH-544 (SALEM TO COIMBATORE),<br />
                       KOMARAPALAYAM – 638183, NAMAKKAL (DT)
@@ -87,34 +89,32 @@ export default function Contact() {
               </div>
 
               {/* Click Here Button */}
-              <div className="mt-6">
+              <div className="mt-4 sm:mt-6">
                 <a
-                  href="https://maps.google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-[#6ba85c] hover:bg-[#5a9149] text-white font-semibold px-8 py-3 rounded-md transition-colors"
+                  href="https://www.google.com/maps/place/JKKN+College+of+Nursing+and+Research/@11.443322,77.7289915,17z"
+                  className="inline-block bg-[#6ba85c] hover:bg-[#5a9149] text-white font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-md transition-colors text-sm sm:text-base"
                 >
-                  Click Here
+                  View on Map
                 </a>
               </div>
             </div>
 
             {/* Right Column - Send a Message */}
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-[#002309] mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-3 sm:mb-4">
                 Send a Message
               </h2>
 
-              <div className="w-16 h-1 bg-[#FFD700] mb-6"></div>
+              <div className="w-12 sm:w-16 h-1 bg-[#FFD700] mb-4 sm:mb-6"></div>
 
-              <p className="text-gray-600 mb-8">
+              <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
                 Your email address will not be published. Required fields are marked.
               </p>
 
               {/* Online Admissions Button */}
               <a
-                href="/admissions"
-                className="inline-block bg-[#6ba85c] hover:bg-[#5a9149] text-white font-semibold px-8 py-3 rounded-md transition-colors"
+                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                className="inline-block bg-[#6ba85c] hover:bg-[#5a9149] text-white font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-md transition-colors text-sm sm:text-base"
               >
                 Online Admissions 2025 - 2026
               </a>

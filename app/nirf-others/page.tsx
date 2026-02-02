@@ -10,7 +10,7 @@ export default function NIRF() {
       <main className="bg-[#FBFBEE]">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-4">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-4xl lg:text-6xl font-bold text-[#002309] mb-8">
               NIRF
             </h1>
@@ -19,7 +19,7 @@ export default function NIRF() {
 
         {/* NIRF Buttons */}
         <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="flex flex-col sm:flex-row gap-6 items-start">
               <Link
                 href="/nirf-2024"

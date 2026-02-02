@@ -8,7 +8,7 @@ export default function IQAC() {
     <>
       <Header />
       <main className="bg-[#FBFBEE]">
-        <div className="max-w-[1400px] mx-auto px-8 lg:px-16 py-8 lg:py-12">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8 lg:py-12">
           <h1 className="text-3xl lg:text-4xl font-bold text-black mb-8">
             IQAC
           </h1>

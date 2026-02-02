@@ -10,7 +10,7 @@ export default function BankPost() {
       <main className="bg-[#FBFBEE] min-h-screen">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Bank & Post Office
             </h1>
@@ -19,7 +19,7 @@ export default function BankPost() {
 
         {/* Bank & Post Office Images */}
         <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
@@ -54,7 +54,7 @@ export default function BankPost() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Introduction Text */}
             <p className="text-gray-700 mb-8 leading-relaxed">
               Looking for hassle-free banking and postal services? Look no further than the JKKN Educational Institutions, where we offer a range of convenient and reliable banking and postal services to our students and staff. Here are some of the key benefits you can enjoy:

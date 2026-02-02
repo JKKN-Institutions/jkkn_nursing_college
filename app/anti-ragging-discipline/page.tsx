@@ -29,18 +29,9 @@ export default function AntiRagging() {
     <>
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen">
-        {/* Institute Title */}
-        <div className="bg-[#FBFBEE] py-6">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
-            <h1 className="text-2xl lg:text-3xl font-normal text-[#002309]">
-              Sresakthimayeil Institute of Nursing and Research
-            </h1>
-          </div>
-        </div>
-
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-4">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Anti Ragging Cell
             </h2>
@@ -49,7 +40,7 @@ export default function AntiRagging() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="space-y-6 text-gray-700 text-base leading-relaxed">
               {/* Introduction */}
               <div className="space-y-4">

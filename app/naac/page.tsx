@@ -31,7 +31,7 @@ export default function NAAC() {
     <>
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen">
-        <div className="max-w-[1400px] mx-auto px-8 lg:px-16 py-8 lg:py-12">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8 lg:py-12">
           {/* Header */}
           <h1 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-2">
             OVER VIEW

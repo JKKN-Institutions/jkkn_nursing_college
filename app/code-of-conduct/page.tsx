@@ -10,7 +10,7 @@ export default function CodeOfConduct() {
       <main className="bg-[#FBFBEE] min-h-screen">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-4xl lg:text-6xl font-bold text-[#002309] mb-12">
               CODE OF CONDUCT
             </h1>
@@ -19,7 +19,7 @@ export default function CodeOfConduct() {
 
         {/* Content Section */}
         <div className="bg-[#FBFBEE] pb-12">
-          <div className="container mx-auto px-8 lg:px-16 max-w-[1400px]">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
 
             {/* Committees Section */}
             <h2 className="text-2xl lg:text-3xl font-bold text-[#002309] mb-6">
