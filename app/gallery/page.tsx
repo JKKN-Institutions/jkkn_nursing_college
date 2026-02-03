@@ -38,7 +38,7 @@ export default function Gallery() {
     <>
       <Header />
 
-      <main className="bg-cream py-8 sm:py-12 lg:py-20">
+      <main className="bg-cream pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-12 lg:pb-20">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
           {/* Founders Day 2022 */}
           <section className="mb-10 sm:mb-14 lg:mb-20">

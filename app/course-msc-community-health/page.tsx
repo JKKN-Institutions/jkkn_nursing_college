@@ -72,6 +72,10 @@ export default function MScCommunityHealthNursing() {
                     <span className="font-semibold">INC Approved</span>
                   </div>
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <FaShieldAlt className="text-cyan-300" />
+                    <span className="font-semibold">NAAC Accredited</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                     <FaClock className="text-cyan-300" />
                     <span className="font-semibold">2 Years Full-Time</span>
                   </div>
@@ -98,7 +102,7 @@ export default function MScCommunityHealthNursing() {
 
               <div className="flex justify-center items-center">
                 <div className="relative">
-                  <div className="relative w-[400px] md:w-[500px] h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
+                  <div className="relative w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] h-[220px] sm:h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
                     <Image
                       src="/images/Community-Health-Nursing-Hero-Banner-Image.png"
                       alt="Community Health Nursing"
@@ -107,9 +111,9 @@ export default function MScCommunityHealthNursing() {
                     />
                   </div>
                   {/* Placement Badge */}
-                  <div className="absolute -bottom-6 -right-6 bg-[#7cb983] text-white px-8 py-6 rounded-2xl shadow-xl">
-                    <div className="text-4xl font-bold">100%</div>
-                    <div className="text-sm font-medium">Placement Assistance</div>
+                  <div className="absolute bottom-2 right-2 md:-bottom-6 md:-right-6 bg-[#7cb983] text-white px-4 py-3 md:px-8 md:py-6 rounded-xl md:rounded-2xl shadow-xl">
+                    <div className="text-2xl md:text-4xl font-bold">100%</div>
+                    <div className="text-xs md:text-sm font-medium">Placement Assistance</div>
                   </div>
                 </div>
               </div>
@@ -775,84 +779,76 @@ export default function MScCommunityHealthNursing() {
                   Our Learners receive comprehensive field exposure across various community health settings, developing expertise in public health practice, health promotion, and disease prevention under the guidance of experienced community health mentors.
                 </p>
 
-                <div className="grid grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaBuilding className="text-2xl text-[#006837]" />
                     </div>
                     <div>
-                      <div className="font-bold text-[#006837]">Primary Health</div>
-                      <div className="text-gray-600 text-sm">Centers</div>
+                      <div className="font-bold text-[#006837]">Primary Health Centers</div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaUsers className="text-2xl text-[#006837]" />
                     </div>
                     <div>
-                      <div className="font-bold text-[#006837]">Rural Community</div>
-                      <div className="text-gray-600 text-sm">Outreach</div>
+                      <div className="font-bold text-[#006837]">Rural Community Outreach</div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaHome className="text-2xl text-[#006837]" />
                     </div>
                     <div>
                       <div className="font-bold text-[#006837]">Urban Health Posts</div>
-                      <div className="text-gray-600 text-sm"></div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaHeartbeat className="text-2xl text-[#006837]" />
                     </div>
                     <div>
-                      <div className="font-bold text-[#006837]">Maternal-Child</div>
-                      <div className="text-gray-600 text-sm">Health Programs</div>
+                      <div className="font-bold text-[#006837]">Maternal-Child Health Programs</div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaSchool className="text-2xl text-[#006837]" />
                     </div>
                     <div>
-                      <div className="font-bold text-[#006837]">School Health</div>
-                      <div className="text-gray-600 text-sm">Services</div>
+                      <div className="font-bold text-[#006837]">School Health Services</div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaShieldAlt className="text-2xl text-[#006837]" />
                     </div>
                     <div>
-                      <div className="font-bold text-[#006837]">Immunization</div>
-                      <div className="text-gray-600 text-sm">Programs</div>
+                      <div className="font-bold text-[#006837]">Immunization Programs</div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaBriefcase className="text-2xl text-[#006837]" />
                     </div>
                     <div>
-                      <div className="font-bold text-[#006837]">Occupational Health</div>
-                      <div className="text-gray-600 text-sm">Centers</div>
+                      <div className="font-bold text-[#006837]">Occupational Health Centers</div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-3">
-                    <div className="bg-[#7cb983]/20 p-3 rounded-lg">
+                    <div className="bg-[#7cb983]/20 p-3 rounded-lg flex-shrink-0">
                       <FaHeart className="text-2xl text-[#006837]" />
                     </div>
                     <div>
-                      <div className="font-bold text-[#006837]">Geriatric Community</div>
-                      <div className="text-gray-600 text-sm">Care</div>
+                      <div className="font-bold text-[#006837]">Geriatric Community Care</div>
                     </div>
                   </div>
                 </div>
@@ -1030,7 +1026,7 @@ export default function MScCommunityHealthNursing() {
                 {/* Step 1 */}
                 <div className="mb-12 md:mb-16 relative">
                   <div className="flex flex-col md:flex-row items-center">
-                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0 mt-12 md:mt-0">
                       <div className="bg-white rounded-xl p-8 shadow-lg">
                         <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
                           Online Application
@@ -1040,7 +1036,7 @@ export default function MScCommunityHealthNursing() {
                         </p>
                       </div>
                     </div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
+                    <div className="absolute left-1/2 top-0 md:top-1/2 transform -translate-x-1/2 md:-translate-y-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
                       1
                     </div>
                     <div className="md:w-1/2 md:pl-12"></div>
@@ -1051,10 +1047,10 @@ export default function MScCommunityHealthNursing() {
                 <div className="mb-12 md:mb-16 relative">
                   <div className="flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 md:pr-12 order-2 md:order-1"></div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
+                    <div className="absolute left-1/2 top-0 md:top-1/2 transform -translate-x-1/2 md:-translate-y-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
                       2
                     </div>
-                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 order-3">
+                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 mt-12 md:mt-0 order-3">
                       <div className="bg-white rounded-xl p-8 shadow-lg">
                         <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
                           Document Verification
@@ -1070,7 +1066,7 @@ export default function MScCommunityHealthNursing() {
                 {/* Step 3 */}
                 <div className="mb-12 md:mb-16 relative">
                   <div className="flex flex-col md:flex-row items-center">
-                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0 mt-12 md:mt-0">
                       <div className="bg-white rounded-xl p-8 shadow-lg">
                         <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
                           Entrance Examination
@@ -1080,7 +1076,7 @@ export default function MScCommunityHealthNursing() {
                         </p>
                       </div>
                     </div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
+                    <div className="absolute left-1/2 top-0 md:top-1/2 transform -translate-x-1/2 md:-translate-y-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
                       3
                     </div>
                     <div className="md:w-1/2 md:pl-12"></div>
@@ -1091,10 +1087,10 @@ export default function MScCommunityHealthNursing() {
                 <div className="mb-12 md:mb-16 relative">
                   <div className="flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 md:pr-12 order-2 md:order-1"></div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
+                    <div className="absolute left-1/2 top-0 md:top-1/2 transform -translate-x-1/2 md:-translate-y-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
                       4
                     </div>
-                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 order-3">
+                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 mt-12 md:mt-0 order-3">
                       <div className="bg-white rounded-xl p-8 shadow-lg">
                         <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
                           Personal Interview
@@ -1110,7 +1106,7 @@ export default function MScCommunityHealthNursing() {
                 {/* Step 5 */}
                 <div className="mb-12 md:mb-16 relative">
                   <div className="flex flex-col md:flex-row items-center">
-                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                    <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0 mt-12 md:mt-0">
                       <div className="bg-white rounded-xl p-8 shadow-lg">
                         <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
                           Merit List & Counselling
@@ -1120,7 +1116,7 @@ export default function MScCommunityHealthNursing() {
                         </p>
                       </div>
                     </div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
+                    <div className="absolute left-1/2 top-0 md:top-1/2 transform -translate-x-1/2 md:-translate-y-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10">
                       5
                     </div>
                     <div className="md:w-1/2 md:pl-12"></div>
@@ -1131,10 +1127,10 @@ export default function MScCommunityHealthNursing() {
                 <div className="relative">
                   <div className="flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 md:pr-12 order-2 md:order-1"></div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
+                    <div className="absolute left-1/2 top-0 md:top-1/2 transform -translate-x-1/2 md:-translate-y-1/2 flex items-center justify-center w-16 h-16 bg-[#7cb983] text-white rounded-full font-bold text-2xl shadow-lg z-10 order-1 md:order-2">
                       6
                     </div>
-                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 order-3">
+                    <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 mt-12 md:mt-0 order-3">
                       <div className="bg-white rounded-xl p-8 shadow-lg">
                         <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
                           Fee Payment & Enrollment

@@ -7,7 +7,7 @@ export default function OurManagement() {
   return (
     <>
       <Header />
-      <main className="bg-cream min-h-screen">
+      <main className="bg-cream min-h-screen pt-20 sm:pt-24 lg:pt-28">
         <div className="container-custom py-12 md:py-16">
           <div className="max-w-7xl mx-auto">
             {/* Two Column Layout */}

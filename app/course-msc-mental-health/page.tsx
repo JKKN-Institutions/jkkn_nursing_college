@@ -74,6 +74,10 @@ export default function MScMentalHealthNursing() {
                     <span>INC Approved</span>
                   </div>
                   <div className="flex items-center gap-2 bg-gray-700/50 px-4 py-2 rounded-full">
+                    <CheckCircle2 className="w-5 h-5" />
+                    <span>NAAC Accredited</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-gray-700/50 px-4 py-2 rounded-full">
                     <Clock className="w-5 h-5" />
                     <span>2 Years Full-Time</span>
                   </div>
@@ -102,7 +106,7 @@ export default function MScMentalHealthNursing() {
 
               {/* Right Content - Video/Image */}
               <div className="relative">
-                <div className="relative w-[400px] md:w-[500px] h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] h-[220px] sm:h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
                   <Image
                     src="/images/Mental-Health-Nursing-Hero-Banner-Image.png"
                     alt="Mental Health Nursing Training"
@@ -111,9 +115,9 @@ export default function MScMentalHealthNursing() {
                   />
                 </div>
                 {/* Placement Badge */}
-                <div className="absolute -bottom-6 -left-6 bg-[#7cb983] text-white px-8 py-6 rounded-2xl shadow-xl">
-                  <div className="text-4xl font-bold">100%</div>
-                  <div className="text-sm font-medium">Placement Assistance</div>
+                <div className="absolute bottom-2 left-2 md:-bottom-6 md:-left-6 bg-[#7cb983] text-white px-4 py-3 md:px-8 md:py-6 rounded-xl md:rounded-2xl shadow-xl">
+                  <div className="text-2xl md:text-4xl font-bold">100%</div>
+                  <div className="text-xs md:text-sm font-medium">Placement Assistance</div>
                 </div>
               </div>
             </div>
@@ -877,10 +881,10 @@ export default function MScMentalHealthNursing() {
                   experienced psychiatric nursing mentors.
                 </p>
 
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <Lightbulb className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
@@ -889,9 +893,9 @@ export default function MScMentalHealthNursing() {
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <Users className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
@@ -900,20 +904,20 @@ export default function MScMentalHealthNursing() {
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <Activity className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
-                      Psychiatric Emergency unit
+                        Psychiatric Emergency Unit
                       </h4>
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <Heart className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
@@ -922,9 +926,9 @@ export default function MScMentalHealthNursing() {
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <Users className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
@@ -933,9 +937,9 @@ export default function MScMentalHealthNursing() {
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <Hospital className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
@@ -944,9 +948,9 @@ export default function MScMentalHealthNursing() {
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <Heart className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
@@ -955,9 +959,9 @@ export default function MScMentalHealthNursing() {
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-xl p-4 border border-gray-200">
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-blue-50 rounded-lg p-2">
+                  <div className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-50 rounded-lg p-2 flex-shrink-0">
                         <ClipboardList className="w-5 h-5 text-[#006837]" />
                       </div>
                       <h4 className="font-bold text-[#006837] text-sm">
@@ -1103,7 +1107,7 @@ export default function MScMentalHealthNursing() {
               </div>
 
               {/* Facility Card 2 */}
-              <div className="bg-gradient-to-br from-blue-200 to-blue-100 text-[#006837] rounded-xl p-6">
+              <div className="bg-[#7cb983]/15 text-[#006837] rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4">
                   Counseling Training Room
                 </h3>
@@ -1114,7 +1118,7 @@ export default function MScMentalHealthNursing() {
               </div>
 
               {/* Facility Card 3 */}
-              <div className="bg-gradient-to-br from-orange-200 to-orange-100 text-[#006837] rounded-xl p-6">
+              <div className="bg-[#7cb983]/25 text-[#006837] rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4">
                   Digital Learning Center
                 </h3>
@@ -1124,7 +1128,7 @@ export default function MScMentalHealthNursing() {
               </div>
 
               {/* Facility Card 4 */}
-              <div className="bg-gradient-to-br from-blue-200 to-blue-100 text-[#006837] rounded-xl p-6">
+              <div className="bg-[#7cb983]/15 text-[#006837] rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4">
                   Research & Innovation Center
                 </h3>

@@ -12,7 +12,9 @@ export default function ResearchCommittee() {
   return (
     <>
       <Header />
-      <Breadcrumb items={breadcrumbItems} />
+      <div className="pt-20 sm:pt-24 lg:pt-28">
+        <Breadcrumb items={breadcrumbItems} />
+      </div>
 
       <main className="bg-[#FBFBEE]">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8 lg:py-12">

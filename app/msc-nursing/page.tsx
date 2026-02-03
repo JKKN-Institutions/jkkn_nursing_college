@@ -37,18 +37,18 @@ export default function MScNursing() {
                 </p>
 
                 {/* Stats */}
-                <div className="grid grid-cols-3 gap-6 mb-8">
+                <div className="grid grid-cols-3 gap-3 sm:gap-6 mb-8">
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">2 Years</div>
-                    <div className="text-sm text-white/80">Program Duration</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">2 Years</div>
+                    <div className="text-xs sm:text-sm text-white/80">Program Duration</div>
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">5</div>
-                    <div className="text-sm text-white/80">Specializations</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">5</div>
+                    <div className="text-xs sm:text-sm text-white/80">Specializations</div>
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">100%</div>
-                    <div className="text-sm text-white/80">Placement Support</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">100%</div>
+                    <div className="text-xs sm:text-sm text-white/80">Placement Support</div>
                   </div>
                 </div>
 
@@ -465,12 +465,12 @@ export default function MScNursing() {
 
             <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               {/* Year 1 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="bg-[#7cb983] text-white px-6 py-3 rounded-xl font-bold text-lg">
+              <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 mb-6">
+                  <div className="bg-[#7cb983] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-base sm:text-lg w-fit">
                     YEAR 1
                   </div>
-                  <h3 className="text-2xl font-bold text-[#006837]">Foundation & Core Concepts</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#006837]">Foundation & Core Concepts</h3>
                 </div>
 
                 <ul className="space-y-4">
@@ -495,12 +495,12 @@ export default function MScNursing() {
               </div>
 
               {/* Year 2 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="bg-[#7cb983] text-white px-6 py-3 rounded-xl font-bold text-lg">
+              <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 mb-6">
+                  <div className="bg-[#7cb983] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-base sm:text-lg w-fit">
                     YEAR 2
                   </div>
-                  <h3 className="text-2xl font-bold text-[#006837]">Specialization & Research</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#006837]">Specialization & Research</h3>
                 </div>
 
                 <ul className="space-y-4">

@@ -71,6 +71,13 @@ export default function MScChildHealthNursing() {
                 </div>
                 <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                    <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm font-medium">NAAC Accredited</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                   </svg>
                   <span className="text-sm font-medium">2 Years Full-Time</span>
@@ -116,9 +123,9 @@ export default function MScChildHealthNursing() {
                 />
               </div>
               {/* Placement Badge */}
-              <div className="absolute -bottom-6 -right-6 bg-[#7cb983] text-white px-8 py-6 rounded-2xl shadow-xl">
-                <div className="text-4xl font-bold">100%</div>
-                <div className="text-sm font-medium">Placement Assistance</div>
+              <div className="absolute bottom-2 right-2 md:-bottom-6 md:-right-6 bg-[#7cb983] text-white px-4 py-3 md:px-8 md:py-6 rounded-xl md:rounded-2xl shadow-xl">
+                <div className="text-2xl md:text-4xl font-bold">100%</div>
+                <div className="text-xs md:text-sm font-medium">Placement Assistance</div>
               </div>
             </div>
           </div>

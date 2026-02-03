@@ -67,6 +67,10 @@ export default function MScMedicalSurgicalNursing() {
                     <span>INC Approved</span>
                   </div>
                   <div className="flex items-center gap-2 bg-[#006837]/50 px-4 py-2 rounded-full">
+                    <CheckCircle2 className="w-5 h-5" />
+                    <span>NAAC Accredited</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-[#006837]/50 px-4 py-2 rounded-full">
                     <Clock className="w-5 h-5" />
                     <span>2 Years Full-Time</span>
                   </div>
@@ -852,9 +856,9 @@ export default function MScMedicalSurgicalNursing() {
                   complex patient conditions under the guidance of experienced
                   clinical mentors.
                 </p>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <Heart className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
@@ -864,8 +868,8 @@ export default function MScMedicalSurgicalNursing() {
                       <p className="text-xs text-gray-600">(CCU)</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <Monitor className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
@@ -874,19 +878,18 @@ export default function MScMedicalSurgicalNursing() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <Activity className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
                       <p className="font-semibold text-[#7cb983] text-sm">
-                        Emergency
+                        Emergency Department
                       </p>
-                      <p className="text-xs text-gray-600">Department</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <FlaskConical className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
@@ -895,8 +898,8 @@ export default function MScMedicalSurgicalNursing() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <FileText className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
@@ -905,8 +908,8 @@ export default function MScMedicalSurgicalNursing() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <Award className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
@@ -915,8 +918,8 @@ export default function MScMedicalSurgicalNursing() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <Activity className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
@@ -925,8 +928,8 @@ export default function MScMedicalSurgicalNursing() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
-                    <div className="bg-[#e8f5ea] rounded-lg p-2">
+                  <div className="flex items-center gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-sm">
+                    <div className="bg-[#e8f5ea] rounded-lg p-2 flex-shrink-0">
                       <Building2 className="w-5 h-5 text-[#7cb983]" />
                     </div>
                     <div>
@@ -1064,7 +1067,7 @@ export default function MScMedicalSurgicalNursing() {
                   Simulation Laboratory
                 </h3>
                 <p className="text-gray-100 leading-relaxed">
-                  High-fidelity manikins and simulation equipment for realistic
+                Simulation Lab manikins and simulation equipment for realistic
                   clinical scenario practice.
                 </p>
               </div>
@@ -1137,10 +1140,10 @@ export default function MScMedicalSurgicalNursing() {
 
               {/* Step 1 - Left */}
               <div className="relative">
-                <div className="absolute -right-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
+                <div className="absolute left-0 lg:left-auto lg:-right-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
                   1
                 </div>
-                <div className="pr-12">
+                <div className="pl-16 lg:pl-0 lg:pr-12">
                   <h3 className="text-2xl font-bold text-[#7cb983] mb-3">
                     Online Application
                   </h3>
@@ -1153,10 +1156,10 @@ export default function MScMedicalSurgicalNursing() {
 
               {/* Step 2 - Right */}
               <div className="relative">
-                <div className="absolute -left-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
+                <div className="absolute left-0 lg:-left-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
                   2
                 </div>
-                <div className="pl-12">
+                <div className="pl-16 lg:pl-12">
                   <h3 className="text-2xl font-bold text-[#7cb983] mb-3">
                     Document Verification
                   </h3>
@@ -1169,10 +1172,10 @@ export default function MScMedicalSurgicalNursing() {
 
               {/* Step 3 - Left */}
               <div className="relative">
-                <div className="absolute -right-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
+                <div className="absolute left-0 lg:left-auto lg:-right-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
                   3
                 </div>
-                <div className="pr-12">
+                <div className="pl-16 lg:pl-0 lg:pr-12">
                   <h3 className="text-2xl font-bold text-[#7cb983] mb-3">
                     Entrance Examination
                   </h3>
@@ -1185,10 +1188,10 @@ export default function MScMedicalSurgicalNursing() {
 
               {/* Step 4 - Right */}
               <div className="relative">
-                <div className="absolute -left-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
+                <div className="absolute left-0 lg:-left-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
                   4
                 </div>
-                <div className="pl-12">
+                <div className="pl-16 lg:pl-12">
                   <h3 className="text-2xl font-bold text-[#7cb983] mb-3">
                     Personal Interview
                   </h3>
@@ -1201,10 +1204,10 @@ export default function MScMedicalSurgicalNursing() {
 
               {/* Step 5 - Left */}
               <div className="relative">
-                <div className="absolute -right-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
+                <div className="absolute left-0 lg:left-auto lg:-right-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
                   5
                 </div>
-                <div className="pr-12">
+                <div className="pl-16 lg:pl-0 lg:pr-12">
                   <h3 className="text-2xl font-bold text-[#7cb983] mb-3">
                     Merit List Publication
                   </h3>
@@ -1218,10 +1221,10 @@ export default function MScMedicalSurgicalNursing() {
 
               {/* Step 6 - Right */}
               <div className="relative">
-                <div className="absolute -left-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
+                <div className="absolute left-0 lg:-left-8 top-0 w-12 h-12 rounded-full bg-[#7cb983] text-white flex items-center justify-center font-bold text-lg z-10">
                   6
                 </div>
-                <div className="pl-12">
+                <div className="pl-16 lg:pl-12">
                   <h3 className="text-2xl font-bold text-[#7cb983] mb-3">
                     Fee Payment & Enrollment
                   </h3>

@@ -7,7 +7,7 @@ export default function Library() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen">
+      <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">

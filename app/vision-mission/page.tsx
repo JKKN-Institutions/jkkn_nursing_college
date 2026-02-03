@@ -6,7 +6,7 @@ export default function VisionMission() {
   return (
     <>
       <Header />
-      <main className="bg-cream min-h-screen">
+      <main className="bg-cream min-h-screen pt-20 sm:pt-24 lg:pt-28">
         {/* Content Section */}
         <div className="container-custom py-8 md:py-12">
           {/* Vision Section */}

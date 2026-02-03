@@ -55,22 +55,22 @@ export default function MScObstetricsGynecologicalNursing() {
                 </p>
 
                 {/* Badges */}
-                <div className="grid grid-cols-2 gap-4 mb-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-8">
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-                    <FaCheckCircle className="text-cyan-300" />
+                    <FaCheckCircle className="text-cyan-300 flex-shrink-0" />
                     <span className="text-sm md:text-base font-medium">INC Approved</span>
                   </div>
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-                    <FaClock className="text-cyan-300" />
+                    <FaClock className="text-cyan-300 flex-shrink-0" />
                     <span className="text-sm md:text-base font-medium">2 Years Duration</span>
                   </div>
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-                    <FaBookOpen className="text-cyan-300" />
+                    <FaBookOpen className="text-cyan-300 flex-shrink-0" />
                     <span className="text-sm md:text-base font-medium">Full-Time Program</span>
                   </div>
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-                    <FaBriefcase className="text-cyan-300" />
-                    <span className="text-sm md:text-base font-medium">100% Placement Support</span>
+                    <FaBriefcase className="text-cyan-300 flex-shrink-0" />
+                    <span className="text-sm md:text-base font-medium">NAAC Accredited</span>
                   </div>
                 </div>
 
@@ -967,7 +967,7 @@ export default function MScObstetricsGynecologicalNursing() {
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-2xl p-8 text-white shadow-xl">
                 <h3 className="text-xl font-bold mb-3">Midwifery Simulation Lab</h3>
                 <p className="text-gray-200 leading-relaxed">
-                  High-fidelity birthing simulators and obstetric manikins for realistic delivery practice.
+                Simulation Lab birthing simulators and obstetric manikins for realistic delivery practice.
                 </p>
               </div>
 
@@ -1038,6 +1038,11 @@ export default function MScObstetricsGynecologicalNursing() {
                 <div className="relative mb-12 md:mb-16">
                   <div className="flex flex-col md:flex-row md:items-center gap-6">
                     <div className="md:w-1/2 md:text-right md:pr-12">
+                      <div className="md:hidden mb-4">
+                        <div className="w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
+                          1
+                        </div>
+                      </div>
                       <h3 className="text-2xl font-bold text-[#006837] mb-3">
                         Online Application
                       </h3>
@@ -1051,13 +1056,7 @@ export default function MScObstetricsGynecologicalNursing() {
                         1
                       </div>
                     </div>
-                    <div className="md:w-1/2 md:pl-12">
-                      <div className="md:hidden mb-4">
-                        <div className="w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
-                          1
-                        </div>
-                      </div>
-                    </div>
+                    <div className="md:w-1/2 md:pl-12"></div>
                   </div>
                 </div>
 
@@ -1091,6 +1090,11 @@ export default function MScObstetricsGynecologicalNursing() {
                 <div className="relative mb-12 md:mb-16">
                   <div className="flex flex-col md:flex-row md:items-center gap-6">
                     <div className="md:w-1/2 md:text-right md:pr-12">
+                      <div className="md:hidden mb-4">
+                        <div className="w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
+                          3
+                        </div>
+                      </div>
                       <h3 className="text-2xl font-bold text-[#006837] mb-3">
                         Entrance Examination
                       </h3>
@@ -1104,13 +1108,7 @@ export default function MScObstetricsGynecologicalNursing() {
                         3
                       </div>
                     </div>
-                    <div className="md:w-1/2 md:pl-12">
-                      <div className="md:hidden mb-4">
-                        <div className="w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
-                          3
-                        </div>
-                      </div>
-                    </div>
+                    <div className="md:w-1/2 md:pl-12"></div>
                   </div>
                 </div>
 
@@ -1144,6 +1142,11 @@ export default function MScObstetricsGynecologicalNursing() {
                 <div className="relative mb-12 md:mb-16">
                   <div className="flex flex-col md:flex-row md:items-center gap-6">
                     <div className="md:w-1/2 md:text-right md:pr-12">
+                      <div className="md:hidden mb-4">
+                        <div className="w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
+                          5
+                        </div>
+                      </div>
                       <h3 className="text-2xl font-bold text-[#006837] mb-3">
                         Merit List Publication
                       </h3>
@@ -1157,13 +1160,7 @@ export default function MScObstetricsGynecologicalNursing() {
                         5
                       </div>
                     </div>
-                    <div className="md:w-1/2 md:pl-12">
-                      <div className="md:hidden mb-4">
-                        <div className="w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
-                          5
-                        </div>
-                      </div>
-                    </div>
+                    <div className="md:w-1/2 md:pl-12"></div>
                   </div>
                 </div>
 

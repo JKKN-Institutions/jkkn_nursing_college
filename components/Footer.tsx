@@ -143,11 +143,14 @@ export default function Footer({ hideLifeAtJKKN = false }: FooterProps) {
       <div className="border-t border-white/30 mx-4 sm:mx-6 lg:mx-12"></div>
 
       {/* Copyright */}
-      <div className="py-4 px-4 pb-20 md:pb-4">
+      <div className="py-4 px-4">
         <div className="text-center text-xs sm:text-sm">
           <p>&copy; 2025 Sresakthimayeil Institute of Nursing and Research. All rights reserved.</p>
         </div>
       </div>
+
+      {/* Spacer for mobile bottom navbar */}
+      <div className="h-16 md:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}></div>
     </footer>
   );
 }

@@ -68,22 +68,22 @@ export default function BScNursing() {
                 </div>
 
                 {/* Stats */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">4</div>
-                    <div className="text-sm text-gray-300">Year Program</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">4</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Year Program</div>
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">60</div>
-                    <div className="text-sm text-gray-300">Seats Available</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">60</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Seats Available</div>
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">95%</div>
-                    <div className="text-sm text-gray-300">Placement Rate</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">95%</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Placement Rate</div>
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">30+</div>
-                    <div className="text-sm text-gray-300">Hospital Partners</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">30+</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Hospital Partners</div>
                   </div>
                 </div>
               </div>
@@ -772,54 +772,54 @@ export default function BScNursing() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Simulation Lab */}
-              <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-3xl font-bold text-[#006837] mb-4">Simulation Lab</h3>
-                <h4 className="text-xl font-bold text-white mb-3">Simulation Laboratory</h4>
-                <p className="text-gray-700">
-                  High-fidelity mannequins for realistic clinical scenarios
+              <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-white mb-4">Simulation Lab</h3>
+                <h4 className="text-xl font-bold text-[#7cb983] mb-3">Simulation Laboratory</h4>
+                <p className="text-gray-100">
+                Simulation Lab mannequins for realistic clinical scenarios
                 </p>
               </div>
 
               {/* Anatomy Lab */}
-              <div className="bg-gradient-to-br from-gray-200 to-gray-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-3xl font-bold text-[#7cb983] mb-4">Anatomy Lab</h3>
-                <h4 className="text-xl font-bold text-white mb-3">Anatomy Laboratory</h4>
+              <div className="bg-[#7cb983]/15 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#006837] mb-4">Anatomy Lab</h3>
+                <h4 className="text-xl font-bold text-[#7cb983] mb-3">Anatomy Laboratory</h4>
                 <p className="text-gray-700">
                   Comprehensive anatomy specimens and models
                 </p>
               </div>
 
               {/* Digital Library */}
-              <div className="bg-gradient-to-br from-blue-200 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="bg-[#7cb983]/25 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
                 <h3 className="text-3xl font-bold text-[#006837] mb-4">Digital Library</h3>
-                <h4 className="text-xl font-bold text-white mb-3">Digital Library</h4>
+                <h4 className="text-xl font-bold text-[#7cb983] mb-3">Digital Library</h4>
                 <p className="text-gray-700">
                   Access to 10,000+ e-journals and digital resources
                 </p>
               </div>
 
               {/* Skills Lab */}
-              <div className="bg-gradient-to-br from-orange-200 to-orange-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-3xl font-bold text-[#7cb983] mb-4">Skills Lab</h3>
-                <h4 className="text-xl font-bold text-white mb-3">Nursing Skills Lab</h4>
+              <div className="bg-[#7cb983]/15 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#006837] mb-4">Skills Lab</h3>
+                <h4 className="text-xl font-bold text-[#7cb983] mb-3">Nursing Skills Lab</h4>
                 <p className="text-gray-700">
                   Hands-on practice for essential nursing procedures
                 </p>
               </div>
 
               {/* Computer Lab */}
-              <div className="bg-gradient-to-br from-blue-200 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="bg-[#7cb983]/25 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
                 <h3 className="text-3xl font-bold text-[#006837] mb-4">Computer Lab</h3>
-                <h4 className="text-xl font-bold text-white mb-3">Computer Laboratory</h4>
+                <h4 className="text-xl font-bold text-[#7cb983] mb-3">Computer Laboratory</h4>
                 <p className="text-gray-700">
                   Latest software for health informatics
                 </p>
               </div>
 
               {/* Hostel */}
-              <div className="bg-gradient-to-br from-orange-200 to-orange-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
-                <h3 className="text-3xl font-bold text-[#7cb983] mb-4">Hostel</h3>
-                <h4 className="text-xl font-bold text-white mb-3">Hostel Accommodation</h4>
+              <div className="bg-[#7cb983]/15 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-3xl font-bold text-[#006837] mb-4">Hostel</h3>
+                <h4 className="text-xl font-bold text-[#7cb983] mb-3">Hostel Accommodation</h4>
                 <p className="text-gray-700">
                   Safe and well-furnished hostel facilities
                 </p>

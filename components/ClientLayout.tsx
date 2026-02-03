@@ -13,7 +13,7 @@ export function ClientLayout({ children }: ClientLayoutProps) {
 
   return (
     <>
-      <div className={cn(isMobile && 'pb-20')}>
+      <div>
         {children}
       </div>
       <BottomNavbar />
