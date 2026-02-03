@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   title: "JKKN College of Nursing & Research - Sresakthimayeil Institute",
   description: "JKKN College of Nursing & Research offering B.Sc.(Nursing), P.B.Sc.(Nursing), and M.Sc.(Nursing) programs with excellent facilities and experienced faculty.",
   keywords: "nursing college, JKKN, nursing education, BSc Nursing, MSc Nursing, Tamil Nadu, medical education",
+  icons: {
+    icon: "/images/nursing_logo.png",
+    shortcut: "/images/nursing_logo.png",
+    apple: "/images/nursing_logo.png",
+  },
 };
 
 export default function RootLayout({
