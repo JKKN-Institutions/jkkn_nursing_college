@@ -14,9 +14,6 @@ export const metadata: Metadata = {
   title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
   description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited, TNMGRMU affiliated.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
-  verification: {
-    google: "googlee5e5c9d47bc383e1",
-  },
   openGraph: {
     title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
     description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited.",
