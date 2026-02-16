@@ -9,6 +9,21 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/bachelor-of-science-in-nursing',
+        destination: '/b-sc-nursing',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/gallery',
+        destination: '/campus-life',
+        permanent: true,
+      },
+      // Add ALL old WordPress URLs here
+    ]
+  },
 };
 
 export default nextConfig;

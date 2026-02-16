@@ -11,12 +11,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Best Nursing Colleges in Tamilnadu | JKKN Nursing College",
-  description: "Looking for the best nursing colleges in Tamilnadu? JKKN Nursing ranks among top nursing colleges in Tamilnadu. B.Sc, M.Sc & P.B.B.Sc courses. Apply now!",
+  title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
+  description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited, TNMGRMU affiliated.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
   openGraph: {
-    title: "Best Nursing Colleges in Tamilnadu | JKKN Nursing College",
-    description: "Looking for the best nursing colleges in Tamilnadu? JKKN Nursing ranks among top nursing colleges in Tamilnadu. B.Sc, M.Sc & P.B.B.Sc courses. Apply now!",
+    title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
+    description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited.",
     type: "website",
     url: "https://nursing.jkkn.ac.in",
     siteName: "JKKN College of Nursing",
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Nursing Colleges in Tamilnadu | JKKN Nursing College",
-    description: "Looking for the best nursing colleges in Tamilnadu? JKKN Nursing ranks among top nursing colleges in Tamilnadu. B.Sc, M.Sc & P.B.B.Sc courses. Apply now!",
+    title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
+    description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited.",
     images: ["/images/nursing_logo.png"],
   },
   icons: {

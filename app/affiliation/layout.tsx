@@ -1,0 +1,33 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Affiliation & Recognition — JKKN Nursing College",
+  description: "INC, TNMGRMU, and NAAC affiliations and recognitions of Sresakthimayeil Institute of Nursing, Komarapalayam.",
+  openGraph: {
+    title: "Affiliation & Recognition — JKKN Nursing College",
+    description: "INC, TNMGRMU, and NAAC affiliations and recognitions of Sresakthimayeil Institute of Nursing, Komarapalayam.",
+    type: "website",
+    url: "https://nursing.jkkn.ac.in/affiliation",
+    siteName: "JKKN College of Nursing",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Affiliation & Recognition — JKKN Nursing College",
+    description: "INC, TNMGRMU, and NAAC affiliations and recognitions of Sresakthimayeil Institute of Nursing, Komarapalayam.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://nursing.jkkn.ac.in/affiliation",
+  },
+};
+
+export default function AffiliationLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
+}

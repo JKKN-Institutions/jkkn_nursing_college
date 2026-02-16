@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Post BSc Nursing Colleges in Tamilnadu | Admission 2026",
-  description: "JKKN features in the list of Post BSc Nursing colleges in Tamilnadu. INC-approved Post BSc Nursing in Tamilnadu with clinical training & placement support.",
+  title: "Post Basic B.Sc Nursing — JKKN Nursing College",
+  description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
   keywords: "post bsc nursing colleges in tamilnadu, post bsc nursing correspondence course in tamilnadu, list of post bsc nursing colleges in tamilnadu, post basic bsc nursing distance education in tamilnadu, post bsc nursing distance education in tamilnadu, post bsc nursing in tamilnadu",
   openGraph: {
-    title: "Post BSc Nursing Colleges in Tamilnadu | Admission 2026",
-    description: "JKKN features in the list of Post BSc Nursing colleges in Tamilnadu. INC-approved Post BSc Nursing in Tamilnadu with clinical training & placement support.",
+    title: "Post Basic B.Sc Nursing — JKKN Nursing College",
+    description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
     type: "website",
     url: "https://nursing.jkkn.ac.in/pbsc-nursing",
     siteName: "JKKN College of Nursing",
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Post BSc Nursing Colleges in Tamilnadu | Admission 2026",
-    description: "JKKN features in the list of Post BSc Nursing colleges in Tamilnadu. INC-approved Post BSc Nursing in Tamilnadu with clinical training & placement support.",
+    title: "Post Basic B.Sc Nursing — JKKN Nursing College",
+    description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
     images: ["/images/P.B.B.Sc-Nursing-Hero-Banner-Image.png"],
   },
   robots: {

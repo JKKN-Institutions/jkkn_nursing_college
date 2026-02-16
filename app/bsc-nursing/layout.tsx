@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best BSc Nursing Colleges in Tamilnadu | Admission 2026",
-  description: "Explore the best BSc Nursing colleges in Tamilnadu. JKKN offers top BSc Nursing courses in Tamilnadu with INC approval, hospital training & scholarships.",
+  title: "B.Sc Nursing Course — Fees, Eligibility | JKKN Nursing",
+  description: "Apply for 4-year B.Sc Nursing at Sresakthimayeil Institute, Komarapalayam. INC approved, 60 seats. Eligibility, fees, curriculum, placements details.",
   keywords: "best bsc nursing colleges in tamilnadu, bsc nursing colleges in tamilnadu, bsc nursing best colleges in tamilnadu, bsc nursing courses in tamilnadu, top bsc nursing colleges in tamilnadu, top 10 bsc nursing colleges in tamilnadu, bsc nursing male colleges in tamilnadu, bsc male nursing colleges in tamilnadu, bsc nursing course colleges in tamilnadu, bsc nursing private colleges in tamilnadu, bsc nursing colleges in erode",
   openGraph: {
-    title: "Best BSc Nursing Colleges in Tamilnadu | Admission 2026",
-    description: "Explore the best BSc Nursing colleges in Tamilnadu. JKKN offers top BSc Nursing courses in Tamilnadu with INC approval, hospital training & scholarships.",
+    title: "B.Sc Nursing Course — Fees, Eligibility | JKKN Nursing",
+    description: "Apply for 4-year B.Sc Nursing at Sresakthimayeil Institute, Komarapalayam. INC approved, 60 seats. Eligibility, fees, curriculum, placements details.",
     type: "website",
     url: "https://nursing.jkkn.ac.in/bsc-nursing",
     siteName: "JKKN College of Nursing",
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best BSc Nursing Colleges in Tamilnadu | Admission 2026",
-    description: "Explore the best BSc Nursing colleges in Tamilnadu. JKKN offers top BSc Nursing courses in Tamilnadu with INC approval, hospital training & scholarships.",
+    title: "B.Sc Nursing Course — Fees, Eligibility | JKKN Nursing",
+    description: "Apply for 4-year B.Sc Nursing at Sresakthimayeil Institute, Komarapalayam. INC approved, 60 seats. Eligibility, fees, curriculum, placements details.",
     images: ["/images/B.Sc-Nursing-Hero-Banner_image.png"],
   },
   robots: {
