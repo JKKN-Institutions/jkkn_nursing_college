@@ -47,6 +47,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://nursing.jkkn.ac.in",
   },
+  verification: {
+    google: "bfuXWGn_yRKqpY6qTWHWTk5oVQjCws5mszC8LsCfPbw",
+  },
 };
 
 export default function RootLayout({
