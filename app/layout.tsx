@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
     description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/",
   },
   verification: {
     google: "bfuXWGn_yRKqpY6qTWHWTk5oVQjCws5mszC8LsCfPbw",
