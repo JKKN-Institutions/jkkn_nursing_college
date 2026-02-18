@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/",
   },
   verification: {
-    google: "60d41b66b125ffef",
+    google: ["60d41b66b125ffef", "bfuXWGn_yRKqpY6qTWHWTk5oVQjCws5mszC8LsCfPbw"],
   },
 };
 
